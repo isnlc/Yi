@@ -133,7 +133,9 @@ def _current_state_hits(store, query: str, hits):
 
     from .semantics import analyze_semantics, frame_for_memory
     query_frame = analyze_semantics(query, is_query=True)
-    requested_evidence_facets = set(query_frame.facets) & {"地点", "数量", "类型", "设备"}
+    requested_evidence_facets = set(query_frame.facets) & {
+        "地点", "数量", "类型", "设备", "金额",
+    }
     if requested_evidence_facets:
         attribute_hits = []
         for memory, score in hits:

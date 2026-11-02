@@ -9,6 +9,7 @@ from unittest.mock import patch
 os.environ["MEMAGENT_LLM"] = "0"
 
 from memagent.agents import MemoryAgent
+from memagent.interaction import classify_interaction
 from memagent.router import (
     classify_query,
     extract_record_content,
@@ -189,6 +190,16 @@ class TestUnifiedQueryRouter(unittest.TestCase):
                     self.assertEqual(result["answer_mode"], "retrieval_llm")
                     self.assertTrue(result["requires_llm"])
 
+    def test_omitted_possessive_current_lookup_skips_online_router(self):
+        with patch("memagent.llm.is_enabled", return_value=True), \
+                patch("memagent.llm.chat_json") as chat_json:
+            result = classify_query("现在的定投是多少")
+
+        chat_json.assert_not_called()
+        self.assertEqual(result["intent"], "memory")
+        self.assertEqual(result["method"], "rule_fast")
+        self.assertEqual(result["answer_mode"], "retrieval_only")
+
 class TestWebIntentRouting(unittest.TestCase):
     def setUp(self):
         SESSION["history"] = []
@@ -201,9 +212,36 @@ class TestWebIntentRouting(unittest.TestCase):
                 patch("memagent.llm.is_enabled", return_value=False):
             result = chat_api(ChatRequest(question="用一句话讲讲什么是黑洞"))
         get_pipeline.assert_not_called()
-        self.assertEqual(result["type"], "general_unavailable")
+        self.assertEqual(result["type"], "general")
         self.assertEqual(result["scope"], "general")
         self.assertEqual(result["evidence"], [])
+        self.assertNotIn("离线", result["answer"])
+        self.assertNotIn("模型", result["answer"])
+
+    def test_transient_personal_state_is_conversation_not_memory_lookup(self):
+        with patch("web.app.get_pipeline") as get_pipeline, \
+                patch("web.app.is_enabled", return_value=False), \
+                patch("memagent.llm.is_enabled", return_value=False):
+            result = chat_api(ChatRequest(question="我好困啊"))
+
+        get_pipeline.assert_not_called()
+        self.assertEqual(result["scope"], "general")
+        self.assertEqual(result["type"], "general")
+        self.assertIn("休息", result["answer"])
+        self.assertNotIn("记忆库", result["answer"])
+        self.assertNotIn("离线", result["answer"])
+
+    def test_unpunctuated_questions_never_become_memory_writes(self):
+        questions = [
+            "我每月定投多少钱",
+            "我的鱼缸多久换一次水",
+            "我一周跑几次",
+            "我的课程项目是什么",
+        ]
+        for question in questions:
+            with self.subTest(question=question):
+                self.assertEqual(classify_interaction(question).kind, "none")
+                self.assertEqual(implicit_memory_candidate(question), (False, ""))
 
     def test_date_utility_answers_without_memory_pipeline(self):
         with patch("web.app.get_pipeline") as get_pipeline, \
@@ -938,6 +976,71 @@ class TestCurrentStateAnswers(unittest.TestCase):
         self.assertFalse(result["llm_used"])
         self.assertEqual(result["answer_mode"], "retrieval_only")
         self.assertIn("浅烘", result["answer"])
+
+    def test_current_amount_lookup_returns_latest_active_version(self):
+        store = self._store()
+        store.add_memory(
+            date="2026-04-01",
+            topic="理财",
+            action="开始",
+            detail="今天开始基金定投，每月500元。",
+            status="superseded",
+        )
+        store.add_memory(
+            date="2026-09-20",
+            topic="理财",
+            action="更改",
+            detail="恢复定投，改成每月300元。",
+            status="superseded",
+        )
+        store.add_memory(
+            date="2026-11-03",
+            topic="理财",
+            action="更改",
+            detail="定投每月改成500元。",
+        )
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            agent = MemoryAgent(store)
+            for question in (
+                "我的定投现在是多少？",
+                "现在的定投是多少？",
+                "我每月定投多少钱？",
+            ):
+                with self.subTest(question=question):
+                    result = query_memory(
+                        agent,
+                        question,
+                        answer_mode="retrieval_only",
+                    )
+                    self.assertIn("500元", result["answer"])
+                    self.assertNotIn("300元", result["answer"])
+
+    def test_current_property_lookup_considers_later_stop_state(self):
+        store = self._store()
+        store.add_memory(
+            date="2026-04-01",
+            topic="理财",
+            action="开始",
+            detail="今天开始基金定投，每月500元。",
+            status="superseded",
+        )
+        store.add_memory(
+            date="2026-08-10",
+            topic="理财",
+            action="放弃",
+            detail="我停止了基金定投，先观望一阵。",
+        )
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            result = query_memory(
+                MemoryAgent(store),
+                "我的定投现在是多少？",
+                answer_mode="retrieval_only",
+            )
+
+        self.assertIn("停止", result["answer"])
+        self.assertNotIn("每月500元", result["answer"])
 
     def test_retrieval_llm_receives_memory_evidence(self):
         store = self._store()

@@ -62,6 +62,22 @@ class TestSemanticMatching(SharedSemanticTestCase):
         self.assertIn("配置", memory.facets)
         self.assertGreater(semantic_match_score(query, memory), 0)
 
+    def test_money_questions_and_records_share_an_amount_facet(self):
+        query = analyze_query("我每月定投多少钱？", use_llm=False)
+        memory = analyze_semantics("定投每月改成500元。", topic_hint="理财")
+
+        self.assertIn("金额", query.facets)
+        self.assertIn("金额", memory.facets)
+        self.assertGreater(semantic_match_score(query, memory), 0)
+
+    def test_natural_interval_question_is_a_frequency_facet(self):
+        query = analyze_query("我的鱼缸多久换一次水？", use_llm=False)
+        memory = analyze_semantics("鱼缸每两周换一次水。")
+
+        self.assertIn("频率", query.facets)
+        self.assertIn("频率", memory.facets)
+        self.assertGreater(semantic_match_score(query, memory), 0)
+
     def test_global_attribute_can_inform_a_concrete_object(self):
         query = analyze_semantics("汽车选什么颜色", is_query=True)
         preference = analyze_semantics("我喜欢蓝色")
@@ -87,6 +103,49 @@ class TestSemanticMatching(SharedSemanticTestCase):
 
 
 class TestCrossDomainRetrieval(SharedSemanticTestCase):
+    def test_specific_object_query_never_uses_unrelated_lexical_fallback(self):
+        store = self.make_store()
+        store.add_memory(
+            date="2026-06-11",
+            topic="生活",
+            action="记录",
+            detail="最近多喝了水，含糖饮料少了一半。",
+        )
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            result = MemoryAgent(store).answer(
+                "我的鱼缸多久换一次水？",
+                answer_mode="retrieval_only",
+            )
+
+        self.assertEqual(result["evidence"], [])
+        self.assertNotIn("含糖饮料", result["answer"])
+
+    def test_frequency_lookup_uses_the_matching_concrete_object(self):
+        store = self.make_store()
+        store.add_memory(
+            date="2026-06-11",
+            topic="生活",
+            action="约定",
+            detail="鱼缸每两周换一次水。",
+        )
+        store.add_memory(
+            date="2026-06-12",
+            topic="健身",
+            action="约定",
+            detail="我每周跑步三次。",
+        )
+        enrich_memory_semantics(store)
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            result = MemoryAgent(store).answer(
+                "我的鱼缸多久换一次水？",
+                answer_mode="retrieval_only",
+            )
+
+        self.assertIn("每两周", result["answer"])
+        self.assertNotIn("跑步", result["answer"])
+
     def test_explicit_change_count_is_an_evolution_query(self):
         frame = analyze_semantics("我的咖啡口味经历了几次变化？", is_query=True)
         self.assertEqual(frame.scope, "evolution")

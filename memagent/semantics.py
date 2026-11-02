@@ -122,6 +122,7 @@ FACET_MARKERS = {
     "比例": ("比例", "多少水", "换水量"),
     "地点": ("地点", "城市", "哪里", "哪儿", "在哪", "什么地方"),
     "数量": ("数量", "多少本", "几本", "多少个", "几个"),
+    "金额": ("金额", "多少钱", "多少元", "几元", "预算", "费用", "花费", "价格"),
 }
 
 _GENERIC_ENTITY_WORDS = {
@@ -209,6 +210,26 @@ def _facet_values(text: str) -> tuple[tuple[str, ...], tuple[str, ...]]:
         if "数量" not in facets:
             facets.append("数量")
         values.append(quantity.group(0))
+    frequency = re.search(
+        r"(?:多久|多长时间).{0,8}(?:一次|一回)|"
+        r"隔(?:多久|几天|几周|几个月|多长时间)|"
+        r"(?:每|隔)\s*(?:\d+|[一二两三四五六七八九十半]+)?\s*"
+        r"(?:天|周|星期|个月|月|年)(?:\s*(?:一次|一回))?",
+        text,
+    )
+    if frequency:
+        if "频率" not in facets:
+            facets.append("频率")
+        frequency_value = frequency.group(0).replace(" ", "")
+        if not re.search(r"多久|多长时间|几天|几周|几个月", frequency_value):
+            values.append(frequency_value)
+    money = re.search(
+        r"(?:人民币\s*)?\d+(?:\.\d+)?\s*(?:元|块|万元)|"
+        r"(?:每天|每周|每月|每次)\s*\d+(?:\.\d+)?(?:\s*(?:元|块))?",
+        text,
+    )
+    if money and "金额" not in facets:
+        facets.append("金额")
     titles = [title.strip() for title in re.findall(r"《([^》]{1,30})》", text) if title.strip()]
     if titles:
         if "类型" not in facets:
@@ -640,7 +661,7 @@ def semantic_match_score(
             # Without a concrete value this is a broad attribute question such
             # as "我喜欢什么口味", where object-specific coffee preferences
             # must not leak into a global answer.
-            evidence_facets = {"地点", "数量", "类型", "设备"}
+            evidence_facets = {"地点", "数量", "类型", "设备", "金额"}
             if not query_values and query_facets & evidence_facets:
                 score += 35
             elif not query_values or not memory_values or not value_overlap:
@@ -656,7 +677,10 @@ def semantic_match_score(
     if query_facets:
         if facet_overlap:
             score += 40 + 5 * len(facet_overlap)
-        elif query_facets & {"地点", "数量", "设备", "配置", "颜色", "风格", "比例", "甜度", "温度", "类型"}:
+        elif query_facets & {
+            "地点", "数量", "设备", "配置", "颜色", "风格", "比例",
+            "甜度", "温度", "类型", "金额",
+        }:
             return 0
         elif memory_facets and strict_facet and not query_facets <= {"时间", "状态"}:
             return 0

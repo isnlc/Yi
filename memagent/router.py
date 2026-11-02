@@ -4,6 +4,7 @@ from __future__ import annotations
 import re
 
 from . import llm
+from .memory_policy import looks_like_question
 from .retrieve import is_temporal_activity_query
 from .semantics import analyze_query, analyze_semantics
 
@@ -201,6 +202,12 @@ def _strong_scope(question: str) -> str | None:
     if (
         local_frame.personal is True
         and local_frame.entities
+        and local_frame.scope in ("current", "history", "evolution")
+    ):
+        return "memory"
+    if (
+        local_frame.personal is True
+        and local_frame.entities
         and re.search(r"一般|通常|平时|习惯|偏好", question)
     ):
         return "memory"
@@ -312,6 +319,14 @@ def classify_query(
             answer_mode=inherited_mode,
         )
 
+    if not looks_like_question(question):
+        return _route_result(
+            "general",
+            "conversation",
+            "当前表达不要求检索个人历史",
+            question,
+        )
+
     strong_scope = _strong_scope(question)
     if strong_scope:
         local_frame = analyze_query(question, use_llm=False)
@@ -375,9 +390,9 @@ def classify_query(
     elif local_frame.personal is None and _has_probe_evidence(memory_probe):
         rule_intent = "memory"
     reason = (
-        "模型不可用，离线规则判断问题依赖个人历史"
+        "问题依赖用户自己的既定事实或经历"
         if rule_intent == "memory"
-        else "模型不可用，离线规则判断问题不依赖个人历史"
+        else "问题不依赖个人历史"
     )
     return _route_result(
         rule_intent,

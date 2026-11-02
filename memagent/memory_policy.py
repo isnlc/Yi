@@ -39,7 +39,17 @@ _PERSONAL_EVENT_PLAN = re.compile(
     r"(?:要|准备|打算|计划|会去|将要|即将).{1,48}",
     re.S,
 )
-_QUESTION_END = re.compile(r"[?？]\s*$")
+_QUESTION_FORM = re.compile(
+    r"[?？]|"
+    r"(?:请问|想知道|告诉我|帮我(?:查|看|分析|判断|选择|推荐|解释)|"
+    r"你说|你觉得|你看|建议|推荐|该不该|应该|怎么|如何|为什么|为何|"
+    r"什么|哪种|哪个|哪些|哪里|哪儿|谁|多少|几次|几种|几天|几月|几年|"
+    r"多久|何时|什么时候|是否|是不是|有没有|能不能|要不要|合适吗|可以吗)|"
+    r"^\s*(?:请)?(?:帮我|给我)?\s*(?:分析|总结|归纳|概括|比较|对比|整理|生成|"
+    r"写成|改写|润色|翻译)|"
+    r"(?:根据|结合|参考|按照|按).{0,16}(?:分析|总结|归纳|比较|评估|推荐|建议)|"
+    r"(?:吗|呢)\s*$"
+)
 _LOW_VALUE = re.compile(
     r"^(?:你好|您好|谢谢|好的|收到|嗯|哦|哈哈|早上好|晚上好)[！!。.\s]*$"
 )
@@ -84,13 +94,18 @@ def explicit_memory_intent(text: str) -> bool:
     return bool(_IMPLICIT_COMMAND.search(text or ""))
 
 
+def looks_like_question(text: str) -> bool:
+    """Recognize questions and requests even when punctuation is omitted."""
+    return bool(_QUESTION_FORM.search(" ".join((text or "").split())))
+
+
 def implicit_memory_candidate(text: str) -> tuple[bool, str]:
     """Conservative offline proposal; never authorizes a permanent write."""
     value = " ".join((text or "").split()).strip()
     if (
         len(value) < 6
         or len(value) > 1200
-        or _QUESTION_END.search(value)
+        or looks_like_question(value)
         or _THIRD_PARTY_SUBJECT.search(value)
         or _UNTRUSTED_CLAIM_CONTEXT.search(value)
     ):

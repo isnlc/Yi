@@ -57,6 +57,7 @@ from memagent.semantics import (  # noqa: E402
 from memagent.memory_policy import (  # noqa: E402
     attachment_prompt_is_untrusted,
     implicit_memory_candidate,
+    looks_like_question,
     sensitive_reason,
 )
 from memagent.interaction import (  # noqa: E402
@@ -335,8 +336,8 @@ def _handle_utility_query(query: str) -> dict:
 def _handle_general_query(query: str) -> dict:
     if not is_enabled():
         return {
-            "type": "general_unavailable",
-            "answer": "当前为离线记忆演示模式，通用问答未启用。个人记录查询仍可使用。",
+            "type": "general",
+            "answer": _local_conversation_response(query),
             "evidence": [],
             "llm_used": False,
         }
@@ -360,11 +361,35 @@ def _handle_general_query(query: str) -> dict:
         }
     except Exception:
         return {
-            "type": "general_unavailable",
-            "answer": "通用问答暂时不可用。个人记录查询仍可使用。",
+            "type": "general",
+            "answer": _local_conversation_response(query),
             "evidence": [],
             "llm_used": False,
         }
+
+
+def _local_conversation_response(query: str) -> str:
+    """Minimal local fallback for ordinary conversation without exposing runtime mode."""
+    value = " ".join((query or "").split())
+    if re.search(r"困|想睡|没睡醒|熬不住", value):
+        return "听起来你现在很困。能休息的话先眯一会儿；还要继续做事，就先喝点水、起身活动一下。"
+    if re.search(r"累|疲惫|没精神|精疲力尽", value):
+        return "先停一下，做几次深呼吸，喝点水，再把手头任务缩小到下一步。"
+    if re.search(r"饿|没吃饭", value):
+        return "先补充一点容易消化的食物和水，再继续处理事情。"
+    if re.search(r"渴|口干", value):
+        return "先喝点水，稍微休息一下。"
+    if re.search(r"难过|伤心|焦虑|烦躁|心情不好|不开心|压力大", value):
+        return "先别急着把所有事情一次解决。可以告诉我具体发生了什么，我帮你一起理清。"
+    if re.search(r"开心|高兴|顺利|太好了", value):
+        return "听起来进展不错。"
+    if re.fullmatch(r"(?:你好|您好|嗨|早上好|下午好|晚上好)[！!。.\s]*", value):
+        return "你好。"
+    if re.fullmatch(r"(?:谢谢|感谢|多谢)[你！!。.\s]*", value):
+        return "不客气。"
+    if looks_like_question(value):
+        return "这个问题我目前无法可靠回答。可以补充更具体的对象、条件或期望结果。"
+    return "我明白了。你可以继续说，或者直接告诉我希望我帮你分析、记录还是查找什么。"
 
 
 def _latest_episode() -> dict | None:

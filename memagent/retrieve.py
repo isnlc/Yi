@@ -480,6 +480,20 @@ class Retriever:
                         )
                     ),
                 )
+                if (
+                    not score
+                    and candidate_frame.scope == "current"
+                    and candidate_frame.entities
+                    and entity_overlap_count(candidate_frame.entities, memory_frame.entities)
+                    and (
+                        memory.action in {"开始", "放弃"}
+                        or re.search(r"停止|暂停|恢复|取消|终止|重新开始", memory.detail)
+                    )
+                ):
+                    # A current property lookup must still see a later object
+                    # state transition, otherwise an old amount/configuration
+                    # could be reported after the underlying plan was stopped.
+                    score = 75
                 if score:
                     candidate_ranked.append((
                         memory.id,
@@ -715,9 +729,17 @@ class Retriever:
             semantic_ids = {memory_id for memory_id, _score in semantic_hits}
             event_ids = {memory_id for memory_id, _score in event_hits}
             out = [(m, score) for m, score in out if m.id in semantic_ids | event_ids]
+        elif query_frame.entities and not calendar_spans(query, self.reference_date):
+            # Lexical overlap alone cannot prove that a concrete object was
+            # found. "鱼缸换水" must not fall back to an unrelated "喝水"
+            # record merely because both contain "水".
+            out = []
         elif (
             set(query_frame.facets)
-            & {"地点", "数量", "设备", "配置", "颜色", "风格", "比例", "甜度", "温度", "类型"}
+            & {
+                "地点", "数量", "设备", "配置", "颜色", "风格", "比例",
+                "甜度", "温度", "类型", "金额",
+            }
             and not calendar_spans(query, self.reference_date)
         ):
             # Lexical overlap proves the subject is related, not that the

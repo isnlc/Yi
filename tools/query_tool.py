@@ -70,8 +70,10 @@ def _validate_question(agent: MemoryAgent, question: str) -> dict | None:
     # 分词可能把"我国庆"切成"我国/庆"，词面不命中不代表记忆里没有。
     if calendar_spans(question, agent.reference_date):
         return None
-    if not any(token.lower() in corpus for token in query_tokens):
-        return _no_evidence("记忆库中没有与该问题相关的记录。")
+    # Do not reject solely on token substrings. Chinese tokenization can split
+    # a known object differently between a question and its stored sentence
+    # (for example "定投是多少" -> "定 / 投是"). The retriever performs the
+    # grounded entity/facet check and is the source of truth for relevance.
     return None
 
 

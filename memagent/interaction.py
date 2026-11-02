@@ -6,13 +6,10 @@ from dataclasses import dataclass
 
 from . import llm
 from .memory import _ALLOWED_TOPICS
+from .memory_policy import looks_like_question
 from .semantics import analyze_semantics, infer_topic
 
 
-_QUESTION = re.compile(
-    r"[?？]|(?:你说|你觉得|你看|建议|推荐|该不该|应该|怎么|如何|什么|哪种|哪个好|合适吗|可以吗)|"
-    r"(?:吗|呢)\s*$"
-)
 _TIME = (
     r"(?:刚才|刚刚|最近|上周|上个月|今天|昨天|前天|明天|后天|今晚|昨晚|今早|明早|本周|这周|下周|"
     r"周[一二三四五六日天]|星期[一二三四五六日天]|"
@@ -157,7 +154,7 @@ def classify_interaction(
             needs_answer=True,
         )
 
-    if previous_episode and _DECISION.match(value) and not _QUESTION.search(value):
+    if previous_episode and _DECISION.match(value) and not looks_like_question(value):
         choice = _decision_choice(value)
         if choice:
             subject = str(previous_episode.get("subject") or "")
@@ -173,7 +170,7 @@ def classify_interaction(
                 parent_id=str(previous_episode.get("memory_id") or ""),
             )
 
-    if _UNCERTAIN_PREFERENCE.search(value) and not _QUESTION.search(value):
+    if _UNCERTAIN_PREFERENCE.search(value) and not looks_like_question(value):
         return InteractionIntent(
             kind="inferred_preference_candidate",
             record_text=value,
@@ -183,7 +180,7 @@ def classify_interaction(
         )
 
     stable = _STABLE_PREFERENCE.search(value)
-    if stable and not _QUESTION.search(value):
+    if stable and not looks_like_question(value):
         target = _preference_target(value)
         if target:
             return InteractionIntent(
@@ -195,7 +192,7 @@ def classify_interaction(
                 reply=f"记下了，你明确提到偏好{target}。",
             )
 
-    if _LONG_TERM_PLAN.search(value) and not _QUESTION.search(value):
+    if _LONG_TERM_PLAN.search(value) and not looks_like_question(value):
         return InteractionIntent(
             kind="long_term_plan",
             record_text=value,
@@ -210,7 +207,7 @@ def classify_interaction(
         maxsplit=1,
     )
     event = _compact(parts[0]) if len(parts) > 1 else value
-    asks = bool(_QUESTION.search(value))
+    asks = looks_like_question(value)
     has_personal_time = bool(_TEMPORAL_PERSONAL.search(event))
     is_personal_action = bool(re.search(r"(?:我|本人|我们)", event)) and bool(
         _PERSONAL_ACTION.search(event)
@@ -218,7 +215,7 @@ def classify_interaction(
     immediate_advice_event = len(parts) > 1 and is_personal_action
     if (
         event
-        and not _QUESTION.search(event)
+        and not looks_like_question(event)
         and is_personal_action
         and (has_personal_time or immediate_advice_event)
     ):
@@ -317,7 +314,7 @@ def classify_interaction_online(
         if preference_key and preference_key not in normalized_text:
             preference_key = _preference_target(fact)
 
-        has_question = bool(_QUESTION.search(text))
+        has_question = looks_like_question(text)
         if kind in ("event", "mixed_request"):
             if not re.search(r"(?:我|本人|我们)", fact):
                 return InteractionIntent()
