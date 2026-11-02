@@ -105,6 +105,8 @@ def run_evaluation() -> dict:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
     with (config.RESULTS_DIR / "eval_summary.json").open("w", encoding="utf-8") as handle:
         json.dump(summary, handle, ensure_ascii=False, indent=2)
+    if result_store.exists():
+        result_store.unlink()
     return summary
 
 

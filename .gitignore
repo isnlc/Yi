@@ -11,3 +11,5 @@ data/pending_memories.json
 data/web_photos.json
 data/web_store.json
 data/memory_store.json
+eval/results/eval_pipeline_store.json
+eval/results/_notes_replay.json

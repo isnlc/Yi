@@ -115,6 +115,8 @@ def main():
               + (f"  陈旧说法出现：{x['stale_appeared']}" if x["stale_appeared"] else ""))
     print("全部通过" if all_pass else "存在未通过项")
     print("已保存：", config.RESULTS_DIR / "notes_replay.json")
+    if os.path.exists(store.path):
+        os.remove(store.path)
 
 
 if __name__ == "__main__":
