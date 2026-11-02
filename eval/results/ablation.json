@@ -1,0 +1,78 @@
+[
+ {
+  "key": "lex_only",
+  "label": "只词法 BM25",
+  "channels": {
+   "lex": true,
+   "time": false,
+   "graph": false
+  },
+  "overall": 0.927,
+  "type_acc": {
+   "recent": 0.875,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 0.889,
+   "timeline": 0.667,
+   "trap": 1.0
+  },
+  "memory_size": 48
+ },
+ {
+  "key": "lex_time",
+  "label": "词法+时间衰减",
+  "channels": {
+   "lex": true,
+   "time": true,
+   "graph": false
+  },
+  "overall": 0.969,
+  "type_acc": {
+   "recent": 0.958,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "memory_size": 48
+ },
+ {
+  "key": "lex_graph",
+  "label": "词法+主题图",
+  "channels": {
+   "lex": true,
+   "time": false,
+   "graph": true
+  },
+  "overall": 0.948,
+  "type_acc": {
+   "recent": 0.875,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 1.0,
+   "timeline": 0.667,
+   "trap": 1.0
+  },
+  "memory_size": 48
+ },
+ {
+  "key": "full_rrf",
+  "label": "三路 RRF 全开（本方案）",
+  "channels": {
+   "lex": true,
+   "time": true,
+   "graph": true
+  },
+  "overall": 1.0,
+  "type_acc": {
+   "recent": 1.0,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 1.0,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "memory_size": 48
+ }
+]

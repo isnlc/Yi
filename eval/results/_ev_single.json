@@ -1,0 +1,7578 @@
+{
+ "entries": [
+  {
+   "id": "e07fe8f72",
+   "date": "2026-03-04",
+   "text": "随手记：周三羽毛球照常，出了不少汗。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb807d158",
+   "date": "2026-03-05",
+   "text": "今天下决心开始跑步计划，每周三次，先从三公里起步。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e01da4730",
+   "date": "2026-03-06",
+   "text": "买了双新跑鞋，给跑步做准备。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e86b3d3cd",
+   "date": "2026-03-08",
+   "text": "图书馆新到了一批科幻小说，借了一本。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea5610fb9",
+   "date": "2026-03-10",
+   "text": "和室友约定，每周末一起大扫除。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e507772ce",
+   "date": "2026-03-10",
+   "text": "对话记录：今天跑步按计划完成，膝盖没有不适。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ee80bd0e8",
+   "date": "2026-03-10",
+   "text": "2026年3月10日，今天开始读《三体》第一部，拿的是纸质书，感觉挺有仪式感的。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef1c4491f",
+   "date": "2026-03-11",
+   "text": "把书桌收拾了一遍，效率高了点。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e8db1ae40",
+   "date": "2026-03-11",
+   "text": "语音备忘：周三羽毛球，场地人不多打得很爽。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef5ec51cd",
+   "date": "2026-03-12",
+   "text": "买了罐速溶咖啡，先凑合喝。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1238de35",
+   "date": "2026-03-14",
+   "text": "周三羽毛球照旧，出了不少汗。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4641cf54",
+   "date": "2026-03-14",
+   "text": "语音备忘：跑步打卡，最后两公里提了点速。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e9c57daf2",
+   "date": "2026-03-15",
+   "text": "又熬夜了，刷手机到两点，明天肯定起不来。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea9798dfc",
+   "date": "2026-03-16",
+   "text": "聊天摘记：给读过的书写了两行短评。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e9a54f566",
+   "date": "2026-03-17",
+   "text": "和AI助手聊日常：慢跑放松跑，跑完拉伸了十分钟。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec75f6f9a",
+   "date": "2026-03-18",
+   "text": "跑步第三周，配速进步了半分钟。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e5e210de8",
+   "date": "2026-03-18",
+   "text": "对话记录：周三羽毛球，场地人不多打得很爽。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eff8852e9",
+   "date": "2026-03-19",
+   "text": "食堂新窗口的麻辣香锅不错。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eccbefbd9",
+   "date": "2026-03-20",
+   "text": "对话记录：手冲的水温这次控制得很稳。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ee2f72046",
+   "date": "2026-03-21",
+   "text": "看完一部纪录片，挺震撼。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e5596d698",
+   "date": "2026-03-21",
+   "text": "对话记录：晨跑完成，回来做了组拉伸。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eadc7afbc",
+   "date": "2026-03-22",
+   "text": "今天整理了《数据结构》第3章笔记，是成同学的课堂笔记，姓名学号都已脱敏处理。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e07f987e0",
+   "date": "2026-03-24",
+   "text": "语音备忘：早上跑步完成，状态比想象中好。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ee1b644e7",
+   "date": "2026-03-24",
+   "text": "聊天摘记：中午眯了一会儿，晚上状态在线。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec9218e57",
+   "date": "2026-03-25",
+   "text": "周末和室友一起大扫除，厨房终于能看了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e26c5372e",
+   "date": "2026-03-25",
+   "text": "和助手同步：周三羽毛球照常，出了不少汗。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e324ff084",
+   "date": "2026-03-26",
+   "text": "咖啡喝得有点频繁，注意适量。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e2642db09",
+   "date": "2026-03-28",
+   "text": "和AI助手聊日常：晨跑完成，回来做了组拉伸。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e3d2d17d1",
+   "date": "2026-03-28",
+   "text": "对话记录：和室友晚饭后散步聊了会儿天。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e88288371",
+   "date": "2026-03-30",
+   "text": "图书馆新开了自习区，很安静。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e3b7a0e0f",
+   "date": "2026-03-30",
+   "text": "对话记录：把桌面收拾了一遍，效率高了点。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e579e81a8",
+   "date": "2026-03-31",
+   "text": "春天了，操场花开得不错。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ebdd04e4c",
+   "date": "2026-03-31",
+   "text": "随手记：今天跑了五公里，中途走了半分钟。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6b21e769",
+   "date": "2026-04-01",
+   "text": "对话记录：周三羽毛球，打完和球友吃了顿宵夜。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eaaf164c7",
+   "date": "2026-04-01",
+   "text": "今天开始基金定投，每月500，发薪日自动扣款，先坚持看看。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ecda5d60e",
+   "date": "2026-04-02",
+   "text": "数据结构课程项目定了选题A：校园导航。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e5d9d245b",
+   "date": "2026-04-03",
+   "text": "清明回家，吃了顿妈妈做的菜。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e089cfa02",
+   "date": "2026-04-04",
+   "text": "和助手同步：今天跑了五公里，中途走了半分钟。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea77e01fa",
+   "date": "2026-04-05",
+   "text": "和AI助手聊日常：整理了相册，删了不少截图。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e5f794cb4",
+   "date": "2026-04-07",
+   "text": "图书馆自习，复习数据结构。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea6dc1c92",
+   "date": "2026-04-08",
+   "text": "又熬夜了，赶实验报告。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e84e35762",
+   "date": "2026-04-08",
+   "text": "语音备忘：周三羽毛球，状态一般但坚持去了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e974972ad",
+   "date": "2026-04-09",
+   "text": "周三羽毛球，状态一般。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e3354017a",
+   "date": "2026-04-10",
+   "text": "周三羽毛球，打了两小时，很爽。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eac0238d5",
+   "date": "2026-04-11",
+   "text": "对话记录：夜跑完成，跑步时听了两期播客。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e05a8317b",
+   "date": "2026-04-12",
+   "text": "把SRTP项目会议记录归档了，参会人用小A小B代替，信息都处理干净了。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e2de67207",
+   "date": "2026-04-13",
+   "text": "咖啡豆快喝完了，先囤两包。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e00823c28",
+   "date": "2026-04-14",
+   "text": "对话记录：早上跑步完成，状态比想象中好。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e163001db",
+   "date": "2026-04-15",
+   "text": "对话记录：周三羽毛球，今天手感不错赢了一局。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb843abfa",
+   "date": "2026-04-15",
+   "text": "和AI助手聊日常：帮同学带了东西，顺路的事。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ee5c5e3bb",
+   "date": "2026-04-15",
+   "text": "2026年4月15日，为了通勤路上方便，我改成用Kindle看书了，轻便多了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e891b1ba9",
+   "date": "2026-04-16",
+   "text": "期中考了两门，感觉还行。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e980c3cba",
+   "date": "2026-04-19",
+   "text": "手冲的水温摸索出了门道。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec2a4e9ca",
+   "date": "2026-04-20",
+   "text": "跑步有点腻了，改成隔天跑。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e599a6b45",
+   "date": "2026-04-21",
+   "text": "充电宝坏了，重新买了一个。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e328612e8",
+   "date": "2026-04-21",
+   "text": "和AI助手聊日常：早上跑步完成，状态比想象中好。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec3c2dad1",
+   "date": "2026-04-22",
+   "text": "咖啡喝完了，决定换成手冲，买了滤杯和磨豆机。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e19ff0f85",
+   "date": "2026-04-24",
+   "text": "周三羽毛球照旧。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec3d97d01",
+   "date": "2026-04-25",
+   "text": "和助手同步：跑步打卡，最后两公里提了点速。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eff0816f1",
+   "date": "2026-04-25",
+   "text": "聊天摘记：滤杯洗好收进柜子了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb6a6aff0",
+   "date": "2026-04-26",
+   "text": "语音备忘：列了旅行装备清单，放在备忘录里。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0911e3f7",
+   "date": "2026-04-27",
+   "text": "网购的书到了，睡前翻了几页。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "efaba6fbd",
+   "date": "2026-04-28",
+   "text": "和助手同步：晨跑完成，回来做了组拉伸。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e84fdf182",
+   "date": "2026-04-28",
+   "text": "聊天摘记：今天早起成功，白天精神不错。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e8469021a",
+   "date": "2026-04-29",
+   "text": "聊天摘记：周三羽毛球，今天主要练步伐。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e60bdaeb7",
+   "date": "2026-04-30",
+   "text": "对话记录：把生活费按周做了预算。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef079f1db",
+   "date": "2026-05-01",
+   "text": "五一去周边古镇逛了一天。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e22abb865",
+   "date": "2026-05-01",
+   "text": "2026年5月1日，和朋友约好国庆去西安玩，先mark一下，免得到时候忘了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e94f39c92",
+   "date": "2026-05-02",
+   "text": "随手记：慢跑放松跑，跑完拉伸了十分钟。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4787d6c0",
+   "date": "2026-05-05",
+   "text": "聊天摘记：慢跑放松跑，跑完拉伸了十分钟。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e554040b8",
+   "date": "2026-05-05",
+   "text": "今天和室友说好一起戒掉奶茶，为期一个月，互相监督。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef9174bc7",
+   "date": "2026-05-06",
+   "text": "课程项目进展慢，考虑要不要换题。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6fe0ffbd",
+   "date": "2026-05-06",
+   "text": "语音备忘：周三羽毛球，练了半小时高远球。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e27e99c83",
+   "date": "2026-05-08",
+   "text": "周三羽毛球，赢了两局。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "efd86313f",
+   "date": "2026-05-09",
+   "text": "和助手同步：今天跑步按计划完成，膝盖没有不适。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e71617e89",
+   "date": "2026-05-09",
+   "text": "对话记录：整理了相册，删了不少截图。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef2878da4",
+   "date": "2026-05-10",
+   "text": "手冲上手了，比速溶好喝太多。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec252aec0",
+   "date": "2026-05-11",
+   "text": "和AI助手聊日常：给读过的书写了两行短评。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ed3221c4b",
+   "date": "2026-05-12",
+   "text": "课程项目正式改选选题B：课程表助手。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eff335d9f",
+   "date": "2026-05-13",
+   "text": "和助手同步：周三羽毛球，和球友复盘了接发球。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6608faf5",
+   "date": "2026-05-14",
+   "text": "这周试着早睡，效果还行。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef6b2acff",
+   "date": "2026-05-15",
+   "text": "又熬夜了，周三羽毛球都差点迟到。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e75362efe",
+   "date": "2026-05-16",
+   "text": "聊天摘记：今天跑了五公里，中途走了半分钟。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e13f2e8e2",
+   "date": "2026-05-18",
+   "text": "支教备课资料入库，教案模板一式两份，都做了脱敏处理。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6657aa44",
+   "date": "2026-05-19",
+   "text": "奶茶喝多了，有点罪恶。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4ea60394",
+   "date": "2026-05-20",
+   "text": "健身卡到期，跑步计划正式放弃，先摆烂一段时间。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4604e5b9",
+   "date": "2026-05-20",
+   "text": "语音备忘：周三羽毛球照常，出了不少汗。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef555dc50",
+   "date": "2026-05-21",
+   "text": "对话记录：晚上散步四十分钟，代替了刷手机。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e8e9ab45b",
+   "date": "2026-05-24",
+   "text": "聊天摘记：午休二十分钟，下午效率高了很多。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e45c0a74f",
+   "date": "2026-05-25",
+   "text": "追的剧完结了，结局一般。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0d8fd4e7",
+   "date": "2026-05-26",
+   "text": "聊天摘记：磨豆机该清洁了，明天记得处理。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eaa641d34",
+   "date": "2026-05-27",
+   "text": "聊天摘记：周三羽毛球，状态一般但坚持去了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e37d673d3",
+   "date": "2026-05-28",
+   "text": "周三羽毛球，天热出汗多。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ebc1df6b4",
+   "date": "2026-05-29",
+   "text": "周三羽毛球。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e52ef94a0",
+   "date": "2026-06-02",
+   "text": "周末补觉，作息总算规律了点。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e9f2f9ec7",
+   "date": "2026-06-03",
+   "text": "和室友的大扫除约定改成本月我来做，他太忙。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1e4b16e9",
+   "date": "2026-06-03",
+   "text": "随手记：周三羽毛球，和球友复盘了接发球。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0d6a10ca",
+   "date": "2026-06-05",
+   "text": "浅烘的豆子到了，发现更喜欢浅烘的风味。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e597c76fc",
+   "date": "2026-06-06",
+   "text": "和朋友聚餐吃了火锅。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e969ece0a",
+   "date": "2026-06-08",
+   "text": "课程表助手项目的需求文档存档了，作者信息已经脱敏。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eae10d26e",
+   "date": "2026-06-09",
+   "text": "周三羽毛球，借球友的拍子试了试。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e39d2fe79",
+   "date": "2026-06-10",
+   "text": "课程项目B做完第一版demo。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0cc86a67",
+   "date": "2026-06-10",
+   "text": "随手记：周三羽毛球，练了半小时高远球。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0002aec5",
+   "date": "2026-06-11",
+   "text": "对话记录：多喝了水，含糖饮料少了一半。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e94315ceb",
+   "date": "2026-06-13",
+   "text": "浅烘和深烘的区别查了查，长知识。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e67df74b8",
+   "date": "2026-06-14",
+   "text": "语音备忘：下班路上的云特别好看。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e04c8e9c7",
+   "date": "2026-06-15",
+   "text": "买了把新伞，梅雨天真多。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1a6ab40e",
+   "date": "2026-06-16",
+   "text": "周三羽毛球，球友教了握拍姿势。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e31024773",
+   "date": "2026-06-17",
+   "text": "周三羽毛球，认识了个研究生球友。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e728e4799",
+   "date": "2026-06-17",
+   "text": "对话记录：周三羽毛球，今天主要练步伐。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e62defad3",
+   "date": "2026-06-18",
+   "text": "2026年6月18日，我放弃了戒奶茶的计划，又喝上了，不过跟自己说好一周两杯封顶。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ed3bd108f",
+   "date": "2026-06-19",
+   "text": "四六级出分，过了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e69e7836b",
+   "date": "2026-06-20",
+   "text": "2026年6月20日，Kindle吃灰了，还是改回看纸质书，翻页有感觉。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e9904db3f",
+   "date": "2026-06-21",
+   "text": "对话记录：研究了一下新豆子的产地信息。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef044a774",
+   "date": "2026-06-22",
+   "text": "对话记录：今天早起成功，白天精神不错。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec1b3ff3d",
+   "date": "2026-06-24",
+   "text": "又熬夜了，作息没救。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4e60e4e1",
+   "date": "2026-06-24",
+   "text": "随手记：周三羽毛球，场地人不多打得很爽。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eebccaa4f",
+   "date": "2026-06-25",
+   "text": "周三羽毛球照常。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec53a504d",
+   "date": "2026-06-28",
+   "text": "语音备忘：和室友晚饭后散步聊了会儿天。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec7bf2a2e",
+   "date": "2026-06-29",
+   "text": "梅雨天湿漉漉，注意防潮。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e228dd750",
+   "date": "2026-06-30",
+   "text": "和AI助手聊日常：把这个月的支出分了类，心里有数了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eeb70c15d",
+   "date": "2026-07-02",
+   "text": "期末周结束，课程表助手项目提交，拿了个不错的分数。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e314551d1",
+   "date": "2026-07-04",
+   "text": "放假回家，路上看了部电影。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb09082be",
+   "date": "2026-07-06",
+   "text": "期末复习资料打包好了，三份提纲，来源是同学共享，已匿名。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e239e24b5",
+   "date": "2026-07-08",
+   "text": "暑假在家，手冲器具也寄回来了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e7f47bcdd",
+   "date": "2026-07-08",
+   "text": "聊天摘记：周三羽毛球，今天手感不错赢了一局。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e340ebf9b",
+   "date": "2026-07-09",
+   "text": "手冲器具打包寄回家。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eaabbc564",
+   "date": "2026-07-11",
+   "text": "聊天摘记：今天天气不错，心情也好。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef04046b2",
+   "date": "2026-07-13",
+   "text": "在家帮爸妈做饭，被夸了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6f0ea041",
+   "date": "2026-07-15",
+   "text": "周三羽毛球，家里这边的球馆人少。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e76ea3d20",
+   "date": "2026-07-15",
+   "text": "语音备忘：周三羽毛球，打完和球友吃了顿宵夜。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec9d86b91",
+   "date": "2026-07-18",
+   "text": "周三羽毛球，家里球馆空调足。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ee8840c93",
+   "date": "2026-07-19",
+   "text": "语音备忘：磨豆机该清洁了，明天记得处理。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea52120ab",
+   "date": "2026-07-20",
+   "text": "对话记录：给读过的书写了两行短评。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e47335004",
+   "date": "2026-07-20",
+   "text": "今天看了攻略，把国庆行程改成了去泉州，感觉古城更对我的口味。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ebcc4e6df",
+   "date": "2026-07-22",
+   "text": "熬夜看球，值了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e9b5e4ca7",
+   "date": "2026-07-22",
+   "text": "和AI助手聊日常：周三羽毛球，练了半小时高远球。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1dbdb13e",
+   "date": "2026-07-23",
+   "text": "实习第一周，熟悉团队流程。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e15ec2577",
+   "date": "2026-07-25",
+   "text": "聊天摘记：晚饭后走了走，消消食。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6ccc8d06",
+   "date": "2026-07-27",
+   "text": "通勤路上听播客，打发时间。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e82e0983d",
+   "date": "2026-07-31",
+   "text": "实习间隙刷完两本小说。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e742d2fb2",
+   "date": "2026-08-01",
+   "text": "实习的第二周，工作量上来了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e5108cfa0",
+   "date": "2026-08-04",
+   "text": "天台看了场露天电影。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ecbbe2985",
+   "date": "2026-08-05",
+   "text": "开始实习，每天通勤两小时。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e2d004e45",
+   "date": "2026-08-05",
+   "text": "和AI助手聊日常：周三羽毛球，状态一般但坚持去了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e328ae5d4",
+   "date": "2026-08-08",
+   "text": "实习做的第一个模块上线。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec83e5ff6",
+   "date": "2026-08-09",
+   "text": "和AI助手聊日常：研究了当地的公共交通线路。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e751047b6",
+   "date": "2026-08-10",
+   "text": "行情实在太差了，我停止了基金定投，先观望一阵再说。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec60a0f10",
+   "date": "2026-08-12",
+   "text": "晚上跟着视频健身半小时。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb9766566",
+   "date": "2026-08-12",
+   "text": "聊天摘记：周三羽毛球，场地人不多打得很爽。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ee7c6e88d",
+   "date": "2026-08-14",
+   "text": "实习中期汇报通过了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e62229944",
+   "date": "2026-08-15",
+   "text": "语音备忘：整理了相册，删了不少截图。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb48595b3",
+   "date": "2026-08-16",
+   "text": "和AI助手聊日常：磨豆机该清洁了，明天记得处理。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "edf22fa87",
+   "date": "2026-08-17",
+   "text": "实习周末休整，逛了老街。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6b68afca",
+   "date": "2026-08-18",
+   "text": "实习周报归档完成，公司名和人名都已经脱敏处理。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec7d4356b",
+   "date": "2026-08-20",
+   "text": "周三羽毛球。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e30764461",
+   "date": "2026-08-21",
+   "text": "周三羽毛球，跟高中生打了对抗。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e980c9a54",
+   "date": "2026-08-25",
+   "text": "家里的咖啡机试了试，不错。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e2769abd2",
+   "date": "2026-08-26",
+   "text": "语音备忘：周三羽毛球，今天主要练步伐。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea7f40373",
+   "date": "2026-08-28",
+   "text": "对话记录：路上看到花开得不错，拍了张照。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6e986f42",
+   "date": "2026-08-29",
+   "text": "实习收尾，写了阶段总结。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef09d6d50",
+   "date": "2026-08-31",
+   "text": "和AI助手聊日常：研究了学生优惠的存款产品。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0010fc0d",
+   "date": "2026-09-01",
+   "text": "开学。重新开始跑步计划，这次目标五公里。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb1f3d799",
+   "date": "2026-09-02",
+   "text": "买了支新羽毛球拍。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e81c9fcd3",
+   "date": "2026-09-02",
+   "text": "聊天摘记：周三羽毛球，打完和球友吃了顿宵夜。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb5685cfe",
+   "date": "2026-09-05",
+   "text": "和室友约定改成轮流大扫除，一人一周。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec18ad54f",
+   "date": "2026-09-06",
+   "text": "2026年9月6日，新学期课表和教材清单都入库了，学生信息也做了脱敏处理，教材这块总算理清了。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea3d41d2c",
+   "date": "2026-09-07",
+   "text": "开学第一周，课表有点满。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0fddc095",
+   "date": "2026-09-08",
+   "text": "语音备忘：今天跑步按计划完成，膝盖没有不适。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb684d78f",
+   "date": "2026-09-08",
+   "text": "对话记录：通勤路上听书代替了刷短视频。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef2c9c6b1",
+   "date": "2026-09-10",
+   "text": "又熬夜了，选课系统卡到十二点。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e16bc47e3",
+   "date": "2026-09-10",
+   "text": "2026年9月10日，体检和体重秤都向好，体重比暑假轻了三斤，挺开心的。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1e0744b5",
+   "date": "2026-09-11",
+   "text": "周三羽毛球，新拍子首秀。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e03b32408",
+   "date": "2026-09-12",
+   "text": "对话记录：社团例会讨论了下学期的安排。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eaffb190a",
+   "date": "2026-09-13",
+   "text": "聊天摘记：今天手冲了一杯，酸香味比上次明显。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ec2e12da6",
+   "date": "2026-09-14",
+   "text": "聊天摘记：晚自习把下周的预习提纲列出来了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6bb49145",
+   "date": "2026-09-15",
+   "text": "语音备忘：晨跑完成，回来做了组拉伸。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4568e4db",
+   "date": "2026-09-15",
+   "text": "聊天摘记：这周有三天做到了十二点前睡。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e178ce346",
+   "date": "2026-09-15",
+   "text": "2026年9月15日，今年读完的书累计到第十二本了，还挺有成就感的。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ed983c21d",
+   "date": "2026-09-16",
+   "text": "中午习惯在图书馆眯一会儿。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e0ac7bc5b",
+   "date": "2026-09-17",
+   "text": "周三羽毛球，新学期第一次。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e10e2b767",
+   "date": "2026-09-18",
+   "text": "和AI助手聊日常：图书馆复习了两小时，效率还行。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e714cca64",
+   "date": "2026-09-19",
+   "text": "周末和室友点外卖边吃边聊。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eff1c10fe",
+   "date": "2026-09-19",
+   "text": "聊天摘记：今天跑步五公里，配速和上次差不多。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e813fe85e",
+   "date": "2026-09-20",
+   "text": "想通了，今天恢复定投，改成每月300，跌了反而更能摊低成本。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ebbb7c5a1",
+   "date": "2026-09-21",
+   "text": "语音备忘：实验课的数据先存了备份，回宿舍再整理。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e2fafb6ef",
+   "date": "2026-09-22",
+   "text": "和AI助手聊日常：今天跑步五公里，配速和上次差不多。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef07c88a3",
+   "date": "2026-09-22",
+   "text": "和AI助手聊日常：晚上散步四十分钟，代替了刷手机。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ef582f221",
+   "date": "2026-09-23",
+   "text": "跑步配速又快了十秒。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1ac0a51b",
+   "date": "2026-09-23",
+   "text": "和助手同步：周三羽毛球，今天手感不错赢了一局。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb5908250",
+   "date": "2026-09-24",
+   "text": "跑步第二周，五公里能跑下来了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e89cd5c50",
+   "date": "2026-09-25",
+   "text": "对话记录：晚自习把下周的预习提纲列出来了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "efff0dd95",
+   "date": "2026-09-26",
+   "text": "随手记：跑步打卡，最后两公里提了点速。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e41588b1b",
+   "date": "2026-09-26",
+   "text": "聊天摘记：把桌面收拾了一遍，效率高了点。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e3381b4c1",
+   "date": "2026-09-27",
+   "text": "周三羽毛球，场地涨价了。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e2040938a",
+   "date": "2026-09-28",
+   "text": "学校银杏黄了一半。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e628ca657",
+   "date": "2026-09-28",
+   "text": "2026年9月28日，最近在读《活着》，进度已经过半，越看越入迷。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e17722d6d",
+   "date": "2026-09-29",
+   "text": "刷手机到一点，第二天后悔。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eba55d344",
+   "date": "2026-09-29",
+   "text": "随手记：今天跑步五公里，配速和上次差不多。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1f388e33",
+   "date": "2026-09-30",
+   "text": "对话记录：把这个月的支出分了类，心里有数了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e9865e53f",
+   "date": "2026-09-30",
+   "text": "对话记录：图书馆复习了两小时，效率还行。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "eb6db76d0",
+   "date": "2026-10-01",
+   "text": "对话记录：研究了当地的公共交通线路。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e1fd0ac7b",
+   "date": "2026-10-02",
+   "text": "国庆回家待了几天。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e3fcea72e",
+   "date": "2026-10-02",
+   "text": "泉州之行终于完成了，开元寺和面线糊都体验了一遍，挺满足的。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ed4357de0",
+   "date": "2026-10-04",
+   "text": "假期追完一部剧，评分不高。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e18371cf9",
+   "date": "2026-10-06",
+   "text": "2026年10月6日，整理十月待办，把散在三个便签上的事合并成一张清单，待办终于不再乱糟糟了。",
+   "source": "note",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e6cfc874b",
+   "date": "2026-10-07",
+   "text": "返程高铁上补实验报告。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "efe76e73a",
+   "date": "2026-10-08",
+   "text": "深烘豆子试了试，还是浅烘合口味。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e39e4cd82",
+   "date": "2026-10-09",
+   "text": "周三羽毛球，打完吃了顿好的。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4c9835a0",
+   "date": "2026-10-10",
+   "text": "降温了，翻出秋裤。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e25e8aafc",
+   "date": "2026-10-11",
+   "text": "又熬夜了，赶课程作业。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ea17e2b04",
+   "date": "2026-10-12",
+   "text": "咖啡存货见底，下单新豆子。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e292173e3",
+   "date": "2026-10-13",
+   "text": "对话记录：跑步打卡，最后两公里提了点速。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e045cad9e",
+   "date": "2026-10-13",
+   "text": "聊天摘记：研究了一下新豆子的产地信息。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "ebe85cedb",
+   "date": "2026-10-13",
+   "text": "和AI助手聊日常：晚自习把下周的预习提纲列出来了。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e790f7296",
+   "date": "2026-10-14",
+   "text": "周三羽毛球，最近状态不错。",
+   "source": "diary",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e520576ee",
+   "date": "2026-10-14",
+   "text": "和AI助手聊日常：周三羽毛球，今天手感不错赢了一局。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e4b477248",
+   "date": "2026-10-14",
+   "text": "和AI助手聊日常：中午眯了一会儿，晚上状态在线。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  },
+  {
+   "id": "e12c44a3f",
+   "date": "2026-10-14",
+   "text": "聊天摘记：社团例会讨论了下学期的安排。",
+   "source": "chat",
+   "kind": "record",
+   "parent_id": ""
+  }
+ ],
+ "memories": [
+  {
+   "id": "m29bc2d63",
+   "date": "2026-03-04",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "随手记：周三羽毛球照常，出了不少汗",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e07fe8f72",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "me70cba47",
+   "date": "2026-03-05",
+   "topic": "健身",
+   "action": "开始",
+   "detail": "今天下决心开始跑步计划，每周三次，先从三公里起步",
+   "importance": 0.7,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "eb807d158",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [
+    "频率",
+    "时间",
+    "距离",
+    "状态"
+   ],
+   "semantic_values": [
+    "每周",
+    "周三",
+    "三公里",
+    "开始"
+   ]
+  },
+  {
+   "id": "mb6b37f30",
+   "date": "2026-03-06",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "买了双新跑鞋，给跑步做准备",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e01da4730",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "跑鞋"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m93d5d12e",
+   "date": "2026-03-08",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "图书馆新到了一批科幻小说，借了一本",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e86b3d3cd",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "图书馆"
+   ],
+   "facets": [
+    "数量"
+   ],
+   "semantic_values": [
+    "一本"
+   ]
+  },
+  {
+   "id": "m50428d8d",
+   "date": "2026-03-10",
+   "topic": "社交",
+   "action": "约定",
+   "detail": "和室友约定，每周末一起大扫除",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ea5610fb9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "室友"
+   ],
+   "facets": [
+    "频率",
+    "时间"
+   ],
+   "semantic_values": [
+    "每周",
+    "周末"
+   ]
+  },
+  {
+   "id": "m26cd3640",
+   "date": "2026-03-10",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "对话记录：今天跑步按计划完成，膝盖没有不适",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e507772ce",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "对话",
+    "按计划",
+    "膝盖"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "m4727f408",
+   "date": "2026-03-10",
+   "topic": "阅读",
+   "action": "开始",
+   "detail": "2026年3月10日，今天开始读《三体》第一部，拿的是纸质书，感觉挺有仪式感的",
+   "importance": 0.7,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ee80bd0e8",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "纸质",
+    "感觉",
+    "仪式",
+    "三体"
+   ],
+   "facets": [
+    "状态",
+    "设备",
+    "类型"
+   ],
+   "semantic_values": [
+    "开始",
+    "纸质书",
+    "三体"
+   ]
+  },
+  {
+   "id": "mab0a69e3",
+   "date": "2026-03-11",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "把书桌收拾了一遍，效率高了点",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef1c4491f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "书桌",
+    "效率高"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m29001541",
+   "date": "2026-03-11",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "语音备忘：周三羽毛球，场地人不多打得很爽",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e8db1ae40",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "语音"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "ma58c3c0d",
+   "date": "2026-03-12",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "买了罐速溶咖啡，先凑合喝",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef5ec51cd",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡"
+   ],
+   "facets": [
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "速溶"
+   ]
+  },
+  {
+   "id": "mc5e68a5d",
+   "date": "2026-03-14",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球照旧，出了不少汗",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e1238de35",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m29b90aba",
+   "date": "2026-03-14",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "语音备忘：跑步打卡，最后两公里提了点速",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e4641cf54",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "语音"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m7f560202",
+   "date": "2026-03-15",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "又熬夜了，刷手机到两点，明天肯定起不来",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e9c57daf2",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠"
+   ],
+   "facets": [
+    "设备"
+   ],
+   "semantic_values": [
+    "手机"
+   ]
+  },
+  {
+   "id": "mf989cd19",
+   "date": "2026-03-16",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "聊天摘记：给读过的书写了两行短评",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ea9798dfc",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "聊天",
+    "摘记",
+    "书写"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m2a463514",
+   "date": "2026-03-17",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：慢跑放松跑，跑完拉伸了十分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e9a54f566",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m1cd5b5ca",
+   "date": "2026-03-18",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "跑步第三周，配速进步了半分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec75f6f9a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "md20dc936",
+   "date": "2026-03-18",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "对话记录：周三羽毛球，场地人不多打得很爽",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e5e210de8",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "对话"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mecf2075a",
+   "date": "2026-03-19",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "食堂新窗口的麻辣香锅不错",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eff8852e9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "食堂",
+    "香锅"
+   ],
+   "facets": [
+    "辣度"
+   ],
+   "semantic_values": [
+    "麻辣"
+   ]
+  },
+  {
+   "id": "ma493f057",
+   "date": "2026-03-20",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "对话记录：手冲的水温这次控制得很稳",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eccbefbd9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "对话"
+   ],
+   "facets": [
+    "温度",
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "手冲"
+   ]
+  },
+  {
+   "id": "mbb39a91a",
+   "date": "2026-03-21",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "看完一部纪录片，挺震撼",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "ee2f72046",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "纪录片"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mc57da305",
+   "date": "2026-03-21",
+   "topic": "生活",
+   "action": "完成",
+   "detail": "对话记录：晨跑完成，回来做了组拉伸",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e5596d698",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "对话"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "mbae918d7",
+   "date": "2026-03-22",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "今天整理了《数据结构》第3章笔记，是成同学的课堂笔记，姓名学号都已脱敏处理",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "eadc7afbc",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "整理",
+    "笔记",
+    "同学",
+    "课堂",
+    "姓名学",
+    "脱敏",
+    "数据结构"
+   ],
+   "facets": [
+    "类型"
+   ],
+   "semantic_values": [
+    "数据结构"
+   ]
+  },
+  {
+   "id": "m384b7096",
+   "date": "2026-03-24",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "语音备忘：早上跑步完成，状态比想象中好",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e07f987e0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "语音",
+    "想象"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "早上",
+    "完成"
+   ]
+  },
+  {
+   "id": "ma69d42cf",
+   "date": "2026-03-24",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：中午眯了一会儿，晚上状态在线",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "ee1b644e7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "中午",
+    "晚上"
+   ]
+  },
+  {
+   "id": "mc28f65ed",
+   "date": "2026-03-25",
+   "topic": "社交",
+   "action": "记录",
+   "detail": "周末和室友一起大扫除，厨房终于能看了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec9218e57",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "室友",
+    "厨房"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周末"
+   ]
+  },
+  {
+   "id": "mb20f6fde",
+   "date": "2026-03-25",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "和助手同步：周三羽毛球照常，出了不少汗",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e26c5372e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "助手"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m77bc389f",
+   "date": "2026-03-26",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "咖啡喝得有点频繁，注意适量",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e324ff084",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "有点"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m895cb86f",
+   "date": "2026-03-28",
+   "topic": "生活",
+   "action": "完成",
+   "detail": "和AI助手聊日常：晨跑完成，回来做了组拉伸",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e2642db09",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "mf9be9a62",
+   "date": "2026-03-28",
+   "topic": "社交",
+   "action": "记录",
+   "detail": "对话记录：和室友晚饭后散步聊了会儿天",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e3d2d17d1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "室友",
+    "晚饭",
+    "散步",
+    "会儿"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m92d225ee",
+   "date": "2026-03-30",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "图书馆新开了自习区，很安静",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e88288371",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "图书馆",
+    "安静"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mc1655a38",
+   "date": "2026-03-30",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：把桌面收拾了一遍，效率高了点",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e3b7a0e0f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "桌面",
+    "效率高"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m25215cd4",
+   "date": "2026-03-31",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "春天了，操场花开得不错",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e579e81a8",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "操场"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mecaf3760",
+   "date": "2026-03-31",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "随手记：今天跑了五公里，中途走了半分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ebdd04e4c",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "m982a6f03",
+   "date": "2026-04-01",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "对话记录：周三羽毛球，打完和球友吃了顿宵夜",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6b21e769",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "对话",
+    "球友",
+    "宵夜"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mfc707300",
+   "date": "2026-04-01",
+   "topic": "理财",
+   "action": "开始",
+   "detail": "今天开始基金定投，每月500，发薪日自动扣款，先坚持看看",
+   "importance": 0.7,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "eaaf164c7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "定投",
+    "发薪日",
+    "自动"
+   ],
+   "facets": [
+    "频率",
+    "状态"
+   ],
+   "semantic_values": [
+    "每月",
+    "开始"
+   ]
+  },
+  {
+   "id": "m055aa3ad",
+   "date": "2026-04-02",
+   "topic": "课程",
+   "action": "约定",
+   "detail": "数据结构课程项目定了选题A：校园导航",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ecda5d60e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "课程项目",
+    "数据结构",
+    "校园"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m31393662",
+   "date": "2026-04-03",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "清明回家，吃了顿妈妈做的菜",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e5d9d245b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "回家",
+    "妈妈"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m0f8c8edf",
+   "date": "2026-04-04",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "和助手同步：今天跑了五公里，中途走了半分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e089cfa02",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手"
+   ],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "m09ff00cd",
+   "date": "2026-04-05",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：整理了相册，删了不少截图",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "ea77e01fa",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手",
+    "整理"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m6dfc7be6",
+   "date": "2026-04-07",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "图书馆自习，复习数据结构",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e5f794cb4",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "图书馆",
+    "数据结构"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mfbbfcc54",
+   "date": "2026-04-08",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "又熬夜了，赶实验报告",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ea6dc1c92",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠",
+    "实验报告"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m0ed6388d",
+   "date": "2026-04-08",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "语音备忘：周三羽毛球，状态一般但坚持去了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e84e35762",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "语音"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m5a0906a1",
+   "date": "2026-04-09",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，状态一般",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e974972ad",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m41ce93e1",
+   "date": "2026-04-10",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，打了两小时，很爽",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e3354017a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "小时"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m5a997c30",
+   "date": "2026-04-11",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "对话记录：夜跑完成，跑步时听了两期播客",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "eac0238d5",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "对话"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "m0bd6ddf5",
+   "date": "2026-04-12",
+   "topic": "课程",
+   "action": "记录",
+   "detail": "把SRTP项目会议记录归档了，参会人用小A小B代替，信息都处理干净了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e05a8317b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "会议记录",
+    "人用",
+    "信息"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m124c1447",
+   "date": "2026-04-13",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "咖啡豆快喝完了，先囤两包",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e2de67207",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "ma7c037a3",
+   "date": "2026-04-14",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "对话记录：早上跑步完成，状态比想象中好",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e00823c28",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "对话",
+    "想象"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "早上",
+    "完成"
+   ]
+  },
+  {
+   "id": "mb6508cbc",
+   "date": "2026-04-15",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "对话记录：周三羽毛球，今天手感不错赢了一局",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e163001db",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "对话",
+    "手感"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mf9257ab8",
+   "date": "2026-04-15",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：帮同学带了东西，顺路的事",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "eb843abfa",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手",
+    "同学",
+    "顺路"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m3a334e1e",
+   "date": "2026-04-15",
+   "topic": "阅读",
+   "action": "更改",
+   "detail": "2026年4月15日，为了通勤路上方便，我改成用Kindle看书了，轻便多了",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ee5c5e3bb",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "通勤"
+   ],
+   "facets": [
+    "设备"
+   ],
+   "semantic_values": [
+    "Kindle"
+   ]
+  },
+  {
+   "id": "m154d6306",
+   "date": "2026-04-16",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "期中考了两门，感觉还行",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e891b1ba9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "感觉"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m0b7f5677",
+   "date": "2026-04-19",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "手冲的水温摸索出了门道",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e980c3cba",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡"
+   ],
+   "facets": [
+    "温度",
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "手冲"
+   ]
+  },
+  {
+   "id": "m6909a885",
+   "date": "2026-04-20",
+   "topic": "健身",
+   "action": "更改",
+   "detail": "跑步有点腻了，改成隔天跑",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ec2a4e9ca",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "有点"
+   ],
+   "facets": [
+    "频率"
+   ],
+   "semantic_values": [
+    "隔天"
+   ]
+  },
+  {
+   "id": "m07744e31",
+   "date": "2026-04-21",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "充电宝坏了，重新买了一个",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e599a6b45",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [],
+   "facets": [
+    "数量"
+   ],
+   "semantic_values": [
+    "一个"
+   ]
+  },
+  {
+   "id": "m74f48b7f",
+   "date": "2026-04-21",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "和AI助手聊日常：早上跑步完成，状态比想象中好",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e328612e8",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手",
+    "想象"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "早上",
+    "完成"
+   ]
+  },
+  {
+   "id": "m7fb3b9aa",
+   "date": "2026-04-22",
+   "topic": "饮食",
+   "action": "更改",
+   "detail": "咖啡喝完了，决定换成手冲，买了滤杯和磨豆机",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ec3c2dad1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "滤杯",
+    "磨豆"
+   ],
+   "facets": [
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "手冲"
+   ]
+  },
+  {
+   "id": "m7eb2353e",
+   "date": "2026-04-24",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球照旧",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e19ff0f85",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m4c90665f",
+   "date": "2026-04-25",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "和助手同步：跑步打卡，最后两公里提了点速",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec3d97d01",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mf80581ab",
+   "date": "2026-04-25",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：滤杯洗好收进柜子了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "eff0816f1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "滤杯",
+    "柜子"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mafdc0300",
+   "date": "2026-04-26",
+   "topic": "旅行",
+   "action": "记录",
+   "detail": "语音备忘：列了旅行装备清单，放在备忘录里",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb6a6aff0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "语音",
+    "装备",
+    "备忘录"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m6cd4878b",
+   "date": "2026-04-27",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "网购的书到了，睡前翻了几页",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e0911e3f7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "睡前"
+   ]
+  },
+  {
+   "id": "mc20ed8a4",
+   "date": "2026-04-28",
+   "topic": "生活",
+   "action": "完成",
+   "detail": "和助手同步：晨跑完成，回来做了组拉伸",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "efaba6fbd",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "m1f7f5c17",
+   "date": "2026-04-28",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：今天早起成功，白天精神不错",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e84fdf182",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "精神"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "maf355a58",
+   "date": "2026-04-29",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "聊天摘记：周三羽毛球，今天主要练步伐",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e8469021a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "聊天",
+    "摘记",
+    "步伐"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m48f1833c",
+   "date": "2026-04-30",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：把生活费按周做了预算",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e60bdaeb7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "生活费"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m03188fc2",
+   "date": "2026-05-01",
+   "topic": "旅行",
+   "action": "记录",
+   "detail": "五一去周边古镇逛了一天",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef079f1db",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "古镇"
+   ],
+   "facets": [
+    "地点"
+   ],
+   "semantic_values": []
+  },
+  {
+   "id": "m88151e50",
+   "date": "2026-05-01",
+   "topic": "旅行",
+   "action": "约定",
+   "detail": "2026年5月1日，和朋友约好国庆去西安玩，先mark一下，免得到时候忘了",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e22abb865",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "朋友",
+    "西安"
+   ],
+   "facets": [
+    "地点"
+   ],
+   "semantic_values": []
+  },
+  {
+   "id": "ma9fc7093",
+   "date": "2026-05-02",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "随手记：慢跑放松跑，跑完拉伸了十分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e94f39c92",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m816a14ba",
+   "date": "2026-05-05",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：慢跑放松跑，跑完拉伸了十分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e4787d6c0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "聊天",
+    "摘记"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m1a96ce05",
+   "date": "2026-05-05",
+   "topic": "饮食",
+   "action": "约定",
+   "detail": "今天和室友说好一起戒掉奶茶，为期一个月，互相监督",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e554040b8",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "奶茶",
+    "室友",
+    "互相监督"
+   ],
+   "facets": [
+    "数量"
+   ],
+   "semantic_values": [
+    "一个"
+   ]
+  },
+  {
+   "id": "med584b2c",
+   "date": "2026-05-06",
+   "topic": "课程",
+   "action": "更改",
+   "detail": "课程项目进展慢，考虑要不要换题",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ef9174bc7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "课程项目",
+    "换题"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4c446ddb",
+   "date": "2026-05-06",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "语音备忘：周三羽毛球，练了半小时高远球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6fe0ffbd",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "语音",
+    "高远球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m2e23167b",
+   "date": "2026-05-08",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，赢了两局",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e27e99c83",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m9f6404f5",
+   "date": "2026-05-09",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "和助手同步：今天跑步按计划完成，膝盖没有不适",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "efd86313f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手",
+    "按计划",
+    "膝盖"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "md4a96d2d",
+   "date": "2026-05-09",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：整理了相册，删了不少截图",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e71617e89",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "整理"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m6900b34b",
+   "date": "2026-05-10",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "手冲上手了，比速溶好喝太多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef2878da4",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡"
+   ],
+   "facets": [
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "手冲",
+    "速溶"
+   ]
+  },
+  {
+   "id": "ma70cc903",
+   "date": "2026-05-11",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "和AI助手聊日常：给读过的书写了两行短评",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec252aec0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "助手",
+    "书写"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m596cc22a",
+   "date": "2026-05-12",
+   "topic": "课程",
+   "action": "更改",
+   "detail": "课程项目正式改选选题B：课程表助手",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ed3221c4b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "课程项目"
+   ],
+   "facets": [
+    "风格"
+   ],
+   "semantic_values": [
+    "正式"
+   ]
+  },
+  {
+   "id": "m1868237d",
+   "date": "2026-05-13",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "和助手同步：周三羽毛球，和球友复盘了接发球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eff335d9f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "助手",
+    "球友",
+    "接发球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m912243dd",
+   "date": "2026-05-14",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "这周试着早睡，效果还行",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6608faf5",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠",
+    "效果"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m81503754",
+   "date": "2026-05-15",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "又熬夜了，周三羽毛球都差点迟到",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef6b2acff",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "睡眠",
+    "差点"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mf2877328",
+   "date": "2026-05-16",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "聊天摘记：今天跑了五公里，中途走了半分钟",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e75362efe",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记"
+   ],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "m59070e54",
+   "date": "2026-05-18",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "支教备课资料入库，教案模板一式两份，都做了脱敏处理",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e13f2e8e2",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "支教",
+    "资料",
+    "入库",
+    "教案",
+    "模板",
+    "一式两份",
+    "脱敏"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mf51bdd31",
+   "date": "2026-05-19",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "奶茶喝多了，有点罪恶",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6657aa44",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "奶茶",
+    "有点",
+    "罪恶"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m77723d61",
+   "date": "2026-05-20",
+   "topic": "健身",
+   "action": "放弃",
+   "detail": "健身卡到期，跑步计划正式放弃，先摆烂一段时间",
+   "importance": 0.9,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e4ea60394",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "健身卡"
+   ],
+   "facets": [
+    "时间",
+    "风格",
+    "状态"
+   ],
+   "semantic_values": [
+    "正式",
+    "放弃"
+   ]
+  },
+  {
+   "id": "mb81bee81",
+   "date": "2026-05-20",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "语音备忘：周三羽毛球照常，出了不少汗",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e4604e5b9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "语音"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mda5ad0ac",
+   "date": "2026-05-21",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "对话记录：晚上散步四十分钟，代替了刷手机",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef555dc50",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "散步"
+   ],
+   "facets": [
+    "时间",
+    "设备"
+   ],
+   "semantic_values": [
+    "晚上",
+    "手机"
+   ]
+  },
+  {
+   "id": "m976ccef3",
+   "date": "2026-05-24",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：午休二十分钟，下午效率高了很多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e8e9ab45b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "午休",
+    "效率高"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "下午"
+   ]
+  },
+  {
+   "id": "m1259501e",
+   "date": "2026-05-25",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "追的剧完结了，结局一般",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e45c0a74f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "结局"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m2bc1d101",
+   "date": "2026-05-26",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：磨豆机该清洁了，明天记得处理",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e0d8fd4e7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "聊天",
+    "摘记",
+    "豆机"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m9ea104f7",
+   "date": "2026-05-27",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "聊天摘记：周三羽毛球，状态一般但坚持去了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eaa641d34",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "聊天",
+    "摘记"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m82705bbf",
+   "date": "2026-05-28",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，天热出汗多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e37d673d3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "天热"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m494e54fc",
+   "date": "2026-05-29",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ebc1df6b4",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mf4352b10",
+   "date": "2026-06-02",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "周末补觉，作息总算规律了点",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e52ef94a0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "补觉",
+    "总算",
+    "规律"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周末"
+   ]
+  },
+  {
+   "id": "m926784eb",
+   "date": "2026-06-03",
+   "topic": "社交",
+   "action": "更改",
+   "detail": "和室友的大扫除约定改成本月我来做，他太忙",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e9f2f9ec7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "室友"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4fbc09db",
+   "date": "2026-06-03",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "随手记：周三羽毛球，和球友复盘了接发球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e1e4b16e9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "球友",
+    "接发球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "me9d3444d",
+   "date": "2026-06-05",
+   "topic": "饮食",
+   "action": "偏好",
+   "detail": "浅烘的豆子到了，发现更喜欢浅烘的风味",
+   "importance": 0.6,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e0d6a10ca",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡"
+   ],
+   "facets": [
+    "口味",
+    "烘焙"
+   ],
+   "semantic_values": [
+    "浅烘"
+   ]
+  },
+  {
+   "id": "m509dbbb1",
+   "date": "2026-06-06",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "和朋友聚餐吃了火锅",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e597c76fc",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "火锅",
+    "朋友",
+    "聚餐"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mfc1079a6",
+   "date": "2026-06-08",
+   "topic": "课程",
+   "action": "记录",
+   "detail": "课程表助手项目的需求文档存档了，作者信息已经脱敏",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e969ece0a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "课程项目",
+    "文档",
+    "作者",
+    "信息",
+    "脱敏"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m77ba87bc",
+   "date": "2026-06-09",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，借球友的拍子试了试",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eae10d26e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "球友",
+    "拍子"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mceb587a5",
+   "date": "2026-06-10",
+   "topic": "课程",
+   "action": "完成",
+   "detail": "课程项目B做完第一版demo",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e39d2fe79",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "课程项目",
+    "第一版"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mdc258095",
+   "date": "2026-06-10",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "随手记：周三羽毛球，练了半小时高远球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e0cc86a67",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "高远球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mfabc562b",
+   "date": "2026-06-11",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "对话记录：多喝了水，含糖饮料少了一半",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e0002aec5",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "含糖",
+    "饮料"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mf5cb630c",
+   "date": "2026-06-13",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "浅烘和深烘的区别查了查，长知识",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e94315ceb",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "区别"
+   ],
+   "facets": [
+    "烘焙"
+   ],
+   "semantic_values": [
+    "浅烘",
+    "深烘"
+   ]
+  },
+  {
+   "id": "m1615e917",
+   "date": "2026-06-14",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "语音备忘：下班路上的云特别好看",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e67df74b8",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "语音"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m77fd0f93",
+   "date": "2026-06-15",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "买了把新伞，梅雨天真多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e04c8e9c7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "梅雨",
+    "天真"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m1afcd896",
+   "date": "2026-06-16",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，球友教了握拍姿势",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e1a6ab40e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "球友",
+    "姿势"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mc551e704",
+   "date": "2026-06-17",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，认识了个研究生球友",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e31024773",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "研究生",
+    "球友"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m3569e89d",
+   "date": "2026-06-17",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "对话记录：周三羽毛球，今天主要练步伐",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e728e4799",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "对话",
+    "步伐"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m355d158e",
+   "date": "2026-06-18",
+   "topic": "饮食",
+   "action": "放弃",
+   "detail": "2026年6月18日，我放弃了戒奶茶的计划，又喝上了，不过跟自己说好一周两杯封顶",
+   "importance": 0.9,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e62defad3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "奶茶",
+    "封顶"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "放弃"
+   ]
+  },
+  {
+   "id": "md1ca9da0",
+   "date": "2026-06-19",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "四六级出分，过了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "ed3bd108f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "md64221a1",
+   "date": "2026-06-20",
+   "topic": "阅读",
+   "action": "更改",
+   "detail": "2026年6月20日，Kindle吃灰了，还是改回看纸质书，翻页有感觉",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e69e7836b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "纸质",
+    "翻页",
+    "感觉"
+   ],
+   "facets": [
+    "设备"
+   ],
+   "semantic_values": [
+    "Kindle",
+    "纸质书"
+   ]
+  },
+  {
+   "id": "m9c9ea4c0",
+   "date": "2026-06-21",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "对话记录：研究了一下新豆子的产地信息",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e9904db3f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "对话",
+    "研究",
+    "产地",
+    "信息"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m57743894",
+   "date": "2026-06-22",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：今天早起成功，白天精神不错",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "ef044a774",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "精神"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4a935ee4",
+   "date": "2026-06-24",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "又熬夜了，作息没救",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec1b3ff3d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mc4e05426",
+   "date": "2026-06-24",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "随手记：周三羽毛球，场地人不多打得很爽",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e4e60e4e1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m1679ced8",
+   "date": "2026-06-25",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球照常",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eebccaa4f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m325ad8a5",
+   "date": "2026-06-28",
+   "topic": "社交",
+   "action": "记录",
+   "detail": "语音备忘：和室友晚饭后散步聊了会儿天",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec53a504d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "语音",
+    "室友",
+    "晚饭",
+    "散步",
+    "会儿"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m51a24efe",
+   "date": "2026-06-29",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "梅雨天湿漉漉，注意防潮",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "ec7bf2a2e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "梅雨",
+    "防潮"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m9b1e331c",
+   "date": "2026-06-30",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：把这个月的支出分了类，心里有数了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e228dd750",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mb3d3cf6f",
+   "date": "2026-07-02",
+   "topic": "课程",
+   "action": "完成",
+   "detail": "期末周结束，课程表助手项目提交，拿了个不错的分数",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "eeb70c15d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "课程项目",
+    "分数"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "md9075ca5",
+   "date": "2026-07-04",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "放假回家，路上看了部电影",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "e314551d1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "回家",
+    "电影"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m14d79d32",
+   "date": "2026-07-06",
+   "topic": "课程",
+   "action": "记录",
+   "detail": "期末复习资料打包好了，三份提纲，来源是同学共享，已匿名",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb09082be",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "复习资料",
+    "来源",
+    "同学"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m0653b16d",
+   "date": "2026-07-08",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "暑假在家，手冲器具也寄回来了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e239e24b5",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "器具"
+   ],
+   "facets": [
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "手冲"
+   ]
+  },
+  {
+   "id": "m8697045a",
+   "date": "2026-07-08",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "聊天摘记：周三羽毛球，今天手感不错赢了一局",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e7f47bcdd",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "聊天",
+    "摘记",
+    "手感"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m30afcad0",
+   "date": "2026-07-09",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "手冲器具打包寄回家",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e340ebf9b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "器具",
+    "回家"
+   ],
+   "facets": [
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "手冲"
+   ]
+  },
+  {
+   "id": "m6bbb5398",
+   "date": "2026-07-11",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：今天天气不错，心情也好",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "discarded",
+   "evidence": "eaabbc564",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "心情"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "md38baf19",
+   "date": "2026-07-13",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "在家帮爸妈做饭，被夸了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef04046b2",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "爸妈"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m874ea629",
+   "date": "2026-07-15",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，家里这边的球馆人少",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6f0ea041",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "球馆"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m4c748615",
+   "date": "2026-07-15",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "语音备忘：周三羽毛球，打完和球友吃了顿宵夜",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e76ea3d20",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "语音",
+    "球友",
+    "宵夜"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m69646603",
+   "date": "2026-07-18",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，家里球馆空调足",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec9d86b91",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "空调",
+    "球馆"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m43cb8688",
+   "date": "2026-07-19",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "语音备忘：磨豆机该清洁了，明天记得处理",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ee8840c93",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "语音",
+    "豆机"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m6947eafe",
+   "date": "2026-07-20",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "对话记录：给读过的书写了两行短评",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ea52120ab",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "对话",
+    "书写"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m3066a5d0",
+   "date": "2026-07-20",
+   "topic": "旅行",
+   "action": "更改",
+   "detail": "今天看了攻略，把国庆行程改成了去泉州，感觉古城更对我的口味",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e47335004",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "行程",
+    "泉州",
+    "感觉",
+    "古城"
+   ],
+   "facets": [
+    "口味",
+    "地点"
+   ],
+   "semantic_values": []
+  },
+  {
+   "id": "mdc7259cb",
+   "date": "2026-07-22",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "熬夜看球，值了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ebcc4e6df",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mf7d1d3f2",
+   "date": "2026-07-22",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "和AI助手聊日常：周三羽毛球，练了半小时高远球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e9b5e4ca7",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "助手",
+    "高远球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m23f140a0",
+   "date": "2026-07-23",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "实习第一周，熟悉团队流程",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e1dbdb13e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "团队",
+    "流程"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m274a9951",
+   "date": "2026-07-25",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "聊天摘记：晚饭后走了走，消消食",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e15ec2577",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "晚饭",
+    "消食"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mde45252e",
+   "date": "2026-07-27",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "通勤路上听播客，打发时间",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6ccc8d06",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "通勤"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": []
+  },
+  {
+   "id": "mbfa3aa43",
+   "date": "2026-07-31",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "实习间隙刷完两本小说",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e82e0983d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "实习",
+    "间隙"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m001cd5e4",
+   "date": "2026-08-01",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "实习的第二周，工作量上来了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e742d2fb2",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "工作量"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mebf06261",
+   "date": "2026-08-04",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "天台看了场露天电影",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e5108cfa0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "天台",
+    "露天电影"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m47bdbece",
+   "date": "2026-08-05",
+   "topic": "生活",
+   "action": "开始",
+   "detail": "开始实习，每天通勤两小时",
+   "importance": 0.7,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ecbbe2985",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "通勤",
+    "小时"
+   ],
+   "facets": [
+    "频率",
+    "状态"
+   ],
+   "semantic_values": [
+    "每天",
+    "开始"
+   ]
+  },
+  {
+   "id": "m633f8176",
+   "date": "2026-08-05",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "和AI助手聊日常：周三羽毛球，状态一般但坚持去了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e2d004e45",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "助手"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m2d47f706",
+   "date": "2026-08-08",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "实习做的第一个模块上线",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e328ae5d4",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "模块",
+    "上线"
+   ],
+   "facets": [
+    "数量"
+   ],
+   "semantic_values": [
+    "一个"
+   ]
+  },
+  {
+   "id": "mafdb00bc",
+   "date": "2026-08-09",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：研究了当地的公共交通线路",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec83e5ff6",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手",
+    "研究",
+    "公共交通",
+    "线路"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mcf34f753",
+   "date": "2026-08-10",
+   "topic": "理财",
+   "action": "放弃",
+   "detail": "行情实在太差了，我停止了基金定投，先观望一阵再说",
+   "importance": 0.9,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e751047b6",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "定投",
+    "行情"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m71908889",
+   "date": "2026-08-12",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "晚上跟着视频健身半小时",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec60a0f10",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "视频"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "晚上"
+   ]
+  },
+  {
+   "id": "m3e1bc517",
+   "date": "2026-08-12",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "聊天摘记：周三羽毛球，场地人不多打得很爽",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb9766566",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "聊天",
+    "摘记"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m7446b56f",
+   "date": "2026-08-14",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "实习中期汇报通过了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ee7c6e88d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "汇报"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4565b544",
+   "date": "2026-08-15",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "语音备忘：整理了相册，删了不少截图",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e62229944",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "语音",
+    "整理"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m751a8ba7",
+   "date": "2026-08-16",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：磨豆机该清洁了，明天记得处理",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb48595b3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "助手",
+    "豆机"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m69196ad7",
+   "date": "2026-08-17",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "实习周末休整，逛了老街",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "edf22fa87",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "休整",
+    "老街"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周末"
+   ]
+  },
+  {
+   "id": "m75b13e70",
+   "date": "2026-08-18",
+   "topic": "生活",
+   "action": "完成",
+   "detail": "实习周报归档完成，公司名和人名都已经脱敏处理",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e6b68afca",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "周报",
+    "公司",
+    "人名",
+    "脱敏"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "m2dbd0c89",
+   "date": "2026-08-20",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ec7d4356b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m032d15c7",
+   "date": "2026-08-21",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，跟高中生打了对抗",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e30764461",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "高中生"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "maae7eedd",
+   "date": "2026-08-25",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "家里的咖啡机试了试，不错",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e980c9a54",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "咖啡机"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mc0acdb06",
+   "date": "2026-08-26",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "语音备忘：周三羽毛球，今天主要练步伐",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e2769abd2",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "语音",
+    "步伐"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m3e056de8",
+   "date": "2026-08-28",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：路上看到花开得不错，拍了张照",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ea7f40373",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "张照"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m1f72c535",
+   "date": "2026-08-29",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "实习收尾，写了阶段总结",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e6e986f42",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "实习",
+    "收尾",
+    "阶段"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m2115252f",
+   "date": "2026-08-31",
+   "topic": "理财",
+   "action": "记录",
+   "detail": "和AI助手聊日常：研究了学生优惠的存款产品",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef09d6d50",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手",
+    "研究",
+    "学生",
+    "优惠",
+    "存款",
+    "产品"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m82229815",
+   "date": "2026-09-01",
+   "topic": "健身",
+   "action": "开始",
+   "detail": "重新开始跑步计划，这次目标五公里",
+   "importance": 0.7,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e0010fc0d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [
+    "距离",
+    "状态"
+   ],
+   "semantic_values": [
+    "五公里",
+    "开始"
+   ]
+  },
+  {
+   "id": "m597e9030",
+   "date": "2026-09-02",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "买了支新羽毛球拍",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb1f3d799",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "羽毛球拍"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m3847912b",
+   "date": "2026-09-02",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "聊天摘记：周三羽毛球，打完和球友吃了顿宵夜",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e81c9fcd3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "聊天",
+    "摘记",
+    "球友",
+    "宵夜"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m43776cff",
+   "date": "2026-09-05",
+   "topic": "社交",
+   "action": "更改",
+   "detail": "和室友约定改成轮流大扫除，一人一周",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "eb5685cfe",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "大扫除",
+    "室友",
+    "轮流"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m495ebb73",
+   "date": "2026-09-06",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "2026年9月6日，新学期课表和教材清单都入库了，学生信息也做了脱敏处理，教材这块总算理清了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ec18ad54f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "新学期",
+    "课表",
+    "教材",
+    "入库",
+    "学生",
+    "信息",
+    "脱敏",
+    "总算"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m5f799681",
+   "date": "2026-09-07",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "开学第一周，课表有点满",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ea3d41d2c",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "开学",
+    "课表",
+    "有点"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "ma11d7565",
+   "date": "2026-09-08",
+   "topic": "健身",
+   "action": "完成",
+   "detail": "语音备忘：今天跑步按计划完成，膝盖没有不适",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e0fddc095",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "语音",
+    "按计划",
+    "膝盖"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "m9fb0b56b",
+   "date": "2026-09-08",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "对话记录：通勤路上听书代替了刷短视频",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb684d78f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "通勤",
+    "对话",
+    "视频"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m496c197d",
+   "date": "2026-09-10",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "又熬夜了，选课系统卡到十二点",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef2c9c6b1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠",
+    "系统"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "maae53383",
+   "date": "2026-09-10",
+   "topic": "健康",
+   "action": "记录",
+   "detail": "2026年9月10日，体检和体重秤都向好，体重比暑假轻了三斤，挺开心的",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e16bc47e3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "体重"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m8405f7ac",
+   "date": "2026-09-11",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，新拍子首秀",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e1e0744b5",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "拍子"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mbdaeefa4",
+   "date": "2026-09-12",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：社团例会讨论了下学期的安排",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e03b32408",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "社团",
+    "下学期"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m0e1103e3",
+   "date": "2026-09-13",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "聊天摘记：今天手冲了一杯，酸香味比上次明显",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eaffb190a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "聊天",
+    "摘记",
+    "香味"
+   ],
+   "facets": [
+    "口味",
+    "冲泡方式"
+   ],
+   "semantic_values": [
+    "酸",
+    "手冲"
+   ]
+  },
+  {
+   "id": "mce6dcb12",
+   "date": "2026-09-14",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：晚自习把下周的预习提纲列出来了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ec2e12da6",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "晚自习"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m607c8c40",
+   "date": "2026-09-15",
+   "topic": "生活",
+   "action": "完成",
+   "detail": "语音备忘：晨跑完成，回来做了组拉伸",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e6bb49145",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "语音"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "m2b9699b4",
+   "date": "2026-09-15",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：这周有三天做到了十二点前睡",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e4568e4db",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m461996f7",
+   "date": "2026-09-15",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "2026年9月15日，今年读完的书累计到第十二本了，还挺有成就感的",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e178ce346",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读"
+   ],
+   "facets": [
+    "数量"
+   ],
+   "semantic_values": [
+    "第十二本"
+   ]
+  },
+  {
+   "id": "mfe8a1aca",
+   "date": "2026-09-16",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "中午习惯在图书馆眯一会儿",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ed983c21d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "图书馆"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "中午"
+   ]
+  },
+  {
+   "id": "m88a88801",
+   "date": "2026-09-17",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，新学期第一次",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e0ac7bc5b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "新学期"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m3821d918",
+   "date": "2026-09-18",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "和AI助手聊日常：图书馆复习了两小时，效率还行",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e10e2b767",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "助手",
+    "图书馆",
+    "小时",
+    "效率"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m841f416a",
+   "date": "2026-09-19",
+   "topic": "社交",
+   "action": "记录",
+   "detail": "周末和室友点外卖边吃边聊",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e714cca64",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "室友"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周末"
+   ]
+  },
+  {
+   "id": "m9bbf1d29",
+   "date": "2026-09-19",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "聊天摘记：今天跑步五公里，配速和上次差不多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eff1c10fe",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "聊天",
+    "摘记"
+   ],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "m801d28cb",
+   "date": "2026-09-20",
+   "topic": "理财",
+   "action": "更改",
+   "detail": "想通了，今天恢复定投，改成每月300，跌了反而更能摊低成本",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e813fe85e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "定投"
+   ],
+   "facets": [
+    "频率"
+   ],
+   "semantic_values": [
+    "每月"
+   ]
+  },
+  {
+   "id": "m93128b09",
+   "date": "2026-09-21",
+   "topic": "课程",
+   "action": "记录",
+   "detail": "语音备忘：实验课的数据先存了备份，回宿舍再整理",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ebbb7c5a1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "语音",
+    "实验课",
+    "数据",
+    "先存",
+    "备份",
+    "宿舍",
+    "整理"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mf8fffcbf",
+   "date": "2026-09-22",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "和AI助手聊日常：今天跑步五公里，配速和上次差不多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e2fafb6ef",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "助手"
+   ],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "m1a8c356d",
+   "date": "2026-09-22",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "和AI助手聊日常：晚上散步四十分钟，代替了刷手机",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef07c88a3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手",
+    "散步"
+   ],
+   "facets": [
+    "时间",
+    "设备"
+   ],
+   "semantic_values": [
+    "晚上",
+    "手机"
+   ]
+  },
+  {
+   "id": "mc9e73692",
+   "date": "2026-09-23",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "跑步配速又快了十秒",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ef582f221",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mc2b8c103",
+   "date": "2026-09-23",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "和助手同步：周三羽毛球，今天手感不错赢了一局",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e1ac0a51b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "助手",
+    "手感"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "mfb316e71",
+   "date": "2026-09-24",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "跑步第二周，五公里能跑下来了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eb5908250",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "m0228ad20",
+   "date": "2026-09-25",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：晚自习把下周的预习提纲列出来了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e89cd5c50",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "晚自习"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m8a2ae234",
+   "date": "2026-09-26",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "随手记：跑步打卡，最后两公里提了点速",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "efff0dd95",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mddba4e0a",
+   "date": "2026-09-26",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：把桌面收拾了一遍，效率高了点",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e41588b1b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "桌面",
+    "效率高"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m54bfcd99",
+   "date": "2026-09-27",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，场地涨价了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e3381b4c1",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "涨价"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m6a8257fe",
+   "date": "2026-09-28",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "学校银杏黄了一半",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e2040938a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "学校",
+    "银杏"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m33a622c5",
+   "date": "2026-09-28",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "2026年9月28日，最近在读《活着》，进度已经过半，越看越入迷",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e628ca657",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "活着"
+   ],
+   "facets": [
+    "状态",
+    "类型"
+   ],
+   "semantic_values": [
+    "活着"
+   ]
+  },
+  {
+   "id": "md4bc6957",
+   "date": "2026-09-29",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "刷手机到一点，第二天后悔",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e17722d6d",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [],
+   "facets": [
+    "设备"
+   ],
+   "semantic_values": [
+    "手机"
+   ]
+  },
+  {
+   "id": "md9f19c0b",
+   "date": "2026-09-29",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "随手记：今天跑步五公里，配速和上次差不多",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "eba55d344",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步"
+   ],
+   "facets": [
+    "距离"
+   ],
+   "semantic_values": [
+    "五公里"
+   ]
+  },
+  {
+   "id": "mca2fc8d1",
+   "date": "2026-09-30",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：把这个月的支出分了类，心里有数了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e1f388e33",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m67fc28a2",
+   "date": "2026-09-30",
+   "topic": "阅读",
+   "action": "记录",
+   "detail": "对话记录：图书馆复习了两小时，效率还行",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e9865e53f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "阅读",
+    "对话",
+    "图书馆",
+    "小时",
+    "效率"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m57692180",
+   "date": "2026-10-01",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "对话记录：研究了当地的公共交通线路",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "eb6db76d0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "对话",
+    "研究",
+    "公共交通",
+    "线路"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m596242f4",
+   "date": "2026-10-02",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "国庆回家待了几天",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e1fd0ac7b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "回家"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m008d68bb",
+   "date": "2026-10-02",
+   "topic": "旅行",
+   "action": "完成",
+   "detail": "泉州之行终于完成了，开元寺和面线糊都体验了一遍，挺满足的",
+   "importance": 0.8,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e3fcea72e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "泉州",
+    "开元寺",
+    "面线",
+    "体验"
+   ],
+   "facets": [
+    "状态"
+   ],
+   "semantic_values": [
+    "完成"
+   ]
+  },
+  {
+   "id": "mf95689b4",
+   "date": "2026-10-04",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "假期追完一部剧，评分不高",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ed4357de0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "评分"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mc6b85bb9",
+   "date": "2026-10-06",
+   "topic": "生活",
+   "action": "放弃",
+   "detail": "2026年10月6日，整理十月待办，把散在三个便签上的事合并成一张清单，待办终于不再乱糟糟了",
+   "importance": 0.9,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e18371cf9",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "整理"
+   ],
+   "facets": [
+    "数量"
+   ],
+   "semantic_values": [
+    "三个"
+   ]
+  },
+  {
+   "id": "mfd9cac2a",
+   "date": "2026-10-07",
+   "topic": "课程",
+   "action": "记录",
+   "detail": "返程高铁上补实验报告",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e6cfc874b",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "高铁座位",
+    "返程",
+    "实验报告"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4a4537a0",
+   "date": "2026-10-08",
+   "topic": "饮食",
+   "action": "偏好",
+   "detail": "深烘豆子试了试，还是浅烘合口味",
+   "importance": 0.6,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "efe76e73a",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡"
+   ],
+   "facets": [
+    "口味",
+    "烘焙"
+   ],
+   "semantic_values": [
+    "深烘",
+    "浅烘"
+   ]
+  },
+  {
+   "id": "mf40662f1",
+   "date": "2026-10-09",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，打完吃了顿好的",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e39e4cd82",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m857c6717",
+   "date": "2026-10-10",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "降温了，翻出秋裤",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e4c9835a0",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "降温",
+    "秋裤"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m83cc968f",
+   "date": "2026-10-11",
+   "topic": "作息",
+   "action": "记录",
+   "detail": "又熬夜了，赶课程作业",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e25e8aafc",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "睡眠",
+    "作业"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m330a8073",
+   "date": "2026-10-12",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "咖啡存货见底，下单新豆子",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "ea17e2b04",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "存货",
+    "下单"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "mf5f7569d",
+   "date": "2026-10-13",
+   "topic": "健身",
+   "action": "记录",
+   "detail": "对话记录：跑步打卡，最后两公里提了点速",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e292173e3",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "跑步",
+    "对话"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m279882cc",
+   "date": "2026-10-13",
+   "topic": "饮食",
+   "action": "记录",
+   "detail": "聊天摘记：研究了一下新豆子的产地信息",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e045cad9e",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "咖啡",
+    "聊天",
+    "摘记",
+    "研究",
+    "产地",
+    "信息"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4f27349a",
+   "date": "2026-10-13",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：晚自习把下周的预习提纲列出来了",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "ebe85cedb",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手",
+    "晚自习"
+   ],
+   "facets": [],
+   "semantic_values": []
+  },
+  {
+   "id": "m4c8ffc61",
+   "date": "2026-10-14",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "周三羽毛球，最近状态不错",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e790f7296",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m034604db",
+   "date": "2026-10-14",
+   "topic": "运动",
+   "action": "记录",
+   "detail": "和AI助手聊日常：周三羽毛球，今天手感不错赢了一局",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "compressed",
+   "evidence": "e520576ee",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "羽毛球",
+    "助手",
+    "手感"
+   ],
+   "facets": [
+    "时间"
+   ],
+   "semantic_values": [
+    "周三"
+   ]
+  },
+  {
+   "id": "m8d3d7ec5",
+   "date": "2026-10-14",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "和AI助手聊日常：中午眯了一会儿，晚上状态在线",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e4b477248",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "助手"
+   ],
+   "facets": [
+    "状态",
+    "时间"
+   ],
+   "semantic_values": [
+    "中午",
+    "晚上"
+   ]
+  },
+  {
+   "id": "m3eb37c40",
+   "date": "2026-10-14",
+   "topic": "生活",
+   "action": "记录",
+   "detail": "聊天摘记：社团例会讨论了下学期的安排",
+   "importance": 0.4,
+   "frequency": 1,
+   "status": "active",
+   "evidence": "e12c44a3f",
+   "memory_type": "long_term",
+   "confidence": 1.0,
+   "parent_id": "",
+   "preference_key": "",
+   "entities": [
+    "聊天",
+    "摘记",
+    "社团",
+    "下学期"
+   ],
+   "facets": [],
+   "semantic_values": []
+  }
+ ],
+ "conflicts": [],
+ "conclusions": [
+  {
+   "id": "s运动",
+   "topic": "运动",
+   "text": "长期反复出现：运动相关的记录有 47 条（周三羽毛球，最近状态不错；和AI助手聊日常：周三羽毛球，今天手感不错赢了一局）",
+   "support": [
+    "m29bc2d63",
+    "m29001541",
+    "mc5e68a5d",
+    "md20dc936",
+    "mb20f6fde",
+    "m982a6f03",
+    "m0ed6388d",
+    "m5a0906a1",
+    "m41ce93e1",
+    "mb6508cbc",
+    "m7eb2353e",
+    "maf355a58",
+    "m4c446ddb",
+    "m2e23167b",
+    "m1868237d",
+    "m81503754",
+    "mb81bee81",
+    "m9ea104f7",
+    "m82705bbf",
+    "m494e54fc",
+    "m4fbc09db",
+    "m77ba87bc",
+    "mdc258095",
+    "m1afcd896",
+    "mc551e704",
+    "m3569e89d",
+    "mc4e05426",
+    "m1679ced8",
+    "m8697045a",
+    "m874ea629",
+    "m4c748615",
+    "m69646603",
+    "mf7d1d3f2",
+    "m633f8176",
+    "m3e1bc517",
+    "m2dbd0c89",
+    "m032d15c7",
+    "mc0acdb06",
+    "m597e9030",
+    "m3847912b",
+    "m8405f7ac",
+    "m88a88801",
+    "mc2b8c103",
+    "m54bfcd99",
+    "mf40662f1",
+    "m4c8ffc61",
+    "m034604db"
+   ],
+   "updated": "2026-10-14"
+  },
+  {
+   "id": "s健身",
+   "topic": "健身",
+   "text": "健身主题演变：03-05 今天下决心开始跑步计划，每周三次，先从三公里起步；04-20 跑步有点腻了，改成隔天跑；05-20 健身卡到期，跑步计划正式放弃，先摆烂一段时间；09-01 重新开始跑步计划，这次目标五公里。近期：语音备忘：今天跑步按计划完成，膝盖没有不适",
+   "support": [
+    "me70cba47",
+    "mb6b37f30",
+    "m26cd3640",
+    "m29b90aba",
+    "m1cd5b5ca",
+    "m384b7096",
+    "mecaf3760",
+    "m0f8c8edf",
+    "m5a997c30",
+    "ma7c037a3",
+    "m6909a885",
+    "m74f48b7f",
+    "m4c90665f",
+    "m9f6404f5",
+    "mf2877328",
+    "m77723d61",
+    "m71908889",
+    "m82229815",
+    "ma11d7565",
+    "m9bbf1d29",
+    "mf8fffcbf",
+    "mc9e73692",
+    "mfb316e71",
+    "m8a2ae234",
+    "md9f19c0b",
+    "mf5f7569d"
+   ],
+   "updated": "2026-10-13"
+  },
+  {
+   "id": "s阅读",
+   "topic": "阅读",
+   "text": "阅读主题演变：03-10 2026年3月10日，今天开始读《三体》第一部，拿的是纸质书，感觉挺有仪式感的；04-15 2026年4月15日，为了通勤路上方便，我改成用Kindle看书了，轻便多了；06-20 2026年6月20日，Kindle吃灰了，还是改回看纸质书，翻页有感觉。近期：对话记录：图书馆复习了两小时，效率还行",
+   "support": [
+    "m93d5d12e",
+    "m4727f408",
+    "mab0a69e3",
+    "mf989cd19",
+    "m92d225ee",
+    "m6dfc7be6",
+    "m3a334e1e",
+    "m6cd4878b",
+    "ma70cc903",
+    "md64221a1",
+    "m6947eafe",
+    "mbfa3aa43",
+    "m9fb0b56b",
+    "m461996f7",
+    "mfe8a1aca",
+    "m3821d918",
+    "m33a622c5",
+    "m67fc28a2"
+   ],
+   "updated": "2026-09-30"
+  },
+  {
+   "id": "s社交",
+   "topic": "社交",
+   "text": "社交主题演变：03-10 和室友约定，每周末一起大扫除；06-03 和室友的大扫除约定改成本月我来做，他太忙；09-05 和室友约定改成轮流大扫除，一人一周。近期：周末和室友点外卖边吃边聊",
+   "support": [
+    "m50428d8d",
+    "mc28f65ed",
+    "mf9be9a62",
+    "m926784eb",
+    "m325ad8a5",
+    "m43776cff",
+    "m841f416a"
+   ],
+   "updated": "2026-09-19"
+  },
+  {
+   "id": "s饮食",
+   "topic": "饮食",
+   "text": "饮食主题演变：04-22 咖啡喝完了，决定换成手冲，买了滤杯和磨豆机；05-05 今天和室友说好一起戒掉奶茶，为期一个月，互相监督；06-18 2026年6月18日，我放弃了戒奶茶的计划，又喝上了，不过跟自己说好一周两杯封顶。近期：深烘豆子试了试，还是浅烘合口味",
+   "support": [
+    "ma58c3c0d",
+    "mecf2075a",
+    "ma493f057",
+    "m77bc389f",
+    "m31393662",
+    "m124c1447",
+    "m0b7f5677",
+    "m7fb3b9aa",
+    "m1a96ce05",
+    "m6900b34b",
+    "mf51bdd31",
+    "me9d3444d",
+    "m509dbbb1",
+    "mfabc562b",
+    "mf5cb630c",
+    "m355d158e",
+    "m9c9ea4c0",
+    "m0653b16d",
+    "m30afcad0",
+    "md38baf19",
+    "m274a9951",
+    "maae7eedd",
+    "m0e1103e3",
+    "m4a4537a0",
+    "m330a8073",
+    "m279882cc"
+   ],
+   "updated": "2026-10-13"
+  },
+  {
+   "id": "s作息",
+   "topic": "作息",
+   "text": "长期反复出现：作息相关的记录有 11 条（刷手机到一点，第二天后悔；又熬夜了，赶课程作业）",
+   "support": [
+    "m7f560202",
+    "mfbbfcc54",
+    "m912243dd",
+    "mda5ad0ac",
+    "mf4352b10",
+    "m4a935ee4",
+    "mdc7259cb",
+    "m496c197d",
+    "m1a8c356d",
+    "md4bc6957",
+    "m83cc968f"
+   ],
+   "updated": "2026-10-11"
+  },
+  {
+   "id": "s生活",
+   "topic": "生活",
+   "text": "生活主题演变：08-05 开始实习，每天通勤两小时；10-06 2026年10月6日，整理十月待办，把散在三个便签上的事合并成一张清单，待办终于不再乱糟糟了。近期：语音备忘：晨跑完成，回来做了组拉伸",
+   "support": [
+    "m2a463514",
+    "mbb39a91a",
+    "mc57da305",
+    "mbae918d7",
+    "ma69d42cf",
+    "m895cb86f",
+    "mc1655a38",
+    "m25215cd4",
+    "m09ff00cd",
+    "mf9257ab8",
+    "m154d6306",
+    "m07744e31",
+    "mf80581ab",
+    "mc20ed8a4",
+    "m1f7f5c17",
+    "m48f1833c",
+    "ma9fc7093",
+    "m816a14ba",
+    "md4a96d2d",
+    "m59070e54",
+    "m976ccef3",
+    "m1259501e",
+    "m2bc1d101",
+    "m1615e917",
+    "m77fd0f93",
+    "md1ca9da0",
+    "m57743894",
+    "m51a24efe",
+    "m9b1e331c",
+    "md9075ca5",
+    "m6bbb5398",
+    "m43cb8688",
+    "m23f140a0",
+    "mde45252e",
+    "m001cd5e4",
+    "mebf06261",
+    "m47bdbece",
+    "m2d47f706",
+    "mafdb00bc",
+    "m7446b56f",
+    "m4565b544",
+    "m751a8ba7",
+    "m69196ad7",
+    "m75b13e70",
+    "m3e056de8",
+    "m1f72c535",
+    "m495ebb73",
+    "m5f799681",
+    "mbdaeefa4",
+    "mce6dcb12",
+    "m607c8c40",
+    "m2b9699b4",
+    "m0228ad20",
+    "mddba4e0a",
+    "m6a8257fe",
+    "mca2fc8d1",
+    "m57692180",
+    "m596242f4",
+    "mf95689b4",
+    "mc6b85bb9",
+    "m857c6717",
+    "m4f27349a",
+    "m8d3d7ec5",
+    "m3eb37c40"
+   ],
+   "updated": "2026-10-14"
+  },
+  {
+   "id": "s理财",
+   "topic": "理财",
+   "text": "理财主题演变：04-01 今天开始基金定投，每月500，发薪日自动扣款，先坚持看看；08-10 行情实在太差了，我停止了基金定投，先观望一阵再说；09-20 想通了，今天恢复定投，改成每月300，跌了反而更能摊低成本。近期：想通了，今天恢复定投，改成每月300，跌了反而更能摊低成本",
+   "support": [
+    "mfc707300",
+    "mcf34f753",
+    "m2115252f",
+    "m801d28cb"
+   ],
+   "updated": "2026-09-20"
+  },
+  {
+   "id": "s课程",
+   "topic": "课程",
+   "text": "课程主题演变：04-02 数据结构课程项目定了选题A：校园导航；05-06 课程项目进展慢，考虑要不要换题；05-12 课程项目正式改选选题B：课程表助手。近期：期末周结束，课程表助手项目提交，拿了个不错的分数",
+   "support": [
+    "m055aa3ad",
+    "m0bd6ddf5",
+    "med584b2c",
+    "m596cc22a",
+    "mfc1079a6",
+    "mceb587a5",
+    "mb3d3cf6f",
+    "m14d79d32",
+    "m93128b09",
+    "mfd9cac2a"
+   ],
+   "updated": "2026-10-07"
+  },
+  {
+   "id": "s旅行",
+   "topic": "旅行",
+   "text": "旅行主题演变：05-01 2026年5月1日，和朋友约好国庆去西安玩，先mark一下，免得到时候忘了；07-20 今天看了攻略，把国庆行程改成了去泉州，感觉古城更对我的口味。近期：泉州之行终于完成了，开元寺和面线糊都体验了一遍，挺满足的",
+   "support": [
+    "mafdc0300",
+    "m03188fc2",
+    "m88151e50",
+    "m3066a5d0",
+    "m008d68bb"
+   ],
+   "updated": "2026-10-02"
+  }
+ ],
+ "decisions": [
+  {
+   "memory_id": "m2a463514",
+   "date": "2026-03-17",
+   "topic": "生活",
+   "detail": "和AI助手聊日常：慢跑放松跑，跑完拉伸了十分钟",
+   "score": 0.207,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "mbb39a91a",
+   "date": "2026-03-21",
+   "topic": "生活",
+   "detail": "看完一部纪录片，挺震撼",
+   "score": 0.21,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "mbae918d7",
+   "date": "2026-03-22",
+   "topic": "生活",
+   "detail": "今天整理了《数据结构》第3章笔记，是成同学的课堂笔记，姓名学号都已脱敏处理",
+   "score": 0.21,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "ma69d42cf",
+   "date": "2026-03-24",
+   "topic": "生活",
+   "detail": "聊天摘记：中午眯了一会儿，晚上状态在线",
+   "score": 0.211,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "mc1655a38",
+   "date": "2026-03-30",
+   "topic": "生活",
+   "detail": "对话记录：把桌面收拾了一遍，效率高了点",
+   "score": 0.215,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m25215cd4",
+   "date": "2026-03-31",
+   "topic": "生活",
+   "detail": "春天了，操场花开得不错",
+   "score": 0.215,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m09ff00cd",
+   "date": "2026-04-05",
+   "topic": "生活",
+   "detail": "和AI助手聊日常：整理了相册，删了不少截图",
+   "score": 0.219,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "mf9257ab8",
+   "date": "2026-04-15",
+   "topic": "生活",
+   "detail": "和AI助手聊日常：帮同学带了东西，顺路的事",
+   "score": 0.225,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m154d6306",
+   "date": "2026-04-16",
+   "topic": "生活",
+   "detail": "期中考了两门，感觉还行",
+   "score": 0.226,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m07744e31",
+   "date": "2026-04-21",
+   "topic": "生活",
+   "detail": "充电宝坏了，重新买了一个",
+   "score": 0.23,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "mf80581ab",
+   "date": "2026-04-25",
+   "topic": "生活",
+   "detail": "聊天摘记：滤杯洗好收进柜子了",
+   "score": 0.233,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m1f7f5c17",
+   "date": "2026-04-28",
+   "topic": "生活",
+   "detail": "聊天摘记：今天早起成功，白天精神不错",
+   "score": 0.236,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m48f1833c",
+   "date": "2026-04-30",
+   "topic": "生活",
+   "detail": "对话记录：把生活费按周做了预算",
+   "score": 0.237,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "ma9fc7093",
+   "date": "2026-05-02",
+   "topic": "生活",
+   "detail": "随手记：慢跑放松跑，跑完拉伸了十分钟",
+   "score": 0.239,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m816a14ba",
+   "date": "2026-05-05",
+   "topic": "生活",
+   "detail": "聊天摘记：慢跑放松跑，跑完拉伸了十分钟",
+   "score": 0.242,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "md4a96d2d",
+   "date": "2026-05-09",
+   "topic": "生活",
+   "detail": "对话记录：整理了相册，删了不少截图",
+   "score": 0.245,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m59070e54",
+   "date": "2026-05-18",
+   "topic": "生活",
+   "detail": "支教备课资料入库，教案模板一式两份，都做了脱敏处理",
+   "score": 0.254,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m976ccef3",
+   "date": "2026-05-24",
+   "topic": "生活",
+   "detail": "聊天摘记：午休二十分钟，下午效率高了很多",
+   "score": 0.261,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m1259501e",
+   "date": "2026-05-25",
+   "topic": "生活",
+   "detail": "追的剧完结了，结局一般",
+   "score": 0.262,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m2bc1d101",
+   "date": "2026-05-26",
+   "topic": "生活",
+   "detail": "聊天摘记：磨豆机该清洁了，明天记得处理",
+   "score": 0.263,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m1615e917",
+   "date": "2026-06-14",
+   "topic": "生活",
+   "detail": "语音备忘：下班路上的云特别好看",
+   "score": 0.287,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m77fd0f93",
+   "date": "2026-06-15",
+   "topic": "生活",
+   "detail": "买了把新伞，梅雨天真多",
+   "score": 0.289,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "md1ca9da0",
+   "date": "2026-06-19",
+   "topic": "生活",
+   "detail": "四六级出分，过了",
+   "score": 0.295,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m57743894",
+   "date": "2026-06-22",
+   "topic": "生活",
+   "detail": "对话记录：今天早起成功，白天精神不错",
+   "score": 0.299,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m51a24efe",
+   "date": "2026-06-29",
+   "topic": "生活",
+   "detail": "梅雨天湿漉漉，注意防潮",
+   "score": 0.311,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m9b1e331c",
+   "date": "2026-06-30",
+   "topic": "生活",
+   "detail": "和AI助手聊日常：把这个月的支出分了类，心里有数了",
+   "score": 0.312,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "md9075ca5",
+   "date": "2026-07-04",
+   "topic": "生活",
+   "detail": "放假回家，路上看了部电影",
+   "score": 0.319,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m6bbb5398",
+   "date": "2026-07-11",
+   "topic": "生活",
+   "detail": "聊天摘记：今天天气不错，心情也好",
+   "score": 0.332,
+   "decision": "discard"
+  },
+  {
+   "memory_id": "m43cb8688",
+   "date": "2026-07-19",
+   "topic": "生活",
+   "detail": "语音备忘：磨豆机该清洁了，明天记得处理",
+   "score": 0.348,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m23f140a0",
+   "date": "2026-07-23",
+   "topic": "生活",
+   "detail": "实习第一周，熟悉团队流程",
+   "score": 0.357,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "mde45252e",
+   "date": "2026-07-27",
+   "topic": "生活",
+   "detail": "通勤路上听播客，打发时间",
+   "score": 0.366,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m001cd5e4",
+   "date": "2026-08-01",
+   "topic": "生活",
+   "detail": "实习的第二周，工作量上来了",
+   "score": 0.377,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "mebf06261",
+   "date": "2026-08-04",
+   "topic": "生活",
+   "detail": "天台看了场露天电影",
+   "score": 0.385,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m2d47f706",
+   "date": "2026-08-08",
+   "topic": "生活",
+   "detail": "实习做的第一个模块上线",
+   "score": 0.395,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "mafdb00bc",
+   "date": "2026-08-09",
+   "topic": "生活",
+   "detail": "和AI助手聊日常：研究了当地的公共交通线路",
+   "score": 0.397,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m7446b56f",
+   "date": "2026-08-14",
+   "topic": "生活",
+   "detail": "实习中期汇报通过了",
+   "score": 0.411,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m4565b544",
+   "date": "2026-08-15",
+   "topic": "生活",
+   "detail": "语音备忘：整理了相册，删了不少截图",
+   "score": 0.414,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m751a8ba7",
+   "date": "2026-08-16",
+   "topic": "生活",
+   "detail": "和AI助手聊日常：磨豆机该清洁了，明天记得处理",
+   "score": 0.417,
+   "decision": "compress"
+  },
+  {
+   "memory_id": "m69196ad7",
+   "date": "2026-08-17",
+   "topic": "生活",
+   "detail": "实习周末休整，逛了老街",
+   "score": 0.42,
+   "decision": "compress"
+  }
+ ]
+}

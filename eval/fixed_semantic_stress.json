@@ -1,0 +1,1093 @@
+[
+  {
+    "id": "b01q001",
+    "query": "我吃辣能接受到什么程度？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f01"
+    ],
+    "forbidden_fact_ids": [
+      "f35",
+      "f36"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问吃辣上限，需引用个人饮食事实，避免混入不吃香菜或奶茶偏好。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q002",
+    "query": "咖啡方面我有什么固定偏好？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f02"
+    ],
+    "forbidden_fact_ids": [
+      "f03",
+      "f36"
+    ],
+    "difficulty": "easy",
+    "reason": "询问咖啡偏好，需区分乌龙茶泡法和奶茶选择。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q003",
+    "query": "泡乌龙茶时水温大概多少合适？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f03"
+    ],
+    "forbidden_fact_ids": [
+      "f02"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问乌龙茶水温，避免与咖啡偏好混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q004",
+    "query": "我夜跑一般安排在哪些晚上？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f04"
+    ],
+    "forbidden_fact_ids": [
+      "f05",
+      "f32"
+    ],
+    "difficulty": "easy",
+    "reason": "询问夜跑日期，需与游泳和大扫除时间区分。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q005",
+    "query": "周日我通常有什么运动安排？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f05"
+    ],
+    "forbidden_fact_ids": [
+      "f04",
+      "f32"
+    ],
+    "difficulty": "medium",
+    "reason": "周日运动指向游泳，容易与周日夜跑或大扫除混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q006",
+    "query": "工作日我的作息大概是几点睡几点起？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f06"
+    ],
+    "forbidden_fact_ids": [
+      "f31",
+      "f30"
+    ],
+    "difficulty": "easy",
+    "reason": "询问工作日睡眠起床时间，避免混入空调设置或喂猫时间。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q007",
+    "query": "睡前我一般用什么看什么类型的书？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f07"
+    ],
+    "forbidden_fact_ids": [
+      "f27",
+      "f28"
+    ],
+    "difficulty": "easy",
+    "reason": "询问睡前阅读设备与类型，需与学习音乐和日语复习区分。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q008",
+    "query": "我的课程项目最后定的是什么题目？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f09"
+    ],
+    "forbidden_fact_ids": [
+      "f08",
+      "f10"
+    ],
+    "difficulty": "medium",
+    "reason": "询问项目最终方向，需用当前事实而非最初选题，避免混入论文方向。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q009",
+    "query": "课程项目一开始选的方向是什么？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f08"
+    ],
+    "forbidden_fact_ids": [
+      "f09",
+      "f10"
+    ],
+    "difficulty": "medium",
+    "reason": "询问项目最初选题，需引用被取代事实，避免与后来方向混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q010",
+    "query": "我的论文研究的是什么方向？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f10"
+    ],
+    "forbidden_fact_ids": [
+      "f09"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问论文方向，避免与课程项目混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q011",
+    "query": "坐高铁和坐飞机时我对座位偏好有什么不同？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f11",
+      "f12"
+    ],
+    "forbidden_fact_ids": [
+      "f14"
+    ],
+    "difficulty": "medium",
+    "reason": "同时询问两种交通座位偏好，需引用两条事实并避免混入车身颜色。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q012",
+    "query": "如果买车，我倾向什么颜色？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f14"
+    ],
+    "forbidden_fact_ids": [
+      "f13",
+      "f15"
+    ],
+    "difficulty": "medium",
+    "reason": "询问汽车颜色偏好，容易与喜欢的蓝色或衣服风格混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q013",
+    "query": "买衣服时我偏好什么风格？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f15"
+    ],
+    "forbidden_fact_ids": [
+      "f13",
+      "f14"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问服装风格，避免混入颜色偏好。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q014",
+    "query": "我的机械键盘现在用的是什么轴？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f17"
+    ],
+    "forbidden_fact_ids": [
+      "f16"
+    ],
+    "difficulty": "medium",
+    "reason": "询问键盘当前轴体，需用已更新事实而非原来的青轴。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q015",
+    "query": "机械键盘以前是什么轴，后来换成了什么？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f16",
+      "f17"
+    ],
+    "forbidden_fact_ids": [
+      "f18"
+    ],
+    "difficulty": "hard",
+    "reason": "询问历史变化，需同时引用旧事实和新事实，避免混入钢笔偏好。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q016",
+    "query": "我写钢笔习惯用什么笔尖和墨水？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f18"
+    ],
+    "forbidden_fact_ids": [
+      "f17",
+      "f19"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问钢笔配置，避免与键盘轴体或胶片感光度混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q017",
+    "query": "拍街景胶片时我常用多少感光度？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f19"
+    ],
+    "forbidden_fact_ids": [
+      "f20",
+      "f18"
+    ],
+    "difficulty": "easy",
+    "reason": "询问胶片ISO，避免混入观星目镜或钢笔墨水。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q018",
+    "query": "观星时我先用哪个目镜找目标？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f20"
+    ],
+    "forbidden_fact_ids": [
+      "f19"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问观星目镜，避免与摄影感光度混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q019",
+    "query": "鱼缸换水的频率和量是怎样的？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f21"
+    ],
+    "forbidden_fact_ids": [
+      "f22",
+      "f32"
+    ],
+    "difficulty": "easy",
+    "reason": "询问鱼缸维护，避免与蝴蝶兰浇水或大扫除混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q020",
+    "query": "蝴蝶兰大概多久浇一次水？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f22"
+    ],
+    "forbidden_fact_ids": [
+      "f21",
+      "f23"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问蝴蝶兰浇水频率，避免与鱼缸或酵种混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q021",
+    "query": "我的酸面包酵种按什么比例喂养？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f23"
+    ],
+    "forbidden_fact_ids": [
+      "f22"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问酵种比例，避免与植物浇水混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q022",
+    "query": "我对什么药物过敏？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f24"
+    ],
+    "forbidden_fact_ids": [
+      "f25"
+    ],
+    "difficulty": "easy",
+    "reason": "询问过敏药物，避免与牙医预约混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q023",
+    "query": "牙医复诊是什么时候？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f25"
+    ],
+    "forbidden_fact_ids": [
+      "f24",
+      "f34"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问牙医预约时间，避免与过敏或组会时间混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q024",
+    "query": "我每月定投指数基金的时间和金额是多少？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f26"
+    ],
+    "forbidden_fact_ids": [
+      "f25"
+    ],
+    "difficulty": "easy",
+    "reason": "询问定投安排，避免与牙医日期混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q025",
+    "query": "学习时我常听什么音乐？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f27"
+    ],
+    "forbidden_fact_ids": [
+      "f28",
+      "f07"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问学习音乐，避免与日语复习或睡前阅读混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q026",
+    "query": "我每天用什么工具复习日语？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f28"
+    ],
+    "forbidden_fact_ids": [
+      "f27",
+      "f07"
+    ],
+    "difficulty": "easy",
+    "reason": "询问日语复习工具，避免与学习音乐或阅读设备混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q027",
+    "query": "下雨天通勤我一般怎么走？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f29"
+    ],
+    "forbidden_fact_ids": [
+      "f04",
+      "f05"
+    ],
+    "difficulty": "medium",
+    "reason": "询问雨天通勤方式，需与运动安排区分。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q028",
+    "query": "猫咪豆包每天几点喂？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f30"
+    ],
+    "forbidden_fact_ids": [
+      "f06",
+      "f31"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问喂猫时间，避免与作息或空调设置混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q029",
+    "query": "组会现在安排在周几晚上？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f34"
+    ],
+    "forbidden_fact_ids": [
+      "f33"
+    ],
+    "difficulty": "medium",
+    "reason": "询问组会当前时间，需用已更新事实而非原来的周三。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b01q030",
+    "query": "我喝奶茶一般怎么选？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f36"
+    ],
+    "forbidden_fact_ids": [
+      "f02",
+      "f03"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问奶茶偏好，避免与咖啡或乌龙茶混淆。",
+    "category": "日常直接与自然改写"
+  },
+  {
+    "id": "b02q001",
+    "query": "我是不是一点辣都碰不了？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f01"
+    ],
+    "forbidden_fact_ids": [
+      "f35"
+    ],
+    "difficulty": "medium",
+    "reason": "反问式否定容易误判为完全不能吃辣，实际是能接受微辣；需与不吃香菜区分。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q002",
+    "query": "咖啡我喝不喝加糖的？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f02"
+    ],
+    "forbidden_fact_ids": [
+      "f36"
+    ],
+    "difficulty": "easy",
+    "reason": "否定问句询问咖啡是否加糖，事实为不加糖；奶茶无糖是易混项。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q003",
+    "query": "乌龙茶是不是得用沸水冲？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f03"
+    ],
+    "forbidden_fact_ids": [
+      "f02"
+    ],
+    "difficulty": "medium",
+    "reason": "反问中带错误预设，实际习惯九十度左右而非沸水。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q004",
+    "query": "我夜跑不是天天跑吧？都哪几天？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f04"
+    ],
+    "forbidden_fact_ids": [
+      "f05"
+    ],
+    "difficulty": "easy",
+    "reason": "否定加省略问法，需答出周二、周四、周六；周日游泳易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q005",
+    "query": "周日我是不是就宅着不动？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f05"
+    ],
+    "forbidden_fact_ids": [
+      "f32"
+    ],
+    "difficulty": "medium",
+    "reason": "反问否定预设，周日有游泳安排；周日下午大扫除是另一项易混事实。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q006",
+    "query": "工作日我睡得不算晚吧？几点起？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f06"
+    ],
+    "forbidden_fact_ids": [
+      "f30"
+    ],
+    "difficulty": "medium",
+    "reason": "口语省略问作息，需答十一点半睡七点起；早上七点喂猫易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q007",
+    "query": "睡前我不是刷手机看剧吧？那看什么？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f07"
+    ],
+    "forbidden_fact_ids": [
+      "f27"
+    ],
+    "difficulty": "medium",
+    "reason": "否定反问排除刷手机，实际用Kindle读科幻；学习听巴赫易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q008",
+    "query": "课程项目最后没选校园导航吧？那定的是什么？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f09"
+    ],
+    "forbidden_fact_ids": [
+      "f08"
+    ],
+    "difficulty": "medium",
+    "reason": "否定问句需区分最初与最终，最终是长期记忆智能体。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q009",
+    "query": "课程项目一开始就是长期记忆智能体吗？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f08"
+    ],
+    "forbidden_fact_ids": [
+      "f09"
+    ],
+    "difficulty": "medium",
+    "reason": "反问带错误预设，最初是校园导航而非长期记忆智能体。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q010",
+    "query": "我论文不是做检索增强生成吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f10"
+    ],
+    "forbidden_fact_ids": [
+      "f09"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问，实际论文方向就是检索增强生成；课程项目易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q011",
+    "query": "高铁和飞机我座位偏好一样吗？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f11",
+      "f12"
+    ],
+    "forbidden_fact_ids": [
+      "f14"
+    ],
+    "difficulty": "medium",
+    "reason": "比较问法需引用两条事实，高铁靠窗、飞机靠过道；车身颜色易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q012",
+    "query": "买车的话我不喜欢黑色吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f14"
+    ],
+    "forbidden_fact_ids": [
+      "f13"
+    ],
+    "difficulty": "medium",
+    "reason": "否定反问带错误预设，买车偏向黑色；一直喜欢蓝色易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q013",
+    "query": "我买衣服是不是偏爱花哨一点的？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f15"
+    ],
+    "forbidden_fact_ids": [
+      "f13"
+    ],
+    "difficulty": "easy",
+    "reason": "反问带错误预设，实际偏好简约休闲；蓝色偏好易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q014",
+    "query": "键盘现在还是青轴吗？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f17"
+    ],
+    "forbidden_fact_ids": [
+      "f16"
+    ],
+    "difficulty": "medium",
+    "reason": "否定式确认现状，已换成静音红轴；青轴是旧状态。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q015",
+    "query": "键盘以前不是静音红轴吧？原来是什么轴？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f16"
+    ],
+    "forbidden_fact_ids": [
+      "f17"
+    ],
+    "difficulty": "medium",
+    "reason": "否定反问询问历史状态，原来是青轴；静音红轴是现状。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q016",
+    "query": "钢笔我不用EF尖吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f18"
+    ],
+    "forbidden_fact_ids": [
+      "f19"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问，实际喜欢EF尖；胶片ISO易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q017",
+    "query": "拍街景胶片不是用ISO 100吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f19"
+    ],
+    "forbidden_fact_ids": [
+      "f18"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问带错误预设，实际用ISO 400；钢笔易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q018",
+    "query": "观星找目标时我不用二十五毫米目镜吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f20"
+    ],
+    "forbidden_fact_ids": [
+      "f19"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问，实际常用二十五毫米目镜；胶片感光度易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q019",
+    "query": "鱼缸不是每天换水吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f21"
+    ],
+    "forbidden_fact_ids": [
+      "f22"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问排除每天，实际每周六换三分之一；蝴蝶兰浇水易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q020",
+    "query": "蝴蝶兰是不是得天天浇水？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f22"
+    ],
+    "forbidden_fact_ids": [
+      "f21"
+    ],
+    "difficulty": "easy",
+    "reason": "反问带错误预设，实际约十天一次；鱼缸换水易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q021",
+    "query": "酵种不是按一比一比一喂吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f23"
+    ],
+    "forbidden_fact_ids": [
+      "f22"
+    ],
+    "difficulty": "medium",
+    "reason": "否定反问带错误比例，实际一比二比二；浇水频率易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q022",
+    "query": "我没什么药物过敏吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f24"
+    ],
+    "forbidden_fact_ids": [
+      "f35"
+    ],
+    "difficulty": "medium",
+    "reason": "否定反问带错误预设，实际对青霉素过敏；不吃香菜易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q023",
+    "query": "牙医复诊不是上午吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f25"
+    ],
+    "forbidden_fact_ids": [
+      "f26"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问确认时间，实际下午三点；定投日期易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q024",
+    "query": "定投不是每月一号吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f26"
+    ],
+    "forbidden_fact_ids": [
+      "f25"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问带错误日期，实际每月十五号；牙医复诊易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q025",
+    "query": "学习时我不听巴赫吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f27"
+    ],
+    "forbidden_fact_ids": [
+      "f07"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问，实际常听巴赫《哥德堡变奏曲》；睡前阅读易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q026",
+    "query": "日语单词我不是用Anki复习吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f28"
+    ],
+    "forbidden_fact_ids": [
+      "f27"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问，实际每天用Anki；学习音乐易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q027",
+    "query": "下雨天我总不能还骑车吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f29"
+    ],
+    "forbidden_fact_ids": [
+      "f04"
+    ],
+    "difficulty": "medium",
+    "reason": "反问加省略，下雨改坐地铁；夜跑安排易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q028",
+    "query": "豆包不是晚上喂吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f30"
+    ],
+    "forbidden_fact_ids": [
+      "f06"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问确认喂猫时间，实际早上七点；工作日起床时间易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q029",
+    "query": "组会现在不是周三晚上了吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f34"
+    ],
+    "forbidden_fact_ids": [
+      "f33"
+    ],
+    "difficulty": "medium",
+    "reason": "否定反问确认现状，已改到周四晚上八点；周三为旧安排。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b02q030",
+    "query": "奶茶我不喝全糖吧？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f36"
+    ],
+    "forbidden_fact_ids": [
+      "f02"
+    ],
+    "difficulty": "easy",
+    "reason": "否定反问，实际选无糖热饮；咖啡不加糖易混。",
+    "category": "口语省略、否定、反问和容易误分流的边界问题"
+  },
+  {
+    "id": "b03q001",
+    "query": "我平时冲乌龙茶，水温大概控制在多少？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f03"
+    ],
+    "forbidden_fact_ids": [
+      "f02"
+    ],
+    "difficulty": "easy",
+    "reason": "直接询问乌龙茶冲泡水温，需引用个人习惯事实；易与咖啡偏好混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q002",
+    "query": "手冲咖啡我一般选什么烘焙度，加不加糖？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f02"
+    ],
+    "forbidden_fact_ids": [
+      "f03"
+    ],
+    "difficulty": "easy",
+    "reason": "询问咖啡烘焙与糖的偏好，需引用个人事实；易与茶水温事实混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q003",
+    "query": "我夜跑是每周哪几天，跑多远？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f04"
+    ],
+    "forbidden_fact_ids": [
+      "f05"
+    ],
+    "difficulty": "easy",
+    "reason": "询问夜跑频率与距离，需引用个人事实；易与周日游泳混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q004",
+    "query": "周日我一般有什么固定运动？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f05"
+    ],
+    "forbidden_fact_ids": [
+      "f04"
+    ],
+    "difficulty": "easy",
+    "reason": "询问周日运动安排，需引用个人事实；易与夜跑混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q005",
+    "query": "工作日我晚上几点睡、早上几点起？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f06"
+    ],
+    "forbidden_fact_ids": [
+      "f31"
+    ],
+    "difficulty": "easy",
+    "reason": "询问工作日作息，需引用个人事实；易与空调睡眠设置混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q006",
+    "query": "睡前我一般用什么设备看哪类书？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f07"
+    ],
+    "forbidden_fact_ids": [
+      "f28"
+    ],
+    "difficulty": "easy",
+    "reason": "询问睡前阅读设备与类型，需引用个人事实；易与日语复习工具混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q007",
+    "query": "我的课程项目最终定的是什么题目？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f09"
+    ],
+    "forbidden_fact_ids": [
+      "f08"
+    ],
+    "difficulty": "medium",
+    "reason": "询问项目最终题目，需引用当前有效事实；易误用已被取代的初始方向。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q008",
+    "query": "课程项目一开始选的方向和后来改成的方向分别是什么？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f08",
+      "f09"
+    ],
+    "forbidden_fact_ids": [
+      "f10"
+    ],
+    "difficulty": "hard",
+    "reason": "询问项目历史变化，需同时引用被取代与当前事实；易与论文方向混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q010",
+    "query": "坐高铁和坐飞机时，我对座位的偏好有什么不同？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f11",
+      "f12"
+    ],
+    "forbidden_fact_ids": [
+      "f14"
+    ],
+    "difficulty": "medium",
+    "reason": "对比两种交通方式的座位偏好，需引用两条事实；易与车身颜色混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q011",
+    "query": "如果买汽车，我倾向什么车身颜色？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f14"
+    ],
+    "forbidden_fact_ids": [
+      "f13"
+    ],
+    "difficulty": "medium",
+    "reason": "询问汽车颜色偏好，需引用个人事实；易与一般喜欢的颜色混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q012",
+    "query": "我买衣服偏好什么风格？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f15"
+    ],
+    "forbidden_fact_ids": [
+      "f13"
+    ],
+    "difficulty": "easy",
+    "reason": "询问服装风格偏好，需引用个人事实；易与颜色偏好混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q018",
+    "query": "鱼缸换水的频率和换水量是怎样的？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f21"
+    ],
+    "forbidden_fact_ids": [
+      "f22"
+    ],
+    "difficulty": "easy",
+    "reason": "询问鱼缸换水安排，需引用个人事实；易与蝴蝶兰浇水混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q022",
+    "query": "牙医复诊预约在什么时候？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f25"
+    ],
+    "forbidden_fact_ids": [
+      "f24"
+    ],
+    "difficulty": "easy",
+    "reason": "询问牙医复诊时间，需引用个人事实；易与药物过敏混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q025",
+    "query": "我每天用什么工具复习日语单词？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f28"
+    ],
+    "forbidden_fact_ids": [
+      "f27"
+    ],
+    "difficulty": "easy",
+    "reason": "询问日语复习工具，需引用个人事实；易与学习音乐混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b03q030",
+    "query": "睡觉时空调一般设多少度、开什么模式？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f31"
+    ],
+    "forbidden_fact_ids": [
+      "f06"
+    ],
+    "difficulty": "easy",
+    "reason": "询问空调睡眠设置，需引用个人事实；易与作息时间混淆。",
+    "category": "冷门器材、养护、手作与小众兴趣"
+  },
+  {
+    "id": "b04q001",
+    "query": "我坐高铁和坐飞机时，对座位的偏好分别是什么？",
+    "expected_intent": "memory",
+    "target_fact_ids": [
+      "f11",
+      "f12"
+    ],
+    "forbidden_fact_ids": [
+      "f13",
+      "f14"
+    ],
+    "difficulty": "medium",
+    "reason": "需要区分高铁靠窗与飞机靠过道两个相似属性，避免混入颜色偏好。",
+    "category": "跨对象干扰、旧状态与新状态、相似属性隔离"
+  }
+]

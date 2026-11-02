@@ -1,0 +1,131 @@
+{
+ "triples": 1233,
+ "timeline_健身": [
+  {
+   "date": "2026-03-05",
+   "action": "开始",
+   "detail": "今天下决心开始跑步计划，每周三次，先从三公里起步",
+   "status": "superseded"
+  },
+  {
+   "date": "2026-03-06",
+   "action": "记录",
+   "detail": "买了双新跑鞋，给跑步做准备",
+   "status": "compressed"
+  },
+  {
+   "date": "2026-03-18",
+   "action": "记录",
+   "detail": "跑步第三周，配速进步了半分钟",
+   "status": "compressed"
+  },
+  {
+   "date": "2026-04-20",
+   "action": "更改",
+   "detail": "跑步有点腻了，改成隔天跑",
+   "status": "active"
+  },
+  {
+   "date": "2026-05-20",
+   "action": "放弃",
+   "detail": "健身卡到期，跑步计划正式放弃，先摆烂一段时间",
+   "status": "superseded"
+  },
+  {
+   "date": "2026-08-12",
+   "action": "记录",
+   "detail": "晚上跟着视频健身半小时",
+   "status": "compressed"
+  },
+  {
+   "date": "2026-09-01",
+   "action": "开始",
+   "detail": "重新开始跑步计划，这次目标五公里",
+   "status": "active"
+  },
+  {
+   "date": "2026-09-23",
+   "action": "记录",
+   "detail": "跑步配速又快了十秒",
+   "status": "compressed"
+  },
+  {
+   "date": "2026-09-24",
+   "action": "记录",
+   "detail": "跑步第二周，五公里能跑下来了",
+   "status": "compressed"
+  }
+ ],
+ "timeline_课程": [
+  {
+   "date": "2026-04-02",
+   "action": "约定",
+   "detail": "数据结构课程项目定了选题A：校园导航",
+   "status": "superseded"
+  },
+  {
+   "date": "2026-05-06",
+   "action": "更改",
+   "detail": "课程项目进展慢，考虑要不要换题",
+   "status": "superseded"
+  },
+  {
+   "date": "2026-05-12",
+   "action": "更改",
+   "detail": "课程项目正式改选选题B：课程表助手",
+   "status": "active"
+  },
+  {
+   "date": "2026-06-10",
+   "action": "完成",
+   "detail": "课程项目B做完第一版demo",
+   "status": "active"
+  },
+  {
+   "date": "2026-07-02",
+   "action": "完成",
+   "detail": "期末周结束，课程表助手项目提交，拿了个不错的分数",
+   "status": "active"
+  },
+  {
+   "date": "2026-10-07",
+   "action": "记录",
+   "detail": "返程高铁上补实验报告",
+   "status": "compressed"
+  }
+ ],
+ "supersedes": [
+  {
+   "newer": "m7ebd394a",
+   "older": "m2fd9db9f"
+  },
+  {
+   "newer": "m3b2a1cce",
+   "older": "m2fd9db9f"
+  },
+  {
+   "newer": "m3b2a1cce",
+   "older": "m7ebd394a"
+  },
+  {
+   "newer": "m1a0a160a",
+   "older": "m0d5c094e"
+  },
+  {
+   "newer": "m74c7b01a",
+   "older": "m768264dc"
+  },
+  {
+   "newer": "m34aec8e0",
+   "older": "m768264dc"
+  },
+  {
+   "newer": "me652974e",
+   "older": "m1a0a160a"
+  },
+  {
+   "newer": "m34aec8e0",
+   "older": "m74c7b01a"
+  }
+ ]
+}

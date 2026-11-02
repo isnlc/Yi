@@ -1,0 +1,152 @@
+[
+ {
+  "threshold": 0.0,
+  "no_archive": true,
+  "overall": 0.903,
+  "type_acc": {
+   "recent": 0.722,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 33,
+  "discarded": 61
+ },
+ {
+  "threshold": 0.2,
+  "no_archive": true,
+  "overall": 0.875,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 25,
+  "discarded": 69
+ },
+ {
+  "threshold": 0.3,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 18,
+  "discarded": 76
+ },
+ {
+  "threshold": 0.4,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 14,
+  "discarded": 80
+ },
+ {
+  "threshold": 0.5,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 11,
+  "discarded": 83
+ },
+ {
+  "threshold": 0.55,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 10,
+  "discarded": 84
+ },
+ {
+  "threshold": 0.6,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 10,
+  "discarded": 84
+ },
+ {
+  "threshold": 0.65,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 10,
+  "discarded": 84
+ },
+ {
+  "threshold": 0.7,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 10,
+  "discarded": 84
+ },
+ {
+  "threshold": 0.75,
+  "no_archive": true,
+  "overall": 0.847,
+  "type_acc": {
+   "recent": 0.611,
+   "contradiction": 1.0,
+   "time": 0.875,
+   "summary": 0.889,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "active": 10,
+  "discarded": 84
+ }
+]

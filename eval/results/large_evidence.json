@@ -1,0 +1,351 @@
+{
+ "dataset": "dataset_large.jsonl",
+ "questions": 48,
+ "abc": {
+  "A": {
+   "type_acc": {
+    "recent": 0.0,
+    "contradiction": 0.0,
+    "time": 0.0,
+    "summary": 0.167,
+    "timeline": 0.111,
+    "trap": 0.0
+   },
+   "overall": 0.038,
+   "memory_size": 0,
+   "arch": "A"
+  },
+  "B": {
+   "type_acc": {
+    "recent": 0.958,
+    "contradiction": 0.9,
+    "time": 1.0,
+    "summary": 0.611,
+    "timeline": 0.333,
+    "trap": 0.0
+   },
+   "overall": 0.792,
+   "memory_size": 219,
+   "arch": "B"
+  },
+  "C": {
+   "type_acc": {
+    "recent": 1.0,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 1.0,
+    "trap": 1.0
+   },
+   "overall": 1.0,
+   "memory_size": 48,
+   "memory_archive": 143,
+   "arch": "C"
+  }
+ },
+ "multi_vs_single": {
+  "single": {
+   "type_acc": {
+    "recent": 0.917,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 1.0,
+    "trap": 1.0
+   },
+   "overall": 0.979,
+   "memory_size": 59,
+   "memory_archive": 160,
+   "conflicts": 0,
+   "conflicts_resolved": 0
+  },
+  "multi": {
+   "type_acc": {
+    "recent": 1.0,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 1.0,
+    "trap": 1.0
+   },
+   "overall": 1.0,
+   "memory_size": 48,
+   "memory_archive": 171,
+   "conflicts": 13,
+   "conflicts_resolved": 13
+  }
+ },
+ "ablation_channels": [
+  {
+   "key": "lex_only",
+   "label": "只词法 BM25",
+   "overall": 0.927,
+   "type_acc": {
+    "recent": 0.875,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 0.889,
+    "timeline": 0.667,
+    "trap": 1.0
+   },
+   "memory_size": 48
+  },
+  {
+   "key": "lex_time",
+   "label": "词法+时间衰减",
+   "overall": 0.969,
+   "type_acc": {
+    "recent": 0.958,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 0.889,
+    "timeline": 1.0,
+    "trap": 1.0
+   },
+   "memory_size": 48
+  },
+  {
+   "key": "lex_graph",
+   "label": "词法+主题图",
+   "overall": 0.948,
+   "type_acc": {
+    "recent": 0.875,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 0.667,
+    "trap": 1.0
+   },
+   "memory_size": 48
+  },
+  {
+   "key": "full_rrf",
+   "label": "三路 RRF 全开（本方案）",
+   "overall": 1.0,
+   "type_acc": {
+    "recent": 1.0,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 1.0,
+    "trap": 1.0
+   },
+   "memory_size": 48
+  }
+ ],
+ "ablation_opts": [
+  {
+   "key": "full",
+   "label": "本方案（全开）",
+   "overall": 1.0,
+   "type_acc": {
+    "recent": 1.0,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 1.0,
+    "trap": 1.0
+   }
+  },
+  {
+   "key": "no_calendar",
+   "label": "关闭日历窗口召回",
+   "overall": 0.958,
+   "type_acc": {
+    "recent": 0.917,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 0.667,
+    "trap": 1.0
+   }
+  },
+  {
+   "key": "no_archive",
+   "label": "关闭档案层回溯",
+   "overall": 0.823,
+   "type_acc": {
+    "recent": 0.542,
+    "contradiction": 1.0,
+    "time": 0.818,
+    "summary": 0.889,
+    "timeline": 1.0,
+    "trap": 1.0
+   }
+  },
+  {
+   "key": "no_refine",
+   "label": "关闭 ReAct 追问轮（单轮检索）",
+   "overall": 1.0,
+   "type_acc": {
+    "recent": 1.0,
+    "contradiction": 1.0,
+    "time": 1.0,
+    "summary": 1.0,
+    "timeline": 1.0,
+    "trap": 1.0
+   }
+  }
+ ],
+ "log_excerpt": [
+  {
+   "timestamp": "2026-11-02T16:24:19.797211+00:00",
+   "event": "ingest_start",
+   "record_count": 219
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.828888+00:00",
+   "event": "reconciler_decision",
+   "pair": "md61c030a|m43ad8a08",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.828888+00:00",
+   "event": "reconciler_decision",
+   "pair": "md61c030a|m33c8acbc",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.828888+00:00",
+   "event": "reconciler_decision",
+   "pair": "m43ad8a08|m33c8acbc",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.828888+00:00",
+   "event": "reconciler_decision",
+   "pair": "mb45e485e|med15fde0",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.828888+00:00",
+   "event": "reconciler_decision",
+   "pair": "m160c0b60|m5f97948a",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.844941+00:00",
+   "event": "reconciler_decision",
+   "pair": "m5a09657c|me0501e27",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.844941+00:00",
+   "event": "reconciler_decision",
+   "pair": "m6bde5691|m51253140",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.844941+00:00",
+   "event": "reconciler_decision",
+   "pair": "m0c799eca|mefb8d4f3",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.844941+00:00",
+   "event": "reconciler_decision",
+   "pair": "m51d6c766|maa91d3ad",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.860994+00:00",
+   "event": "reconciler_decision",
+   "pair": "med15fde0|m96486315",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.860994+00:00",
+   "event": "reconciler_decision",
+   "pair": "m160c0b60|me5509ee7",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.860994+00:00",
+   "event": "reconciler_decision",
+   "pair": "m5f97948a|me5509ee7",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.877112+00:00",
+   "event": "reconciler_decision",
+   "pair": "m3b10d881|m118c4abc",
+   "conflict": true,
+   "reason": "规则判定的矛盾动作对",
+   "method": "rule_ingest"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.899976+00:00",
+   "event": "maintenance_complete",
+   "records": 219,
+   "memories_extracted": 219,
+   "conflicts": 13,
+   "active_memories": 48,
+   "archive_memories": 143,
+   "retention_decisions": 39
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.899976+00:00",
+   "event": "query_round",
+   "round": 1,
+   "role": "retriever",
+   "action": "plan",
+   "route": "lex+time",
+   "reason": "本地确定性路由",
+   "method": "rule"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.924539+00:00",
+   "event": "query",
+   "question": "我现在还在坚持跑步吗？",
+   "answer_mode": "auto",
+   "llm_used": false,
+   "evidence_count": 1,
+   "used_conclusion": false,
+   "rounds": 1
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.924539+00:00",
+   "event": "query_round",
+   "round": 1,
+   "role": "retriever",
+   "action": "plan",
+   "route": "lex+time",
+   "reason": "本地确定性路由",
+   "method": "rule"
+  },
+  {
+   "timestamp": "2026-11-02T16:24:19.956167+00:00",
+   "event": "query",
+   "question": "我国庆做了什么？",
+   "answer_mode": "auto",
+   "llm_used": false,
+   "evidence_count": 7,
+   "used_conclusion": false,
+   "rounds": 1
+  }
+ ]
+}

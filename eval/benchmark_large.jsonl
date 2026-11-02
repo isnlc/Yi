@@ -1,0 +1,48 @@
+{"id": "q01", "type": "recent", "question": "我现在还在坚持跑步吗？", "keywords": ["跑", "完成"]}
+{"id": "q02", "type": "contradiction", "question": "我是不是已经放弃了跑步计划？", "keywords": ["重新开始", "五公里"], "stale_keywords": ["摆烂"]}
+{"id": "q03", "type": "time", "question": "我什么时候开始手冲咖啡的？", "keywords": ["04-22"]}
+{"id": "q04", "type": "recent", "question": "我现在喜欢哪种烘焙的咖啡豆？", "keywords": ["浅烘"]}
+{"id": "q05", "type": "summary", "question": "总结一下我的作息习惯怎么样？", "keywords": ["熬夜", "作息"]}
+{"id": "q06", "type": "summary", "question": "我平时做什么运动？", "keywords": ["羽毛球"]}
+{"id": "q07", "type": "contradiction", "question": "我的课程项目最后做的是哪个选题？", "keywords": ["课程表助手"], "stale_keywords": ["校园导航"]}
+{"id": "q08", "type": "contradiction", "question": "现在大扫除是怎么安排的？", "keywords": ["轮流"], "stale_keywords": ["每周末"]}
+{"id": "q09", "type": "time", "question": "我什么时候开始跑步计划的？", "keywords": ["03-05"]}
+{"id": "q10", "type": "summary", "question": "我和室友之间有什么约定？", "keywords": ["大扫除"]}
+{"id": "q11", "type": "recent", "question": "我暑假做了什么？", "keywords": ["实习"]}
+{"id": "q12", "type": "contradiction", "question": "我还喝速溶咖啡吗？", "keywords": ["手冲"]}
+{"id": "q13", "type": "recent", "question": "我现在咖啡喝什么口味？", "keywords": ["浅烘"]}
+{"id": "q14", "type": "time", "question": "实习是什么时候开始的？", "keywords": ["08-05"]}
+{"id": "q15", "type": "summary", "question": "我有哪些兴趣爱好？", "keywords": ["羽毛球", "跑步"]}
+{"id": "q16", "type": "time", "question": "我的课程项目是什么时候提交的？", "keywords": ["07-02"]}
+{"id": "q17", "type": "summary", "question": "总结一下我喝咖啡的习惯？", "keywords": ["手冲", "浅烘"]}
+{"id": "q18", "type": "contradiction", "question": "我是不是还每周日自己大扫除？", "keywords": ["轮流"], "stale_keywords": ["我来做", "每周末"]}
+{"id": "q19", "type": "time", "question": "我什么时候放弃过跑步？", "keywords": ["05-20"]}
+{"id": "q20", "type": "summary", "question": "我和室友的关系怎么样？", "keywords": ["大扫除"]}
+{"id": "q21", "type": "recent", "question": "我最近一次熬夜是因为什么？", "keywords": ["课程作业"]}
+{"id": "q22", "type": "time", "question": "我什么时候买了新的羽毛球拍？", "keywords": ["09-02"]}
+{"id": "q23", "type": "time", "question": "我什么时候看过的露天电影？", "keywords": ["08-04"]}
+{"id": "q24", "type": "recent", "question": "我四六级考得怎么样？", "keywords": ["过了"]}
+{"id": "q25", "type": "summary", "question": "我和球友互相学到了什么？", "keywords": ["握拍"]}
+{"id": "q26", "type": "recent", "question": "上次和朋友聚餐吃了什么？", "keywords": ["火锅"]}
+{"id": "q27", "type": "contradiction", "question": "我现在跑步的频率是多少？", "keywords": ["隔天"], "stale_keywords": ["每周三次"]}
+{"id": "q28", "type": "timeline", "question": "十月以来我都在忙什么？", "keywords": ["实验报告", "羽毛球", "熬夜"]}
+{"id": "q29", "type": "timeline", "question": "我的课程项目从选题到提交经历了什么？", "keywords": ["课程表助手", "提交"]}
+{"id": "q30", "type": "trap", "question": "我养的猫叫什么名字？", "keywords": []}
+{"id": "q31", "type": "trap", "question": "我的实习是在哪个城市做的？", "keywords": []}
+{"id": "q32", "type": "time", "question": "我什么时候写的实习阶段总结？", "keywords": ["08-29"]}
+{"id": "q33", "type": "summary", "question": "总结一下我的跑步历程？", "keywords": ["五公里", "放弃"]}
+{"id": "q34", "type": "recent", "question": "梅雨天我做了什么准备？", "keywords": ["新伞", "防潮"]}
+{"id": "q35", "type": "recent", "question": "我国庆假期做了什么？", "keywords": ["回家"]}
+{"id": "q36", "type": "summary", "question": "我的咖啡口味经历了几次变化？", "keywords": ["浅烘", "手冲"]}
+{"id": "q37", "type": "contradiction", "question": "我现在用什么方式看书？", "keywords": ["纸质"], "stale_keywords": ["Kindle"]}
+{"id": "q38", "type": "time", "question": "我什么时候开始读《三体》的？", "keywords": ["03-10"]}
+{"id": "q39", "type": "recent", "question": "我今年读完了多少本书？", "keywords": ["第十二本"]}
+{"id": "q40", "type": "contradiction", "question": "国庆我最后去哪玩了？", "keywords": ["泉州"], "stale_keywords": ["西安"]}
+{"id": "q41", "type": "time", "question": "去西安的行程最初是什么时候定的？", "keywords": ["05-01"]}
+{"id": "q42", "type": "contradiction", "question": "我的基金定投现在还在吗？", "keywords": ["恢复"], "stale_keywords": ["停止"]}
+{"id": "q43", "type": "time", "question": "我什么时候停止过定投？", "keywords": ["08-10"]}
+{"id": "q44", "type": "recent", "question": "我的定投现在每月存多少？", "keywords": ["300"]}
+{"id": "q45", "type": "contradiction", "question": "我是不是戒掉奶茶了？", "keywords": ["又喝"], "stale_keywords": ["戒掉"]}
+{"id": "q46", "type": "trap", "question": "我买车了吗？", "keywords": []}
+{"id": "q47", "type": "timeline", "question": "我的旅行计划是怎么变化的？", "keywords": ["泉州", "西安"]}
+{"id": "q48", "type": "recent", "question": "我最近在读什么书？", "keywords": ["活着"]}

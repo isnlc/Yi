@@ -1,0 +1,9 @@
+{
+  "normal_cases": 36,
+  "abnormal_cases": 4,
+  "total_cases": 40,
+  "normal_accuracy": 0.986,
+  "abnormal_accuracy": 1.0,
+  "overall_accuracy": 0.988,
+  "run_log": "D:\\hw\\SJDSJJC\\忆_完整项目\\02_项目代码与文档\\logs\\run_log.jsonl"
+}

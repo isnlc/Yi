@@ -1,0 +1,3829 @@
+{
+  "model": "",
+  "cases": 126,
+  "memory_cases": 90,
+  "general_cases": 36,
+  "offline_route_accuracy": 100.0,
+  "online_route_accuracy": 100.0,
+  "overall_pass_rate": 100.0,
+  "memory_target_recall": 100.0,
+  "memory_forbidden_clean_rate": 100.0,
+  "failures": [],
+  "details": [
+    {
+      "id": "b01q001",
+      "query": "我平时喝茶喜欢用多少度的水？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f03"
+      ],
+      "forbidden_fact_ids": [
+        "f02",
+        "f36"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问泡茶水温，需读取乌龙茶九十度的事实，易与咖啡或奶茶偏好混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问个人泡茶水温习惯，必须依赖 f03；f02 咖啡偏好与 f36 奶茶偏好易混入但不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f03"
+      ],
+      "answer_fact_ids": [
+        "f03"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-03）我泡乌龙茶习惯用九十度左右的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q002",
+      "query": "晚上跑步一般安排在星期几来着？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05",
+        "f32"
+      ],
+      "difficulty": "easy",
+      "reason": "自然口语改写询问夜跑日期，易与周日游泳或大扫除混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问个人夜跑日期，必须依赖 f04；f05 周日游泳与 f32 周日大扫除易混淆。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q003",
+      "query": "我坐火车选座位有什么偏好？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f11"
+      ],
+      "forbidden_fact_ids": [
+        "f12"
+      ],
+      "difficulty": "medium",
+      "reason": "用火车指代高铁，需区分靠窗与飞机靠过道的偏好。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "火车指代高铁，需 f11 靠窗偏好；f12 飞机靠过道是易混事实。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f11"
+      ],
+      "answer_fact_ids": [
+        "f11"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-09）坐高铁时我喜欢靠窗座位。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q004",
+      "query": "现在用的键盘是什么轴体？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f16"
+      ],
+      "difficulty": "medium",
+      "reason": "询问当前键盘轴体，需取最新事实而非已过时的青轴。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问当前键盘轴体，需 active 的 f17；f16 青轴已 superseded，不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f17",
+        "f16"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你最近一次明确记录：机械键盘已经换成静音红轴。（2026-09-01）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q005",
+      "query": "我那只猫叫什么名字，早上几点喂？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f30"
+      ],
+      "forbidden_fact_ids": [
+        "f06",
+        "f21"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问宠物喂食信息，易与作息或鱼缸换水混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "猫名与喂食时间均在 f30；f06 作息与 f21 鱼缸换水易混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f30"
+      ],
+      "answer_fact_ids": [
+        "f30"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-25）猫咪豆包每天早上七点喂一次。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q006",
+      "query": "我对什么药物过敏？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f24"
+      ],
+      "forbidden_fact_ids": [
+        "f25"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问过敏史，易与牙医预约混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问过敏药物，需 f24；f25 牙医预约是易混医疗相关事实。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f24"
+      ],
+      "answer_fact_ids": [
+        "f24"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-20）我对青霉素过敏。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q007",
+      "query": "课程项目一开始做的是什么，后来换成什么了？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "hard",
+      "reason": "询问项目历史变化，需同时引用最初与后来两条事实，易与论文方向混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "同时问最初与后来项目，需 f08 和 f09 两条；f10 论文方向易混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f09",
+        "f08"
+      ],
+      "answer_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "answer": "根据你的记录：\n- （2026-05-12）课程项目后来改成了长期记忆智能体。\n- （2026-04-02）课程项目最初选的是校园导航。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q008",
+      "query": "我组会现在还是周三晚上吗？",
+      "expected_intent": "memory",
+      "query_kind": "history",
+      "target_fact_ids": [
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f33"
+      ],
+      "difficulty": "medium",
+      "reason": "以旧时间提问，需识别组会已改到周四，避免引用过时事实。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "以旧时间提问，答案需当前 f34 周四；f33 周三已 superseded，不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f33",
+        "f34"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你最近一次明确记录：组会已经改到周四晚上八点。（2026-10-28）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q009",
+      "query": "手冲咖啡浅烘和深烘在风味上一般有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用咖啡知识解释，不依赖个人偏好事实。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "浅烘与深烘风味区别属通用咖啡知识，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q010",
+      "query": "每周跑三次五公里，对普通人来说算合适的运动量吗？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "一般运动建议，虽与跑步事实相邻但不应读取个人记忆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "一般运动量建议，属通用健康知识，不读取个人跑步事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q011",
+      "query": "酸面包酵种一比二比二的比例具体怎么理解？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "烘焙比例概念解释，属于通用知识而非个人事实。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "酵种比例概念解释属通用烘焙知识，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q012",
+      "query": "帮我写一句提醒自己睡前少看手机的话。",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用写作请求，不依赖个人记忆即可完成。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "通用写作请求，无需个人记忆即可完成。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q013",
+      "query": "我泡乌龙茶一般用多少度的水？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f03"
+      ],
+      "forbidden_fact_ids": [
+        "f02",
+        "f36"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问泡茶水温，需读取个人习惯；易与咖啡偏好或奶茶偏好混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "直接询问个人乌龙茶水温，需 f03；f02 咖啡与 f36 奶茶偏好易混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f03"
+      ],
+      "answer_fact_ids": [
+        "f03"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-03）我泡乌龙茶习惯用九十度左右的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q014",
+      "query": "平时上班通勤，天气好的时候我是骑车还是坐地铁？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f29"
+      ],
+      "forbidden_fact_ids": [
+        "f04",
+        "f05"
+      ],
+      "difficulty": "medium",
+      "reason": "自然改写询问通勤方式，需区分骑车与下雨改地铁；易与运动安排混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问天气好时通勤方式，需 f29 骑车；f04 夜跑与 f05 游泳易混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f29"
+      ],
+      "answer_fact_ids": [
+        "f29"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-24）平时通勤我骑自行车，下雨时改坐地铁。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q015",
+      "query": "家里那只猫的喂食时间，早上是几点来着？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f30"
+      ],
+      "forbidden_fact_ids": [
+        "f21",
+        "f22"
+      ],
+      "difficulty": "easy",
+      "reason": "询问宠物喂食时间，需读取猫名与早上七点；易与其他固定照料时间混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问猫的早上喂食时间，需 f30；f21 鱼缸换水与 f22 蝴蝶兰浇水易混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f30"
+      ],
+      "answer_fact_ids": [
+        "f30"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-25）猫咪豆包每天早上七点喂一次。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b01q016",
+      "query": "我睡觉时空调一般开多少度，有没有开睡眠模式？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f31"
+      ],
+      "forbidden_fact_ids": [
+        "f06"
+      ],
+      "difficulty": "medium",
+      "reason": "询问睡眠环境设置，需读取空调温度与模式；易与作息时间事实混淆。",
+      "category": "日常直接询问与自然改写",
+      "audit_reason": "询问空调温度与睡眠模式，需 f31；f06 作息时间易混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f31"
+      ],
+      "answer_fact_ids": [
+        "f31"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-26）睡觉时空调通常设为二十六度并开启睡眠模式。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q001",
+      "query": "泡茶的时候水温大概控制在多少？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f03"
+      ],
+      "forbidden_fact_ids": [
+        "f02",
+        "f36"
+      ],
+      "difficulty": "medium",
+      "reason": "省略主语询问个人泡茶习惯，易与咖啡、奶茶偏好混淆",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "省略主语询问个人泡茶水温习惯，需事实f03；咖啡与奶茶偏好为易混入的干扰事实。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f03"
+      ],
+      "answer_fact_ids": [
+        "f03"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-03）我泡乌龙茶习惯用九十度左右的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q002",
+      "query": "夜跑是固定哪几天来着？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05",
+        "f32"
+      ],
+      "difficulty": "medium",
+      "reason": "省略主语询问运动日程，易与游泳、大扫除日期混淆",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问个人夜跑固定日期，需事实f04；游泳与大扫除日期为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q003",
+      "query": "工作日一般几点上床休息？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f31",
+        "f07"
+      ],
+      "difficulty": "medium",
+      "reason": "省略主语询问作息，易与空调设置、睡前阅读混淆",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问个人工作日就寝时间，需事实f06；空调设置与睡前阅读为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q004",
+      "query": "坐飞机的话，座位习惯选哪边？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f12"
+      ],
+      "forbidden_fact_ids": [
+        "f11"
+      ],
+      "difficulty": "hard",
+      "reason": "飞机与高铁座位偏好极易混淆，需区分交通工具",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问个人飞机座位偏好，需事实f12；高铁座位偏好为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f12"
+      ],
+      "answer_fact_ids": [
+        "f12"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-10）坐飞机时我更喜欢靠过道座位。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q005",
+      "query": "现在打字用的那把键盘，手感是什么类型的？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f16"
+      ],
+      "difficulty": "hard",
+      "reason": "键盘轴体已更换，易误答旧青轴而非现用静音红轴",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问当前键盘轴体类型，需现行事实f17；已废弃的青轴事实f16为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f17",
+        "f16"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你最近一次明确记录：机械键盘已经换成静音红轴。（2026-09-01）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q006",
+      "query": "鱼缸换水是定在星期几？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f21"
+      ],
+      "forbidden_fact_ids": [
+        "f22",
+        "f32"
+      ],
+      "difficulty": "medium",
+      "reason": "省略主语询问养护习惯，易与浇花、大扫除混淆",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问个人鱼缸换水星期，需事实f21；浇花与大扫除为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q007",
+      "query": "钢笔平时用的是什么笔尖和墨水？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f18"
+      ],
+      "forbidden_fact_ids": [
+        "f19",
+        "f20"
+      ],
+      "difficulty": "medium",
+      "reason": "省略主语询问书写工具配置，易与摄影、观星器材混淆",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问个人钢笔笔尖与墨水配置，需事实f18；胶片与目镜为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f18"
+      ],
+      "answer_fact_ids": [
+        "f18"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-14）我写钢笔时喜欢 EF 尖，常用蓝黑墨水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q008",
+      "query": "日语单词每天靠什么工具复习？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f28"
+      ],
+      "forbidden_fact_ids": [
+        "f27",
+        "f10"
+      ],
+      "difficulty": "medium",
+      "reason": "省略主语询问学习习惯，易与学习音乐、论文方向混淆",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问个人日语单词复习工具，需事实f28；学习音乐与论文方向为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f28"
+      ],
+      "answer_fact_ids": [
+        "f28"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-23）我每天用 Anki 复习日语单词。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q009",
+      "query": "手冲咖啡的浅烘和深烘，一般风味差别在哪？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用咖啡知识，不依赖个人偏好事实",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问浅烘与深烘咖啡的通用风味差异，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q010",
+      "query": "成年人每周中等强度运动多少分钟比较合适？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用运动建议，不应读取个人跑步安排",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问通用运动量建议，不依赖个人跑步安排。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q011",
+      "query": "高铁靠窗和靠过道座位各有什么优缺点？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用出行知识，易误读个人座位偏好",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问高铁座位类型的通用优缺点，不依赖个人座位偏好。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b02q012",
+      "query": "机械键盘青轴和静音红轴在声音与手感上有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用外设知识，易误读个人当前轴体配置",
+      "category": "省略主语但询问个人既定习惯或配置",
+      "audit_reason": "询问青轴与静音红轴的通用区别，不依赖个人键盘配置。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q001",
+      "query": "我是不是特别能吃辣，火锅都点特辣？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f01"
+      ],
+      "forbidden_fact_ids": [
+        "f35"
+      ],
+      "difficulty": "medium",
+      "reason": "错误预设：用户实际不能吃太辣，最多微辣；容易与不吃香菜混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "错误预设询问吃辣能力，需事实f01纠正；不吃香菜为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f01"
+      ],
+      "answer_fact_ids": [
+        "f01"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-01）我不能吃太辣，最多接受微辣。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q002",
+      "query": "我喝手冲咖啡不是一直加糖吗？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f02"
+      ],
+      "forbidden_fact_ids": [
+        "f36"
+      ],
+      "difficulty": "medium",
+      "reason": "否定式错误预设：用户喜欢浅烘手冲且不加糖；容易与奶茶无糖混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "错误预设询问手冲咖啡加糖，需事实f02纠正；奶茶无糖为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f02"
+      ],
+      "answer_fact_ids": [
+        "f02"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-02）我更喜欢浅烘手冲咖啡，而且不加糖。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q003",
+      "query": "我泡乌龙茶难道不是用沸水吗？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f03"
+      ],
+      "forbidden_fact_ids": [
+        "f02"
+      ],
+      "difficulty": "medium",
+      "reason": "反问纠正：用户习惯九十度左右泡乌龙茶，不是沸水；容易与咖啡偏好混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "反问错误预设泡乌龙茶用沸水，需事实f03纠正；咖啡偏好为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f03"
+      ],
+      "answer_fact_ids": [
+        "f03"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-03）我泡乌龙茶习惯用九十度左右的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q004",
+      "query": "我夜跑不是每周一三五吗？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05"
+      ],
+      "difficulty": "medium",
+      "reason": "错误预设：夜跑实际是周二、周四和周六；容易与周日游泳混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "错误预设夜跑日期，需事实f04纠正；周日游泳为易混干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q005",
+      "query": "我工作日不是十二点才睡、八点起吗？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f31"
+      ],
+      "difficulty": "medium",
+      "reason": "否定式错误预设：实际工作日十一点半睡、七点起；容易与空调睡眠模式混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "否定式错误预设，需用f06纠正工作日作息；f31空调睡眠模式易混入但不回答作息。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q006",
+      "query": "课程项目一开始就是长期记忆智能体吧，没换过？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "hard",
+      "reason": "错误预设项目未更换：最初是校园导航，后来改成长期记忆智能体；容易与论文方向混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "错误预设项目未更换，需同时引用最初f08与后来f09；f10论文方向易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f08"
+      ],
+      "answer_fact_ids": [
+        "f08"
+      ],
+      "answer": "根据你的记录：\n- （2026-04-02）课程项目最初选的是校园导航。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q007",
+      "query": "我现在键盘用的还是青轴，对吧？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f16",
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f18"
+      ],
+      "difficulty": "hard",
+      "reason": "反问纠正：原来青轴，现已换成静音红轴；容易与钢笔笔尖混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "键盘轴体从青轴换为静音红轴，需两条事实；f18钢笔易混。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f17",
+        "f16"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你最近一次明确记录：机械键盘已经换成静音红轴。（2026-09-01）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q008",
+      "query": "组会不是还在周三晚上八点吗？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f33",
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f32"
+      ],
+      "difficulty": "hard",
+      "reason": "错误预设组会时间未变：原来周三晚八点，已改到周四晚八点；容易与周日大扫除混淆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "组会时间由周三改周四，需两条事实；f32大扫除易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f33",
+        "f34"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你最近一次明确记录：组会已经改到周四晚上八点。（2026-10-28）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q009",
+      "query": "为什么有人会说“否定之否定”不是简单的回到原点？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "哲学概念解释，不依赖个人事实。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "哲学概念解释，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q010",
+      "query": "反问句和设问句在修辞上有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "一般修辞知识，不读取个人记忆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "修辞知识，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q011",
+      "query": "如果预设错了，在逻辑上应该怎么区分“否定前件”和“否定后件”？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "逻辑学概念解释，与个人事实无关。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "逻辑学概念解释，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q012",
+      "query": "写邮件时想礼貌地纠正对方的错误预设，有什么常用表达？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "一般写作与沟通建议，不需要个人记忆。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "一般写作沟通建议，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q013",
+      "query": "我吃火锅不是一直点特辣吗？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f01"
+      ],
+      "forbidden_fact_ids": [
+        "f35"
+      ],
+      "difficulty": "medium",
+      "reason": "反问句包含错误预设（特辣），需用事实纠正为最多微辣；易混入不吃香菜。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "反问含特辣错误预设，需用f01纠正为最多微辣；f35不吃香菜易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f01"
+      ],
+      "answer_fact_ids": [
+        "f01"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-01）我不能吃太辣，最多接受微辣。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q014",
+      "query": "我手冲咖啡从来不加糖，对吧？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f02"
+      ],
+      "forbidden_fact_ids": [
+        "f36"
+      ],
+      "difficulty": "medium",
+      "reason": "否定式确认咖啡不加糖，需核对事实；奶茶无糖是相邻易混事实。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "确认手冲咖啡不加糖，需f02；f36奶茶无糖易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f02"
+      ],
+      "answer_fact_ids": [
+        "f02"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-02）我更喜欢浅烘手冲咖啡，而且不加糖。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q015",
+      "query": "我夜跑难道不是每周一三五吗？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05"
+      ],
+      "difficulty": "medium",
+      "reason": "反问句预设错误跑步日，需纠正为周二四六；周日游泳易混。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "反问预设跑步日错误，需f04纠正为周二四六；f05游泳易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b03q016",
+      "query": "组会不是早就改到周四晚上了吗，怎么还有人说是周三？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f33",
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f32"
+      ],
+      "difficulty": "hard",
+      "reason": "涉及组会时间从周三改到周四的历史变化，需引用两条事实；周日大扫除易混。",
+      "category": "否定、反问、错误预设与纠正",
+      "audit_reason": "组会由周三改周四的历史变化，需两条事实；f32大扫除易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f34"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-28）组会已经改到周四晚上八点。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q001",
+      "query": "我拍街景用的胶片一般是多少感光度的？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f19"
+      ],
+      "forbidden_fact_ids": [
+        "f20"
+      ],
+      "difficulty": "medium",
+      "reason": "询问胶片ISO，需区分街景胶片与观星目镜两条不同器材事实。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问街景胶片ISO，需f19；f20观星目镜易混。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f19"
+      ],
+      "answer_fact_ids": [
+        "f19"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-15）拍街景胶片时我通常使用 ISO 400。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q002",
+      "query": "观星找目标时，我习惯先用哪个焦距的目镜？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f20"
+      ],
+      "forbidden_fact_ids": [
+        "f19"
+      ],
+      "difficulty": "medium",
+      "reason": "目镜焦距属于观星器材，容易与胶片ISO混淆。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问观星目镜焦距，需f20；f19胶片ISO易混。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f20"
+      ],
+      "answer_fact_ids": [
+        "f20"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-16）观星时我常用二十五毫米目镜先寻找目标。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q003",
+      "query": "鱼缸换水是每周几、换多少来着？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f21"
+      ],
+      "forbidden_fact_ids": [
+        "f22"
+      ],
+      "difficulty": "easy",
+      "reason": "鱼缸换水频率与蝴蝶兰浇水容易同属养护类而混淆。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问鱼缸换水频率与比例，需f21；f22蝴蝶兰浇水易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q004",
+      "query": "蝴蝶兰大概多久浇一次水？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f22"
+      ],
+      "forbidden_fact_ids": [
+        "f21"
+      ],
+      "difficulty": "easy",
+      "reason": "植物浇水周期与鱼缸换水同属养护，需精确区分对象。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问蝴蝶兰浇水周期，需f22；f21鱼缸换水易混。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f22"
+      ],
+      "answer_fact_ids": [
+        "f22"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-18）蝴蝶兰大约十天浇一次水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q005",
+      "query": "我的酸面包酵种是按什么比例喂养的？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f23"
+      ],
+      "forbidden_fact_ids": [
+        "f02"
+      ],
+      "difficulty": "medium",
+      "reason": "酵种比例是手作事实，容易与手冲咖啡偏好混入手作/饮食类。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问个人酵种喂养比例，必须依赖 f23；f02 是咖啡偏好，不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f23"
+      ],
+      "answer_fact_ids": [
+        "f23"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-19）我的酸面包酵种按一比二比二的比例喂养。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q006",
+      "query": "钢笔我平时用哪种笔尖、配什么墨水？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f18"
+      ],
+      "forbidden_fact_ids": [
+        "f17"
+      ],
+      "difficulty": "medium",
+      "reason": "钢笔笔尖墨水与机械键盘轴体同属书写/输入器材，容易混淆。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问个人钢笔笔尖与墨水，必须依赖 f18；f17 是键盘轴体，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f18"
+      ],
+      "answer_fact_ids": [
+        "f18"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-14）我写钢笔时喜欢 EF 尖，常用蓝黑墨水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q007",
+      "query": "机械键盘之前是什么轴，后来换成什么了？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f16",
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f18"
+      ],
+      "difficulty": "hard",
+      "reason": "询问键盘轴体的历史变化，需同时引用被取代和当前两条事实。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问键盘轴体前后变化，需同时引用旧状态 f16 与当前状态 f17；f18 是钢笔事实，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f17"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你的记录：\n- （2026-09-01）机械键盘已经换成静音红轴。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q008",
+      "query": "课程项目最初做的是什么，后来改成什么方向了？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "hard",
+      "reason": "项目方向有历史变更，容易误混入论文方向事实。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问课程项目方向变化，需引用 f08 与 f09；f10 是论文方向，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f09",
+        "f08"
+      ],
+      "answer_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "answer": "根据你的记录：\n- （2026-05-12）课程项目后来改成了长期记忆智能体。\n- （2026-04-02）课程项目最初选的是校园导航。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q009",
+      "query": "胶片摄影里，ISO 400 和 ISO 100 在颗粒和适用光线方面一般怎么选？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "询问胶片感光度的一般知识，不依赖用户个人使用习惯。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问胶片 ISO 的一般选择知识，不依赖用户个人事实。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q010",
+      "query": "蝴蝶兰浇水过频会有什么常见问题，一般怎么判断该不该浇？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "植物养护通用建议，不应读取用户个人浇水周期。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问蝴蝶兰浇水的通用养护建议，不依赖用户个人浇水周期。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q011",
+      "query": "酸面包酵种喂养时，一比二比二的比例通常表示什么？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "解释酵种比例的一般含义，不依赖用户个人喂养比例。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "解释酵种比例的一般含义，不依赖用户个人喂养比例。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b04q012",
+      "query": "钢笔 EF 尖和 F 尖在书写粗细上一般有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "钢笔笔尖规格的通用知识，不应读取用户个人笔尖偏好。",
+      "category": "冷门器材、养护、手作与小众兴趣",
+      "audit_reason": "询问钢笔 EF 与 F 尖的通用区别，不依赖用户个人偏好。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q001",
+      "query": "我吃火锅一般能接受什么辣度？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f01"
+      ],
+      "forbidden_fact_ids": [
+        "f35",
+        "f36"
+      ],
+      "difficulty": "easy",
+      "reason": "询问当前辣度偏好，易与不吃香菜、奶茶偏好混淆。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问个人辣度接受程度，必须依赖 f01；f35 香菜忌口与 f36 奶茶偏好不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f01"
+      ],
+      "answer_fact_ids": [
+        "f01"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-01）我不能吃太辣，最多接受微辣。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q002",
+      "query": "手冲咖啡我喝什么烘焙度，加不加糖？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f02"
+      ],
+      "forbidden_fact_ids": [
+        "f03",
+        "f36"
+      ],
+      "difficulty": "easy",
+      "reason": "当前咖啡偏好，易混入泡茶水温或奶茶选择。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问个人手冲咖啡烘焙度与加糖偏好，必须依赖 f02；f03 泡茶水温与 f36 奶茶偏好不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f02"
+      ],
+      "answer_fact_ids": [
+        "f02"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-02）我更喜欢浅烘手冲咖啡，而且不加糖。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q003",
+      "query": "现在组会到底安排在星期几晚上？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f33"
+      ],
+      "difficulty": "medium",
+      "reason": "询问当前组会时间，旧状态周三晚是强干扰项。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问当前组会时间，必须依赖 f34；f33 是已被取代的旧时间，不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f34",
+        "f33"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你最近一次明确记录：组会已经改到周四晚上八点。（2026-10-28）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q004",
+      "query": "我的机械键盘从什么轴换成了什么轴？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f16",
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f18"
+      ],
+      "difficulty": "medium",
+      "reason": "询问键盘轴体的前后变化，需引用旧状态与当前状态两条。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问键盘轴体前后变化，需引用 f16 与 f17；f18 是钢笔事实，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f17"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你的记录：\n- （2026-09-01）机械键盘已经换成静音红轴。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q005",
+      "query": "课程项目最早做的是什么，现在是什么方向？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "medium",
+      "reason": "询问项目方向变化，易混入论文方向。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问课程项目方向变化，需引用 f08 与 f09；f10 是论文方向，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f09",
+        "f08"
+      ],
+      "answer_fact_ids": [
+        "f09"
+      ],
+      "answer": "根据你最近一次明确记录：课程项目后来改成了长期记忆智能体。（2026-05-12）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q006",
+      "query": "我工作日晚上几点睡、早上几点起？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f07",
+        "f31"
+      ],
+      "difficulty": "easy",
+      "reason": "当前作息，易混入睡前习惯或空调设置。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问个人工作日作息，必须依赖 f06；f07 睡前阅读与 f31 空调设置不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q007",
+      "query": "鱼缸换水是星期几，换多少？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f21"
+      ],
+      "forbidden_fact_ids": [
+        "f22",
+        "f32"
+      ],
+      "difficulty": "easy",
+      "reason": "当前鱼缸维护安排，易与浇花或大扫除混淆。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问个人鱼缸换水安排，必须依赖 f21；f22 蝴蝶兰浇水与 f32 大扫除不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q008",
+      "query": "坐高铁和坐飞机，我分别偏好哪种座位？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f11",
+        "f12"
+      ],
+      "forbidden_fact_ids": [
+        "f14"
+      ],
+      "difficulty": "medium",
+      "reason": "两种交通方式的座位偏好，易混入车身颜色偏好。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "同时询问高铁与飞机座位偏好，需引用 f11 和 f12；f14 车身颜色偏好不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f12",
+        "f11"
+      ],
+      "answer_fact_ids": [
+        "f11",
+        "f12"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-10）坐飞机时我更喜欢靠过道座位。\n- （2026-10-09）坐高铁时我喜欢靠窗座位。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q009",
+      "query": "浅烘和深烘咖啡豆在酸度与苦味上通常有什么差别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用咖啡知识，不依赖个人偏好。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问浅烘与深烘咖啡豆的通用风味差异，属于通用知识，不依赖个人咖啡偏好事实f02。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q010",
+      "query": "成年人每周建议进行多少分钟中等强度有氧运动？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用运动建议，不读取个人夜跑安排。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问成年人中等强度有氧运动的通用建议量，属于通用健康知识，不读取个人夜跑事实f04。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q011",
+      "query": "机械键盘里青轴和静音红轴在声音和触发手感上一般有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用键盘轴体知识，易被误认为询问个人键盘历史。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问青轴与静音红轴的通用声音和手感差异，属于通用硬件知识，不依赖个人键盘历史f16、f17。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q012",
+      "query": "酸面包酵种喂养中“一比二比二”通常指哪三者的比例？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用烘焙概念解释，不依赖个人酵种比例事实。",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "解释酸面包酵种一比二比二的通用含义，属于通用烘焙概念，不依赖个人酵种事实f23。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q013",
+      "query": "课程项目现在做的是长期记忆智能体，那最早立项时选的是什么方向？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "medium",
+      "reason": "需要同时回忆被取代的旧方向和当前方向，易与论文方向混淆",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "需同时回忆被取代的旧项目方向f08与当前方向f09；论文方向f10是易混入的干扰事实。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f09",
+        "f08"
+      ],
+      "answer_fact_ids": [
+        "f09"
+      ],
+      "answer": "根据你最近一次明确记录：课程项目后来改成了长期记忆智能体。（2026-05-12）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q014",
+      "query": "我的机械键盘现在敲起来是静音红轴，之前那套是什么轴来着？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f16",
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f18"
+      ],
+      "difficulty": "medium",
+      "reason": "前后两种轴体都要答，易把钢笔笔尖混进来",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "需同时回答旧青轴f16与现静音红轴f17；钢笔笔尖f18是易混入的干扰事实。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f17",
+        "f16"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你最近一次明确记录：机械键盘已经换成静音红轴。（2026-09-01）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q015",
+      "query": "组会时间调整之后，现在到底是周几晚上八点？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f33"
+      ],
+      "difficulty": "easy",
+      "reason": "问当前状态，旧时间周三容易作为干扰被误答",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "只问调整后的当前组会时间，目标为f34；旧时间周三f33不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f34",
+        "f33"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你最近一次明确记录：组会已经改到周四晚上八点。（2026-10-28）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b05q016",
+      "query": "我工作日晚上一般几点上床，第二天早上几点起？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f31"
+      ],
+      "difficulty": "easy",
+      "reason": "作息时间与空调设置同属睡前场景，易混入二十六度睡眠模式",
+      "category": "旧状态、当前状态与前后变化",
+      "audit_reason": "询问工作日入睡与起床时间，目标为f06；空调温度设置f31属睡前场景干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q001",
+      "query": "我平时泡茶用多少度的水来着？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f03"
+      ],
+      "forbidden_fact_ids": [
+        "f02",
+        "f36"
+      ],
+      "difficulty": "medium",
+      "reason": "问的是泡茶水温，但目录中只有乌龙茶水温一条，容易与咖啡、奶茶等饮品偏好混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "询问泡茶水温，目标为乌龙茶九十度f03；咖啡偏好f02与奶茶偏好f36为饮品干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f03"
+      ],
+      "answer_fact_ids": [
+        "f03"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-03）我泡乌龙茶习惯用九十度左右的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q002",
+      "query": "我夜跑是固定哪几天，每次跑多远？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05",
+        "f32"
+      ],
+      "difficulty": "medium",
+      "reason": "夜跑日期和距离需要读取个人事实，容易与游泳、大扫除等固定日程混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "询问夜跑日期与距离，目标为f04；游泳f05与大扫除f32为固定日程干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q003",
+      "query": "工作日我一般几点睡、几点起？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f31",
+        "f07"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问工作日作息，但容易混入空调设置或睡前阅读习惯。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "询问工作日作息，目标为f06；空调设置f31与睡前阅读f07为睡前场景干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q004",
+      "query": "课程项目最早做的是什么方向，后来改成什么了？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "medium",
+      "reason": "询问项目方向的历史变化，需要同时引用被取代的旧事实和当前事实，容易与论文方向混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "需同时引用旧方向f08与当前方向f09；论文方向f10为易混入干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f09"
+      ],
+      "answer_fact_ids": [
+        "f09"
+      ],
+      "answer": "根据你的记录：\n- （2026-05-12）课程项目后来改成了长期记忆智能体。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q005",
+      "query": "我的机械键盘现在是什么轴，之前又是什么轴？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f16",
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f18"
+      ],
+      "difficulty": "medium",
+      "reason": "询问键盘轴体的变化，需要区分旧青轴和现静音红轴，容易与钢笔笔尖偏好混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "需同时回答旧青轴f16与现静音红轴f17；钢笔笔尖f18为易混入干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f17",
+        "f16"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你最近一次明确记录：机械键盘已经换成静音红轴。（2026-09-01）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q006",
+      "query": "坐高铁和坐飞机时，我分别喜欢选哪边的座位？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f11",
+        "f12"
+      ],
+      "forbidden_fact_ids": [
+        "f14",
+        "f15"
+      ],
+      "difficulty": "hard",
+      "reason": "同时询问两种交通工具的座位偏好，容易与车身颜色、衣服款式等偏好混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "同时询问高铁靠窗f11与飞机靠过道f12两种座位偏好；车身颜色f14与衣服款式f15为偏好干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f12",
+        "f11"
+      ],
+      "answer_fact_ids": [
+        "f11",
+        "f12"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-10）坐飞机时我更喜欢靠过道座位。\n- （2026-10-09）坐高铁时我喜欢靠窗座位。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q007",
+      "query": "鱼缸换水是每周几，换掉多少？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f21"
+      ],
+      "forbidden_fact_ids": [
+        "f22",
+        "f32"
+      ],
+      "difficulty": "medium",
+      "reason": "询问鱼缸换水频率和水量，容易与蝴蝶兰浇水、大扫除等周期性事务混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "询问鱼缸换水星期与水量，目标为f21；蝴蝶兰浇水f22与大扫除f32为周期性事务干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q008",
+      "query": "我泡茶时水温一般控制在多少度？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f03"
+      ],
+      "forbidden_fact_ids": [
+        "f02",
+        "f36"
+      ],
+      "difficulty": "medium",
+      "reason": "问泡茶水温，需区分乌龙茶九十度与咖啡、奶茶等饮品偏好，避免混入浅烘咖啡或奶茶事实。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "询问泡茶水温，目标为乌龙茶九十度f03；浅烘咖啡f02与奶茶f36为饮品干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f03"
+      ],
+      "answer_fact_ids": [
+        "f03"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-03）我泡乌龙茶习惯用九十度左右的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q009",
+      "query": "手冲咖啡里浅烘和深烘在酸度与苦味上通常有什么差别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用咖啡烘焙知识，不依赖用户个人偏好。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "询问浅烘与深烘在酸度苦味上的通用差别，属通用咖啡知识，不依赖个人事实；f02虽含浅烘偏好但不应进入答案。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b06q010",
+      "query": "我的机械键盘现在敲起来是什么轴，之前那套又是什么轴？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f16",
+        "f17"
+      ],
+      "forbidden_fact_ids": [
+        "f18",
+        "f28"
+      ],
+      "difficulty": "hard",
+      "reason": "询问键盘轴体的历史变化，需同时引用被取代的青轴与当前静音红轴，易与钢笔、Anki等工具事实混淆。",
+      "category": "跨对象干扰与相似属性隔离",
+      "audit_reason": "问键盘当前轴体与之前轴体，需同时引用被取代的青轴f16和当前静音红轴f17；f18钢笔、f28 Anki为相似工具干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f17",
+        "f16"
+      ],
+      "answer_fact_ids": [
+        "f17"
+      ],
+      "answer": "根据你最近一次明确记录：机械键盘已经换成静音红轴。（2026-09-01）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b07q001",
+      "query": "夜跑是固定哪几天，每次跑多远？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05",
+        "f32"
+      ],
+      "difficulty": "easy",
+      "reason": "询问夜跑频率与距离，对应 f04；易与游泳或大扫除日程混淆。",
+      "category": "需要个人记忆的建议与不需要记忆的通用建议",
+      "audit_reason": "问夜跑固定日期与距离，f04完整覆盖周二四六与五公里；f05游泳、f32大扫除为其他日程干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b08q001",
+      "query": "为什么说“否定之否定”不是简单地回到原点？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "纯哲学概念解释，不依赖用户个人事实。",
+      "category": "世界知识、解释、计算、写作等纯通用问题",
+      "audit_reason": "纯哲学概念解释，不依赖任何个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q085",
+      "query": "我每周除了夜跑，还有哪项固定运动安排在周末？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f05"
+      ],
+      "forbidden_fact_ids": [
+        "f04"
+      ],
+      "difficulty": "medium",
+      "reason": "问周末固定运动，需区分夜跑与周日游泳，易混入夜跑事实。",
+      "category": "综合盲测补足",
+      "audit_reason": "问除夜跑外的周末固定运动，答案为周日上午游泳f05；f04夜跑是题干已排除的干扰项。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f05",
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f05",
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。\n- （2026-10-05）我通常在周日上午去游泳。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q086",
+      "query": "睡前我一般拿什么设备看哪类书？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f07"
+      ],
+      "forbidden_fact_ids": [
+        "f06"
+      ],
+      "difficulty": "easy",
+      "reason": "询问睡前阅读设备与书类，易与作息时间混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "问睡前设备与书类，f07给出Kindle与科幻小说；f06作息时间易混入但非答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f07"
+      ],
+      "answer_fact_ids": [
+        "f07"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-07）我习惯睡前用 Kindle 读科幻小说。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q087",
+      "query": "我的论文研究的是哪个方向？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f10"
+      ],
+      "forbidden_fact_ids": [
+        "f09"
+      ],
+      "difficulty": "medium",
+      "reason": "论文方向与课程项目方向相邻，易误取长期记忆智能体。",
+      "category": "综合盲测补足",
+      "audit_reason": "问论文方向，f10为检索增强生成；f09课程项目长期记忆智能体为相邻干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f10"
+      ],
+      "answer_fact_ids": [
+        "f10"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-08）我的论文方向是检索增强生成。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q088",
+      "query": "如果以后买车，我倾向选什么颜色的车身？",
+      "expected_intent": "memory",
+      "query_kind": "profile",
+      "target_fact_ids": [
+        "f14"
+      ],
+      "forbidden_fact_ids": [
+        "f13"
+      ],
+      "difficulty": "medium",
+      "reason": "车身颜色偏好易与喜欢的蓝色混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "问买车车身颜色偏好，f14为黑色；f13喜欢的蓝色为颜色干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f14"
+      ],
+      "answer_fact_ids": [
+        "f14"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-12）如果买汽车，我更偏向黑色车身。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q089",
+      "query": "买衣服时我偏好什么风格的款式？",
+      "expected_intent": "memory",
+      "query_kind": "profile",
+      "target_fact_ids": [
+        "f15"
+      ],
+      "forbidden_fact_ids": [
+        "f13"
+      ],
+      "difficulty": "easy",
+      "reason": "服装风格偏好，易被颜色偏好干扰。",
+      "category": "综合盲测补足",
+      "audit_reason": "问服装风格偏好，f15为简约休闲；f13颜色偏好为干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f15"
+      ],
+      "answer_fact_ids": [
+        "f15"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-13）买衣服时我偏好简约、休闲的款式。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q090",
+      "query": "牙医那边下次复诊是什么时候？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f25"
+      ],
+      "forbidden_fact_ids": [
+        "f26"
+      ],
+      "difficulty": "easy",
+      "reason": "具体预约时间，易与每月定投日期混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "问牙医复诊时间，f25为十一月十八日下午三点；f26每月十五号定投为日期干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f25"
+      ],
+      "answer_fact_ids": [
+        "f25"
+      ],
+      "answer": "根据你的记录：\n- （2026-11-18）牙医复诊预约在十一月十八日下午三点。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q091",
+      "query": "我定投指数基金的金额和频率是怎样的？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f26"
+      ],
+      "forbidden_fact_ids": [
+        "f25"
+      ],
+      "difficulty": "medium",
+      "reason": "理财习惯细节，易与牙医预约日期混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "问定投金额与频率，f26为每月十五号五百元；f25牙医预约日期为干扰。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f26"
+      ],
+      "answer_fact_ids": [
+        "f26"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-21）我在每月十五号定投五百元指数基金。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q092",
+      "query": "学习的时候我常放什么音乐？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f27"
+      ],
+      "forbidden_fact_ids": [
+        "f28"
+      ],
+      "difficulty": "easy",
+      "reason": "学习背景音乐，易与日语复习工具混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "问学习时听的音乐，f27为巴赫《哥德堡变奏曲》；f28 Anki日语复习为学习场景干扰。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f27"
+      ],
+      "answer_fact_ids": [
+        "f27"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-22）学习时我常听巴赫的《哥德堡变奏曲》。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q093",
+      "query": "指数基金定投和一次性买入，在风险分散上一般有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用理财知识解释，不涉及个人定投金额。",
+      "category": "综合盲测补足",
+      "audit_reason": "问定投与一次性买入在风险分散上的通用区别，属通用理财知识，不涉及个人定投金额。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q094",
+      "query": "蝴蝶兰浇水过多通常会出现哪些症状，怎么判断该不该浇？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用园艺知识，不应读取个人浇水频率。",
+      "category": "综合盲测补足",
+      "audit_reason": "问蝴蝶兰浇水过多的通用症状与判断方法，属通用园艺知识，不应读取f22个人浇水频率。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q095",
+      "query": "胶片摄影里 ISO 400 和 ISO 100 在颗粒与适用光线上一般怎么选？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用摄影知识，易误取个人常用感光度。",
+      "category": "综合盲测补足",
+      "audit_reason": "问ISO 400与ISO 100的通用选择，属通用摄影知识，不应读取f19个人常用感光度。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q096",
+      "query": "观星时先用低倍目镜找目标，一般是什么原理？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用天文观测原理，易误取个人目镜焦距。",
+      "category": "综合盲测补足",
+      "audit_reason": "问低倍目镜先找目标的通用原理，属通用天文观测知识，不应读取f20个人目镜焦距。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q097",
+      "query": "帮我写一句提醒自己别熬夜的短句。",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "写作任务，不需要读取个人作息。",
+      "category": "综合盲测补足",
+      "audit_reason": "写作任务，不依赖个人事实，保持 general。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q098",
+      "query": "我平时吃火锅能接受的辣度上限是什么？",
+      "expected_intent": "memory",
+      "query_kind": "profile",
+      "target_fact_ids": [
+        "f01"
+      ],
+      "forbidden_fact_ids": [
+        "f35"
+      ],
+      "difficulty": "easy",
+      "reason": "询问个人辣度偏好，需读取 f01；f35 是香菜忌口，容易与饮食偏好混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问个人辣度上限，需 f01；f35 为香菜忌口，易混入但不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f01"
+      ],
+      "answer_fact_ids": [
+        "f01"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-01）我不能吃太辣，最多接受微辣。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q099",
+      "query": "手冲咖啡我通常选哪种烘焙度，喝的时候加不加糖？",
+      "expected_intent": "memory",
+      "query_kind": "profile",
+      "target_fact_ids": [
+        "f02"
+      ],
+      "forbidden_fact_ids": [
+        "f36"
+      ],
+      "difficulty": "easy",
+      "reason": "询问咖啡烘焙度与加糖习惯，对应 f02；f36 是奶茶偏好，同属饮品但不同对象。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问手冲咖啡烘焙度与加糖，需 f02；f36 为奶茶偏好，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f02"
+      ],
+      "answer_fact_ids": [
+        "f02"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-02）我更喜欢浅烘手冲咖啡，而且不加糖。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q100",
+      "query": "我每周固定夜跑是哪几天，每次跑多少？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05"
+      ],
+      "difficulty": "easy",
+      "reason": "询问夜跑安排，对应 f04；f05 是周日游泳，同属运动安排容易混入。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问夜跑日期与距离，需 f04；f05 为游泳安排，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q101",
+      "query": "工作日我一般几点上床、第二天几点起？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f31"
+      ],
+      "difficulty": "easy",
+      "reason": "询问工作日作息，对应 f06；f31 是空调设置，同属睡眠场景但不同事实。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问工作日睡觉与起床时间，需 f06；f31 为空调设置，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q102",
+      "query": "课程项目最早立项时选的是什么方向，后来改成了什么？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f08",
+        "f09"
+      ],
+      "forbidden_fact_ids": [
+        "f10"
+      ],
+      "difficulty": "medium",
+      "reason": "询问项目方向的历史变化，需引用 f08 与 f09；f10 是论文方向，同属研究方向容易误混。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问课程项目方向的历史变化，需 f08 与 f09；f10 为论文方向，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f09"
+      ],
+      "answer_fact_ids": [
+        "f09"
+      ],
+      "answer": "根据你的记录：\n- （2026-05-12）课程项目后来改成了长期记忆智能体。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q103",
+      "query": "组会时间调整之后，现在到底安排在周几晚上八点？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f33"
+      ],
+      "difficulty": "medium",
+      "reason": "询问组会当前时间，对应 f34；f33 是已失效的旧时间，容易被错误引用。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问组会当前时间，需 f34；f33 为已失效旧时间，不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f34",
+        "f33"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你最近一次明确记录：组会已经改到周四晚上八点。（2026-10-28）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q104",
+      "query": "鱼缸换水固定在星期几，每次换掉多少？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f21"
+      ],
+      "forbidden_fact_ids": [
+        "f22"
+      ],
+      "difficulty": "easy",
+      "reason": "询问鱼缸换水安排，对应 f21；f22 是蝴蝶兰浇水频率，同属养护类事实容易混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问鱼缸换水星期与比例，需 f21；f22 为蝴蝶兰浇水，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q105",
+      "query": "观星时先用低倍目镜寻找目标，一般是什么原理？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "询问望远镜目镜使用的一般原理，属于天文观测常识，不读取个人记忆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问望远镜低倍目镜寻星的一般原理，属常识解释，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q106",
+      "query": "周末除了夜跑，我还会去做什么运动？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f05"
+      ],
+      "forbidden_fact_ids": [
+        "f04"
+      ],
+      "difficulty": "medium",
+      "reason": "询问周末固定运动，需区分夜跑与周日游泳，容易误混入夜跑事实。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问周末除夜跑外的运动，需 f05；f04 为夜跑本身，不应混入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f05",
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f05",
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-05）我通常在周日上午去游泳。\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q107",
+      "query": "论文现在做的是哪个方向？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f10"
+      ],
+      "forbidden_fact_ids": [
+        "f09"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问论文方向，需与课程项目方向区分。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问论文方向，需 f10；f09 为课程项目方向，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f10"
+      ],
+      "answer_fact_ids": [
+        "f10"
+      ],
+      "answer": "根据你最近一次明确记录：我的论文方向是检索增强生成。（2026-10-08）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q108",
+      "query": "我喝奶茶一般选什么温度和甜度？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f36"
+      ],
+      "forbidden_fact_ids": [
+        "f02"
+      ],
+      "difficulty": "medium",
+      "reason": "奶茶偏好与咖啡不加糖偏好相邻，易被咖啡事实干扰。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问奶茶温度与甜度，需 f36；f02 为咖啡偏好，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f36"
+      ],
+      "answer_fact_ids": [
+        "f36"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-30）我喝奶茶通常选择热饮和无糖。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q109",
+      "query": "我平时用钢笔写字，笔尖和墨水是什么搭配？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f18"
+      ],
+      "forbidden_fact_ids": [
+        "f17"
+      ],
+      "difficulty": "easy",
+      "reason": "钢笔笔尖与墨水偏好，需避免混入键盘轴体事实。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问钢笔笔尖与墨水搭配，需 f18；f17 为键盘轴体，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f18"
+      ],
+      "answer_fact_ids": [
+        "f18"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-14）我写钢笔时喜欢 EF 尖，常用蓝黑墨水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q110",
+      "query": "牙医那边下次复诊约在什么时候？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f25"
+      ],
+      "forbidden_fact_ids": [
+        "f24"
+      ],
+      "difficulty": "easy",
+      "reason": "复诊时间事实，易与药物过敏事实混淆为医疗类记忆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问牙医复诊时间，需 f25；f24 为青霉素过敏，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f25"
+      ],
+      "answer_fact_ids": [
+        "f25"
+      ],
+      "answer": "根据你的记录：\n- （2026-11-18）牙医复诊预约在十一月十八日下午三点。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q111",
+      "query": "我定投指数基金是每月几号、投多少钱？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f26"
+      ],
+      "forbidden_fact_ids": [
+        "f14"
+      ],
+      "difficulty": "medium",
+      "reason": "定投金额与频率，易与买车颜色等消费偏好混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问指数基金定投日期与金额，需 f26；f14 为汽车颜色偏好，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f26"
+      ],
+      "answer_fact_ids": [
+        "f26"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-21）我在每月十五号定投五百元指数基金。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q112",
+      "query": "学习的时候我一般放什么音乐？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f27"
+      ],
+      "forbidden_fact_ids": [
+        "f07"
+      ],
+      "difficulty": "medium",
+      "reason": "学习背景音乐，易与睡前阅读设备事实混淆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问学习时听的音乐，需 f27；f07 为睡前阅读设备，不应混入。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f27"
+      ],
+      "answer_fact_ids": [
+        "f27"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-22）学习时我常听巴赫的《哥德堡变奏曲》。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q113",
+      "query": "组会从原来的时间改到现在，具体是怎么变的？",
+      "expected_intent": "memory",
+      "query_kind": "evolution",
+      "target_fact_ids": [
+        "f33",
+        "f34"
+      ],
+      "forbidden_fact_ids": [
+        "f08"
+      ],
+      "difficulty": "hard",
+      "reason": "询问组会时间的历史变化，需同时引用旧时间与现时间，易混入课程项目变更。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问组会时间从旧到新的变化，必须同时引用被取代的旧时间 f33 与现行时间 f34；f08 是课程项目变更，属易混入的无关事实。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f34",
+        "f33"
+      ],
+      "answer_fact_ids": [
+        "f34"
+      ],
+      "answer": "根据你最近一次明确记录：组会已经改到周四晚上八点。（2026-10-28）",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q114",
+      "query": "胶片摄影里，ISO 400 和 ISO 100 在颗粒和适用光线上一般怎么选？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "通用摄影知识，不依赖个人使用哪种感光度的记忆。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问 ISO 400 与 ISO 100 在颗粒和适用光线上的通用区别，属摄影常识，不依赖个人使用哪种感光度的记忆。",
+      "offline_intent": "general",
+      "offline_method": "rule_fast",
+      "online_intent": "general",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "b99q115",
+      "query": "机械键盘青轴和静音红轴在声音和触发手感上一般有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "键盘轴体通用知识，不应读取个人换轴历史。",
+      "category": "综合盲测补足",
+      "audit_reason": "询问青轴与静音红轴在声音和触发手感上的通用区别，属键盘轴体常识，不应读取个人换轴历史。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x116",
+      "query": "每周固定夜跑是哪几天，每次跑多远？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f04"
+      ],
+      "forbidden_fact_ids": [
+        "f05",
+        "f32"
+      ],
+      "difficulty": "easy",
+      "reason": "夜跑安排是个人事实f04；易混入游泳或大扫除等周末安排。",
+      "category": "补充盲测",
+      "audit_reason": "夜跑的具体星期与距离只来自个人事实f04；f05游泳和f32大扫除是易混的周末安排，不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f04"
+      ],
+      "answer_fact_ids": [
+        "f04"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-04）我每周二、周四和周六晚上夜跑五公里。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x117",
+      "query": "酸面包酵种喂养时，面粉、水和酵种的比例通常怎么理解？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "询问酵种比例的一般知识，不依赖个人喂养比例。",
+      "category": "补充盲测",
+      "audit_reason": "询问酵种比例的一般理解，属于通用知识；个人比例f23不应作为答案依据。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x118",
+      "query": "成年人每周中等强度有氧运动建议多少分钟？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "通用运动建议，不需要读取个人夜跑安排。",
+      "category": "补充盲测",
+      "audit_reason": "成年人有氧运动建议是通用健康知识，不依赖个人夜跑事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x119",
+      "query": "蝴蝶兰浇水过多通常有哪些表现，怎么判断该不该浇？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "植物养护通用知识，不应读取个人浇水频率。",
+      "category": "补充盲测",
+      "audit_reason": "蝴蝶兰浇水判断属于通用养护知识；个人浇水频率f22不应混入答案。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x120",
+      "query": "青轴和静音红轴在声音与触发手感上一般有什么区别？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "easy",
+      "reason": "键盘轴体通用对比知识，不涉及个人当前用哪种轴。",
+      "category": "补充盲测",
+      "audit_reason": "青轴与静音红轴的通用对比知识，不依赖个人当前使用哪种轴体的事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x121",
+      "query": "我平时用钢笔写字，笔尖和墨水分别是什么搭配？",
+      "expected_intent": "memory",
+      "query_kind": "profile",
+      "target_fact_ids": [
+        "f18"
+      ],
+      "forbidden_fact_ids": [
+        "f17"
+      ],
+      "difficulty": "easy",
+      "reason": "直接询问钢笔笔尖与墨水的个人偏好，需读取 f18；f17 是键盘轴体，易被文具类问题误混。",
+      "category": "补充盲测",
+      "audit_reason": "询问个人钢笔笔尖与墨水搭配，需 f18；f17 为键盘轴体，易混入文具类问题但不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f18"
+      ],
+      "answer_fact_ids": [
+        "f18"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-14）我写钢笔时喜欢 EF 尖，常用蓝黑墨水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x122",
+      "query": "家里鱼缸换水是每周几、换掉多少来着？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f21"
+      ],
+      "forbidden_fact_ids": [
+        "f32"
+      ],
+      "difficulty": "easy",
+      "reason": "询问鱼缸换水的固定安排，对应 f21；f32 是每周日大扫除，同为每周固定家务，容易混淆。",
+      "category": "补充盲测",
+      "audit_reason": "询问鱼缸换水频率与换水量，需 f21；f32 为每周日大扫除，同为每周固定事项，易混淆但不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "offline_fallback",
+      "online_intent": "memory",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [
+        "f21"
+      ],
+      "answer_fact_ids": [
+        "f21"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-17）鱼缸固定在每周六换掉三分之一的水。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x123",
+      "query": "酸面包酵种喂养时，面粉、水和酵种按比例混合，一般是为了控制什么？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "询问酵种喂养比例的一般原理，属于烘焙通识，不需要读取用户个人比例事实。",
+      "category": "补充盲测",
+      "audit_reason": "询问酵种喂养比例的一般原理，属烘焙通识，不依赖个人事实。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x124",
+      "query": "如果要在邮件里礼貌指出对方把会议时间记错了，可以怎么写？",
+      "expected_intent": "general",
+      "query_kind": "general",
+      "target_fact_ids": [],
+      "forbidden_fact_ids": [],
+      "difficulty": "medium",
+      "reason": "请求一般性的邮件沟通写作建议，不涉及用户个人会议安排，不应读取组会时间等记忆。",
+      "category": "补充盲测",
+      "audit_reason": "请求一般性邮件写作建议，不涉及个人会议安排，无需读取记忆。",
+      "offline_intent": "general",
+      "offline_method": "offline_fallback",
+      "online_intent": "general",
+      "online_method": "offline_fallback",
+      "hit_fact_ids": [],
+      "answer_fact_ids": [],
+      "answer": "",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x125",
+      "query": "工作日晚上我一般几点上床，第二天早上几点起？",
+      "expected_intent": "memory",
+      "query_kind": "current",
+      "target_fact_ids": [
+        "f06"
+      ],
+      "forbidden_fact_ids": [
+        "f07",
+        "f31"
+      ],
+      "difficulty": "easy",
+      "reason": "询问工作日作息时间，需读取 f06；易与睡前阅读、空调设置等相邻事实混淆。",
+      "category": "补充盲测",
+      "audit_reason": "问题询问工作日晚上上床和早上起床时间，只有 f06 同时包含晚上十一点半睡觉和早上七点起床两条信息，必须依赖该个人事实；f07 是睡前阅读习惯、f31 是空调设置，均不回答作息时间，且容易因同属睡前场景混入，故列为 forbidden。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f06"
+      ],
+      "answer_fact_ids": [
+        "f06"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-06）工作日我一般晚上十一点半睡觉，早上七点起床。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    },
+    {
+      "id": "x126",
+      "query": "我平时喝奶茶会选什么温度和甜度？",
+      "expected_intent": "memory",
+      "query_kind": "profile",
+      "target_fact_ids": [
+        "f36"
+      ],
+      "forbidden_fact_ids": [
+        "f02",
+        "f03"
+      ],
+      "difficulty": "easy",
+      "reason": "询问奶茶偏好，需读取个人事实；易与咖啡、茶饮偏好混淆。",
+      "category": "补充盲测",
+      "audit_reason": "询问个人奶茶温度与甜度偏好，必须依赖事实 f36；f02 是咖啡偏好、f03 是乌龙茶冲泡习惯，均易混入但不应进入答案。",
+      "offline_intent": "memory",
+      "offline_method": "rule_fast",
+      "online_intent": "memory",
+      "online_method": "rule_fast",
+      "hit_fact_ids": [
+        "f36"
+      ],
+      "answer_fact_ids": [
+        "f36"
+      ],
+      "answer": "根据你的记录：\n- （2026-10-30）我喝奶茶通常选择热饮和无糖。",
+      "offline_route_ok": true,
+      "online_route_ok": true,
+      "target_hit": true,
+      "forbidden_hit": false,
+      "passed": true
+    }
+  ]
+}

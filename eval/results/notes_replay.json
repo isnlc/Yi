@@ -1,0 +1,158 @@
+{
+ "corpus": "三段拟真自然语言笔记（与评测集措辞无重叠，验证泛化）",
+ "ingest": [
+  {
+   "note_id": "note_travel",
+   "memory_items": [
+    {
+     "topic": "生活",
+     "action": "记录",
+     "detail": "国庆出游的计划折腾了好几轮"
+    },
+    {
+     "topic": "旅行",
+     "action": "约定",
+     "detail": "九月初本来和林晓约好去西安看兵马俑，票都差点下单了，后来看了天气预报说那边连着下雨，两个人一合计还是算了"
+    },
+    {
+     "topic": "旅行",
+     "action": "更改",
+     "detail": "翻攻略的时候刷到泉州，开元寺、蟳埔村还有面线糊看着都馋人，最后拍板：改去泉州，行程放慢一点，就逛老城"
+    }
+   ],
+   "conflicts_on_ingest": [
+    "md61c41bc->m3e78e58d"
+   ]
+  },
+  {
+   "note_id": "note_coffee",
+   "memory_items": [
+    {
+     "topic": "饮食",
+     "action": "记录",
+     "detail": "记账的时候发现自己这学期在咖啡上花了不少钱"
+    },
+    {
+     "topic": "饮食",
+     "action": "记录",
+     "detail": "以前图省事一直喝速溶，一条一条撕，桌上全是包装"
+    },
+    {
+     "topic": "饮食",
+     "action": "记录",
+     "detail": "上个月同事送了挂耳和豆子，试着用公司的小磨豆机手冲了两次，居然一次就成了，从此再也回不去了"
+    },
+    {
+     "topic": "饮食",
+     "action": "放弃",
+     "detail": "现在每周自己烘一点浅烘的豆子，速溶那条货架再也没光顾过"
+    }
+   ],
+   "conflicts_on_ingest": []
+  },
+  {
+   "note_id": "note_course",
+   "memory_items": [
+    {
+     "topic": "课程",
+     "action": "记录",
+     "detail": "课程大作业的题目终于定下来了"
+    },
+    {
+     "topic": "生活",
+     "action": "开始",
+     "detail": "最开始想做校园导航，觉得地图数据好找，写了两页开题提纲"
+    },
+    {
+     "topic": "课程",
+     "action": "更改",
+     "detail": "后来组员说导航被人做烂了，答辩容易撞车，讨论到半夜改成做课程表助手，能把课表、作业截止日和考试安排捏到一块儿，周五已经把新的开题交上去了"
+    }
+   ],
+   "conflicts_on_ingest": []
+  }
+ ],
+ "maintain": {
+  "conclusions": [
+   "生活",
+   "饮食",
+   "课程"
+  ],
+  "retention_decisions": 0
+ },
+ "store_stats": {
+  "entries": 3,
+  "memories_total": 10,
+  "memories_by_status": {
+   "active": 5,
+   "superseded": 1,
+   "compressed": 4
+  },
+  "conflicts": 1,
+  "conflicts_resolved": 1,
+  "conclusions": 3,
+  "forget_decisions": 0
+ },
+ "qa": [
+  {
+   "note_id": "note_travel",
+   "question": "国庆我们最后决定去哪儿玩？",
+   "expected_keywords": [
+    "泉州"
+   ],
+   "hit_keywords": [
+    "泉州"
+   ],
+   "stale_keywords": [
+    "西安"
+   ],
+   "stale_appeared": [],
+   "conflict_reminder": false,
+   "pass": true,
+   "answer": "根据你最近一次明确记录：翻攻略的时候刷到泉州，开元寺、蟳埔村还有面线糊看着都馋人，最后拍板：改去泉州，行程放慢一点，就逛老城（2026-09-20）\n这一状态有过更新，当前以上述最新记录为准。",
+   "evidence": [
+    "（2026-09-20）翻攻略的时候刷到泉州，开元寺、蟳埔村还有面线糊看着都馋人，最后拍板：改去泉州，行程放慢一点，就逛老城",
+    "（2026-09-20）九月初本来和林晓约好去西安看兵马俑，票都差点下单了，后来看了天气预报说那边连着下雨，两个人一合计还是算了"
+   ]
+  },
+  {
+   "note_id": "note_coffee",
+   "question": "我现在还喝速溶咖啡吗？",
+   "expected_keywords": [
+    "速溶"
+   ],
+   "hit_keywords": [
+    "速溶"
+   ],
+   "stale_keywords": null,
+   "stale_appeared": [],
+   "conflict_reminder": false,
+   "pass": true,
+   "answer": "根据你最近一次明确记录：现在每周自己烘一点浅烘的豆子，速溶那条货架再也没光顾过（2026-09-25）",
+   "evidence": [
+    "（2026-09-25）现在每周自己烘一点浅烘的豆子，速溶那条货架再也没光顾过"
+   ]
+  },
+  {
+   "note_id": "note_course",
+   "question": "课程大作业最后选了什么题目？",
+   "expected_keywords": [
+    "课程表助手"
+   ],
+   "hit_keywords": [
+    "课程表助手"
+   ],
+   "stale_keywords": [
+    "校园导航"
+   ],
+   "stale_appeared": [],
+   "conflict_reminder": false,
+   "pass": true,
+   "answer": "根据你最近一次明确记录：后来组员说导航被人做烂了，答辩容易撞车，讨论到半夜改成做课程表助手，能把课表、作业截止日和考试安排捏到一块儿，周五已经把新的开题交上去了（2026-09-28）",
+   "evidence": [
+    "（2026-09-28）后来组员说导航被人做烂了，答辩容易撞车，讨论到半夜改成做课程表助手，能把课表、作业截止日和考试安排捏到一块儿，周五已经把新的开题交上去了"
+   ]
+  }
+ ],
+ "all_pass": true
+}

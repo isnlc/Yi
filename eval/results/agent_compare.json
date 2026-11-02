@@ -1,0 +1,34 @@
+{
+ "dataset": "dataset_large.jsonl",
+ "questions": 48,
+ "single": {
+  "type_acc": {
+   "recent": 0.917,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 1.0,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "overall": 0.979,
+  "memory_size": 59,
+  "memory_archive": 160,
+  "conflicts": 0,
+  "conflicts_resolved": 0
+ },
+ "multi": {
+  "type_acc": {
+   "recent": 1.0,
+   "contradiction": 1.0,
+   "time": 1.0,
+   "summary": 1.0,
+   "timeline": 1.0,
+   "trap": 1.0
+  },
+  "overall": 1.0,
+  "memory_size": 48,
+  "memory_archive": 171,
+  "conflicts": 13,
+  "conflicts_resolved": 13
+ }
+}

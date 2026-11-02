@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.py[cod]
+logs/*.log
+logs/*.jsonl
+data/documents/*
+!data/documents/.gitkeep
+data/photos/*
+!data/photos/.gitkeep
+data/pending_memories.json
+data/web_photos.json
+data/web_store.json
+data/memory_store.json
