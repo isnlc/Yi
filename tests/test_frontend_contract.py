@@ -76,6 +76,23 @@ class TestAttachmentFrontendContract(unittest.TestCase):
         self.assertIn('fetch("/api/documents")', HTML)
         self.assertIn('method:"DELETE"', HTML)
 
+    def test_memory_views_are_height_constrained_and_scrollable(self):
+        self.assertIn(
+            "#memoryView { flex: 1; display: flex; flex-direction: column; "
+            "min-height: 0; overflow: hidden; }",
+            HTML,
+        )
+        self.assertIn(
+            ".mem-split { flex: 1; display: flex; min-height: 0; overflow: hidden; }",
+            HTML,
+        )
+        self.assertRegex(HTML, r"\.mem-list \{[^}]*overflow-y: auto;")
+        self.assertRegex(HTML, r"\.mem-detail \{[^}]*overflow-y: auto;")
+        self.assertIn(
+            ".memory-secondary { flex: 1; min-height: 0; overflow: auto;",
+            HTML,
+        )
+
     def test_chat_exposes_interaction_policy_scenarios_and_memory_effects(self):
         self.assertIn('id="chipsQuick"', HTML)
         self.assertIn('<span class="chip-lb">常用</span>', HTML)

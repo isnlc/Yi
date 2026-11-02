@@ -205,7 +205,8 @@
   }
   .toolbar .count { font-size: 11px; color: var(--faint); min-width: 60px; text-align: right; }
 
-  .mem-split { flex: 1; display: flex; min-height: 0; }
+  #memoryView { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+  .mem-split { flex: 1; display: flex; min-height: 0; overflow: hidden; }
   .mem-list { width: 400px; flex-shrink: 0; border-right: 1px solid var(--line); overflow-y: auto; background: #f2ecdc; box-shadow: inset -6px 0 12px -8px rgba(120,100,60,.12); }
   .mem-row { padding: 12px 20px; border-bottom: 1px solid var(--line-soft); cursor: pointer; border-left: 2px solid transparent; }
   .mem-row:hover { background: #fbf8ef; }
@@ -222,7 +223,7 @@
   .mem-tabs button { padding: 12px 2px; border: 0; border-bottom: 2px solid transparent; background: none; color: var(--muted); cursor: pointer; }
   .mem-tabs button.on { border-bottom-color: var(--cinnabar); color: var(--ink); font-weight: 600; }
   .mem-tabs .tab-count { margin-left: 5px; color: var(--faint); font-size: 11px; }
-  .memory-secondary { overflow: auto; padding: 18px 28px; }
+  .memory-secondary { flex: 1; min-height: 0; overflow: auto; padding: 18px 28px; }
   .memory-secondary[hidden], #memoryView[hidden] { display: none; }
   .candidate-row, .library-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; padding: 14px 0; border-bottom: 1px solid var(--line-soft); }
   .candidate-content, .library-content { min-width: 0; flex: 1; }
