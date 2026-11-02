@@ -100,7 +100,7 @@ def looks_like_question(text: str) -> bool:
 
 
 def implicit_memory_candidate(text: str) -> tuple[bool, str]:
-    """Conservative offline proposal; never authorizes a permanent write."""
+    """Conservative local proposal; never authorizes a permanent write."""
     value = " ".join((text or "").split()).strip()
     if (
         len(value) < 6

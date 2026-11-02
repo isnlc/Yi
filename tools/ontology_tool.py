@@ -5,7 +5,7 @@ RDFS 类与属性，记忆条目作为实例（ABox）灌入；时间线/当前�
 可走 SPARQL 查询，与三路检索并列成第二条查询通路。
 
 依赖 rdflib（pip install rdflib）；未安装时 is_available() 返回 False，
-上层跳过本体通路，不影响主流程离线运行。
+上层跳过本体通路，不影响主流程使用本地降级路径。
 """
 
 from __future__ import annotations

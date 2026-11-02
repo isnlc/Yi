@@ -70,6 +70,17 @@ def _is_summary_query(query: str) -> bool:
     )
 
 
+def _is_attribute_value_query(query: str) -> bool:
+    if re.search(r"是不是|是否|还(?:在|有)|有没有|对不对|吗[？?]?$", query):
+        return False
+    return bool(re.search(
+        r"是什么|是多少|什么|"
+        r"哪(?:个|种|里|儿)|多久|几次|多长时间|多少钱|多少(?:本|个|次|元)|"
+        r"频率|时间|地点|城市|类型|设备|配置|颜色|风格|金额",
+        query,
+    ))
+
+
 def _historical_event_hits(query: str, hits):
     """Keep records that express the event asked by a 'when' question."""
     if not re.search(r"什么时候|哪天|哪一年|哪一月|几月几日", query):
@@ -133,16 +144,21 @@ def _current_state_hits(store, query: str, hits):
 
     from .semantics import analyze_semantics, frame_for_memory
     query_frame = analyze_semantics(query, is_query=True)
-    requested_evidence_facets = set(query_frame.facets) & {
-        "地点", "数量", "类型", "设备", "金额",
-    }
+    requested_evidence_facets = (
+        set(query_frame.facets) - {"状态"}
+        if _is_attribute_value_query(query)
+        else set()
+    )
     if requested_evidence_facets:
         attribute_hits = []
+        state_hits = []
         for memory, score in hits:
             parent = store.memory_by_id(memory.parent_id) if memory.parent_id else None
             memory_frame = frame_for_memory(memory, parent.detail if parent else "")
             if requested_evidence_facets & set(memory_frame.facets):
                 attribute_hits.append((memory, score))
+            if memory.action in {"更改", "放弃", "开始", "约定"}:
+                state_hits.append((memory, score, memory_frame))
         if attribute_hits:
             selected, selected_score = max(
                 attribute_hits,
@@ -152,6 +168,24 @@ def _current_state_hits(store, query: str, hits):
                     write_order.get(x[0].id, -1),
                 ),
             )
+            if state_hits:
+                latest_state, latest_state_score, latest_state_frame = max(
+                    state_hits,
+                    key=lambda x: (
+                        x[0].status != "superseded",
+                        x[0].date,
+                        write_order.get(x[0].id, -1),
+                        CURRENT_ACTION_PRIORITY.get(x[0].action, 0),
+                    ),
+                )
+                if (
+                    latest_state.date > selected.date
+                    and not requested_evidence_facets & set(latest_state_frame.facets)
+                ):
+                    return [
+                        (latest_state, latest_state_score),
+                        (selected, -1.0),
+                    ]
             concise = [(selected, selected_score)]
             for conflict in store.conflicts:
                 if selected.id not in (conflict.older_id, conflict.newer_id):
@@ -225,7 +259,7 @@ def compose(
 ) -> dict:
     """返回 {answer, evidence, used_conclusion}。
 
-    display 控制证据呈现顺序（离线模板与 LLM 上下文共用同一份证据）：
+    display 控制证据呈现顺序（本地模板与 LLM 上下文共用同一份证据）：
     - "recent"   现状类问题：最新证据排最前（体现"以最新为准"），最多 6 条；
     - "timeline" 时间回溯/总结类：按时间顺序铺开叙事，最多 8 条；
     - "calendar" 日历窗口类（"十月以来""国庆"）：按时间顺序铺开，窗口内全量呈现。
@@ -233,7 +267,7 @@ def compose(
     answer_mode:
     - retrieval_only：只用确定性模板组织检索证据，不联系 LLM；
     - retrieval_llm：将检索证据交给 LLM 做分析、建议或综合表达；
-    - auto：兼容旧调用，在线时使用 LLM。
+    - auto：兼容旧调用，模型接口可用时使用 LLM。
     """
     hits = _historical_event_hits(query, hits)
     if _is_latest_event_query(query):
@@ -332,7 +366,7 @@ def compose(
         except Exception:
             pass
 
-    # ---------- 离线模板作答 ----------
+    # ---------- 本地模板作答 ----------
     parts = []
     if conclusions and display == "timeline" and _is_summary_query(query):
         for c in conclusions:
@@ -345,7 +379,42 @@ def compose(
             key=lambda m: (m.status == "active", m.date),
         )
         parts.append(f"根据你最近一次明确记录：{current.detail}（{current.date}）")
-        if conflict_notes:
+        from .semantics import analyze_semantics, frame_for_memory
+        query_frame = analyze_semantics(query, is_query=True)
+        requested_facets = (
+            set(query_frame.facets) - {"状态"}
+            if _is_attribute_value_query(query)
+            else set()
+        )
+        current_parent = store.memory_by_id(current.parent_id) if current.parent_id else None
+        current_frame = frame_for_memory(
+            current,
+            current_parent.detail if current_parent else "",
+        )
+        missing_facets = requested_facets - set(current_frame.facets)
+        historical_attribute = None
+        if missing_facets:
+            candidates = []
+            for memory, _score in hits:
+                if memory.id == current.id:
+                    continue
+                parent = store.memory_by_id(memory.parent_id) if memory.parent_id else None
+                memory_frame = frame_for_memory(
+                    memory,
+                    parent.detail if parent else "",
+                )
+                if missing_facets & set(memory_frame.facets):
+                    candidates.append(memory)
+            if candidates:
+                historical_attribute = max(candidates, key=lambda memory: memory.date)
+        if historical_attribute:
+            facet_label = "、".join(sorted(missing_facets))
+            parts.append(
+                f"这条记录没有说明当前{facet_label}。上一阶段记录为："
+                f"{historical_attribute.detail}（{historical_attribute.date}），"
+                "该值不能直接视为当前状态。"
+            )
+        elif conflict_notes:
             parts.append("这一状态有过更新，当前以上述最新记录为准。")
     elif lines:
         if conflict_notes:

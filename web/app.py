@@ -11,8 +11,8 @@
 - 记忆导出（JSON 下载，数据始终属于用户）
 
 启动（项目根目录）:
-    python web/app.py --port 8765              # 规则模式（离线可复现）
-    MEMAGENT_LLM=1 python web/app.py --port 8765  # 在线语义增强模式
+    python web/app.py --port 8765                 # 读取 .env 并启动服务
+    MEMAGENT_LLM=0 python web/app.py --port 8765  # 关闭模型调用，用于固定评测
 """
 
 from __future__ import annotations
@@ -1508,7 +1508,7 @@ def _attachment_fallback_answer(file_summaries: list[dict]) -> str:
 
 
 def _model_image_data_url(data: bytes, content_type: str) -> str:
-    """Downscale uploads before sending them to the online vision model."""
+    """Downscale uploads before sending them to the configured vision model."""
     try:
         from PIL import Image, ImageOps
 
@@ -1726,7 +1726,7 @@ async def handle_attachments(
 
     fallback_answer = _attachment_fallback_answer(file_summaries)
     if privacy_reason:
-        fallback_answer = "检测到敏感信息，本次附件未发送到在线模型，仅完成本地读取。\n" + fallback_answer
+        fallback_answer = "检测到敏感信息，本次附件未发送到模型接口，仅完成本地读取。\n" + fallback_answer
     return {
         "ok": True,
         "mode": "analysis",
@@ -2137,16 +2137,16 @@ def handle_image(req: PhotoRequest):
             "ok": True,
             "mode": "analysis",
             "answer": (
-                ("检测到敏感信息，本次图片未发送到在线模型。\n" if privacy_reason else "")
+                ("检测到敏感信息，本次图片未发送到模型接口。\n" if privacy_reason else "")
                 + f"当前只能识别图片中的文字，结果如下：\n{ocr_text}"
             ),
             "ocr_text": ocr_text,
             "visual_understanding": False,
             "privacy_local_only": bool(privacy_reason),
         }
-    limitation = "当前设备未识别出清晰文字，且在线图片理解暂不可用。"
+    limitation = "当前设备未识别出清晰文字，且视觉模型接口暂不可用。"
     if not vision_is_enabled():
-        limitation += " 离线模式只提供 OCR，不具备完整视觉理解。"
+        limitation += " 未配置视觉模型接口时，仅提供图片文字识别，不进行物体和场景分析。"
     return {
         "ok": False,
         "mode": "analysis",

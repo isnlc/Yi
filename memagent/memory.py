@@ -6,7 +6,7 @@ from datetime import date as _date
 from . import config, llm
 from .store import MemoryStore, MemoryItem, Conflict, Conclusion
 
-# 主题词表：命中即归类（离线规则模式的"语义理解"下位替代）
+# 主题词表：命中即归类（本地规则路径的“语义理解”下位替代）
 TOPIC_RULES = [
     (("跑步", "健身", "三公里", "五公里"), "健身"),
     (("羽毛球", "运动", "球馆"), "运动"),
@@ -147,7 +147,7 @@ def extract(store: MemoryStore, entry_text: str, entry_date: str, entry_id: str)
                     evidence=entry_id))
             return items
         except Exception:
-            pass  # LLM 失败时回退规则模式
+            pass  # LLM 失败时回退到本地规则路径
 
     for sent in _split_sentences(entry_text):
         topic = _match_topic(sent) or "生活"

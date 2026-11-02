@@ -3,8 +3,8 @@
 #   MEMAGENT_BASE_URL  例如 https://dashscope.aliyuncs.com/compatible-mode/v1 或 https://api.deepseek.com/v1
 #   MEMAGENT_API_KEY   对应密钥
 #   MEMAGENT_MODEL     模型名，默认 deepseek-chat
-#   MEMAGENT_LLM       设为 0 可强制关闭 LLM（即使配置了密钥），用于离线复现
-# 未配置时 is_enabled() 返回 False，上层自动回退到规则模式，保证离线可跑。
+#   MEMAGENT_LLM       设为 0 可强制关闭 LLM（即使配置了密钥），用于固定评测
+# 未配置时 is_enabled() 返回 False，上层自动使用本地降级路径。
 import json
 import os
 import re
@@ -29,7 +29,7 @@ _load_dotenv()
 
 
 def is_enabled() -> bool:
-    """LLM 为显式开启（MEMAGENT_LLM=1）+ 密钥齐全，默认离线保证实验可复现。
+    """LLM 为显式开启（MEMAGENT_LLM=1）+ 密钥齐全；固定实验会主动关闭模型调用。
     交互式入口（agent.py）会自动置 MEMAGENT_LLM=1。"""
     if os.environ.get("MEMAGENT_LLM", "0") != "1":
         return False

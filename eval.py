@@ -4,7 +4,7 @@ import json
 import os
 from pathlib import Path
 
-# This benchmark evaluates the deterministic memory pipeline. Online model
+# This benchmark evaluates the deterministic memory pipeline. Generative-model
 # wording is tested separately and must not change the reproducible score.
 os.environ["MEMAGENT_LLM"] = "0"
 

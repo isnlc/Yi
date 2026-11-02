@@ -147,12 +147,15 @@ class TestCrossDomainRetrieval(SharedSemanticTestCase):
         self.assertNotIn("跑步", result["answer"])
 
     def test_explicit_change_count_is_an_evolution_query(self):
-        frame = analyze_semantics("我的咖啡口味经历了几次变化？", is_query=True)
+        frame = analyze_semantics("我的旅行计划是怎么变化的？", is_query=True)
         self.assertEqual(frame.scope, "evolution")
+        self.assertEqual(frame.topic, "旅行")
+        self.assertNotIn("变化", frame.entities)
 
     def test_current_plan_uses_latest_state_change_not_latest_completion(self):
         store = self.make_store()
         agent = MemoryAgent(store)
+        agent.ingest("2026-04-20", "跑步频率改成隔天一次。")
         agent.ingest("2026-05-20", "跑步计划正式放弃。")
         agent.ingest("2026-09-01", "重新开始跑步计划，目标五公里。")
         agent.ingest("2026-10-14", "今天跑步按计划完成，膝盖没有不适。")
@@ -165,6 +168,16 @@ class TestCrossDomainRetrieval(SharedSemanticTestCase):
 
         self.assertIn("重新开始跑步计划", result["answer"])
         self.assertNotIn("按计划完成", result["answer"])
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            frequency_result = agent.answer(
+                "我现在跑步的频率是多少？",
+                answer_mode="retrieval_only",
+            )
+
+        self.assertIn("没有说明当前频率", frequency_result["answer"])
+        self.assertIn("隔天一次", frequency_result["answer"])
+        self.assertIn("不能直接视为当前状态", frequency_result["answer"])
 
     def test_current_arrangement_keeps_latest_semantic_candidate(self):
         store = self.make_store()
@@ -181,6 +194,7 @@ class TestCrossDomainRetrieval(SharedSemanticTestCase):
 
         self.assertIn("轮流大扫除", result["answer"])
         self.assertNotIn("本月我自己做", result["answer"])
+        self.assertNotIn("没有说明当前", result["answer"])
 
     def test_evolution_query_keeps_method_and_preference_changes(self):
         store = self.make_store()
@@ -197,6 +211,34 @@ class TestCrossDomainRetrieval(SharedSemanticTestCase):
 
         self.assertIn("手冲", result["answer"])
         self.assertIn("浅烘", result["answer"])
+
+        travel_store = self.make_store()
+        travel_agent = MemoryAgent(travel_store)
+        travel_agent.ingest("2026-05-01", "国庆最初计划去西安。")
+        travel_agent.ingest("2026-07-20", "国庆行程后来改成去泉州。")
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            travel_result = travel_agent.answer(
+                "我的旅行计划是怎么变化的？",
+                answer_mode="retrieval_only",
+            )
+
+        self.assertIn("西安", travel_result["answer"])
+        self.assertIn("泉州", travel_result["answer"])
+
+        reading_store = self.make_store()
+        reading_agent = MemoryAgent(reading_store)
+        reading_agent.ingest("2026-06-20", "Kindle 吃灰了，改回看纸质书。")
+        reading_agent.ingest("2026-09-28", "最近在读《活着》，进度已经过半。")
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            reading_result = reading_agent.answer(
+                "我最近在读什么书？",
+                answer_mode="retrieval_only",
+            )
+
+        self.assertIn("《活着》", reading_result["answer"])
+        self.assertNotIn("Kindle 吃灰", reading_result["answer"])
 
     def test_current_configuration_recognizes_axis_type(self):
         store = self.make_store()

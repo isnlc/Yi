@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 实验2：单体编排 vs 四项任务分工
-# 主口径与汇报一致：219 条记录、48 题，离线确定性运行。
+# 主口径与汇报一致：219 条记录、48 题，关闭模型调用后确定性运行。
 import sys, os
 os.environ["MEMAGENT_LLM"] = "0"
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))

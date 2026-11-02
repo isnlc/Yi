@@ -206,7 +206,7 @@ def _audit_case_labels(facts: list[dict], cases: list[dict]) -> list[dict]:
 
 def generate_cases(facts: list[dict]) -> list[dict]:
     if not is_enabled():
-        raise RuntimeError("Online LLM is not enabled; configure the project .env first.")
+        raise RuntimeError("The model API is not enabled; configure the project .env first.")
     cases: list[dict] = []
     seen = set()
     for batch_index, (category, wanted_memory, wanted_general) in enumerate(CATEGORIES, start=1):

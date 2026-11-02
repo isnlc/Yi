@@ -279,7 +279,7 @@ class TestCombinedAttachments(unittest.TestCase):
 
         self.assertTrue(result["ok"])
         self.assertTrue(result["privacy_local_only"])
-        self.assertIn("未发送到在线模型", result["answer"])
+        self.assertIn("未发送到模型接口", result["answer"])
         chat_call.assert_not_called()
 
     def test_mixed_batch_rolls_back_previous_items_on_storage_failure(self):
