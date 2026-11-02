@@ -7,161 +7,161 @@ mem:Conclusion_s作息 a mem:Conclusion ;
     mem:detail "长期反复出现：作息相关的记录有 9 条（刷手机到一点，第二天后悔；又熬夜了，赶课程作业）"@zh ;
     mem:hasDate "2026-10-11"^^xsd:date ;
     mem:hasTopic mem:Topic_作息 ;
-    mem:supports mem:Memory_m09f4ef85,
-        mem:Memory_m31b5ede2,
-        mem:Memory_m886aeb80,
-        mem:Memory_m96cea39c,
-        mem:Memory_ma980083a,
-        mem:Memory_mb0d52f45,
-        mem:Memory_mbb284e1e,
-        mem:Memory_md7c2d36b,
-        mem:Memory_mdab8be23 .
+    mem:supports mem:Memory_m0861b289,
+        mem:Memory_m1c1f7d9d,
+        mem:Memory_m2bc433b7,
+        mem:Memory_m56a7ee82,
+        mem:Memory_m851d8467,
+        mem:Memory_ma240f164,
+        mem:Memory_mb008b25e,
+        mem:Memory_mb1e21c18,
+        mem:Memory_me36825c7 .
 
 mem:Conclusion_s健身 a mem:Conclusion ;
     mem:detail "健身主题演变：03-05 今天下决心开始跑步计划，每周三次，先从三公里起步；04-20 跑步有点腻了，改成隔天跑；05-20 健身卡到期，跑步计划正式放弃，先摆烂一段时间；09-01 重新开始跑步计划，这次目标五公里。近期：跑步第二周，五公里能跑下来了"@zh ;
     mem:hasDate "2026-09-24"^^xsd:date ;
     mem:hasTopic mem:Topic_健身 ;
-    mem:supports mem:Memory_m421bcc3c,
-        mem:Memory_m5df49737,
-        mem:Memory_mb8570caf,
-        mem:Memory_mca54fe2b,
-        mem:Memory_me0fb1014,
-        mem:Memory_me2bcb195,
-        mem:Memory_me652974e .
+    mem:supports mem:Memory_m01296e97,
+        mem:Memory_m036b7163,
+        mem:Memory_m1d4c5204,
+        mem:Memory_m73c77cbf,
+        mem:Memory_m813b20f7,
+        mem:Memory_m843de686,
+        mem:Memory_mb2a238a7 .
 
 mem:Conclusion_s生活 a mem:Conclusion ;
     mem:detail "生活主题演变：08-05 开始实习，每天通勤两小时。近期：降温了，翻出秋裤"@zh ;
     mem:hasDate "2026-10-10"^^xsd:date ;
     mem:hasTopic mem:Topic_生活 ;
-    mem:supports mem:Memory_m0bc793a4,
-        mem:Memory_m225571ea,
-        mem:Memory_m28f749d4,
-        mem:Memory_m3f83bc71,
-        mem:Memory_m5274ac2a,
-        mem:Memory_m59e77135,
-        mem:Memory_m62206477,
-        mem:Memory_m652f3599,
-        mem:Memory_m73a44355,
-        mem:Memory_m7b241a9b,
-        mem:Memory_m848bf6b2,
-        mem:Memory_m880165b9,
-        mem:Memory_m8fe78f06,
-        mem:Memory_m93d98012,
-        mem:Memory_ma0394fe0,
-        mem:Memory_mac18c4d5,
-        mem:Memory_mb79187b6,
-        mem:Memory_mc698828f,
-        mem:Memory_md4a59676,
-        mem:Memory_meaad00b5,
-        mem:Memory_mf5074f19,
-        mem:Memory_mf8b9bcce,
-        mem:Memory_mfdb0ac23 .
+    mem:supports mem:Memory_m0531bca0,
+        mem:Memory_m092f5bbd,
+        mem:Memory_m0bb74b93,
+        mem:Memory_m257be8f5,
+        mem:Memory_m25b6caa8,
+        mem:Memory_m347b5ac9,
+        mem:Memory_m417311a1,
+        mem:Memory_m5385638c,
+        mem:Memory_m567ce20b,
+        mem:Memory_m5a9b422e,
+        mem:Memory_m5e128bdc,
+        mem:Memory_m6a577161,
+        mem:Memory_m8d47f380,
+        mem:Memory_mb4d2a65a,
+        mem:Memory_mb5900aa4,
+        mem:Memory_mbb78f212,
+        mem:Memory_mc31d5949,
+        mem:Memory_mc59becbe,
+        mem:Memory_mcbd514c0,
+        mem:Memory_md6163dcb,
+        mem:Memory_mdee4411c,
+        mem:Memory_mee84499a,
+        mem:Memory_mf2767bfb .
 
 mem:Conclusion_s社交 a mem:Conclusion ;
     mem:detail "社交主题演变：03-10 和室友约定，每周末一起大扫除；06-03 和室友的大扫除约定改成本月我来做，他太忙；09-05 和室友约定改成轮流大扫除，一人一周。近期：周末和室友点外卖边吃边聊"@zh ;
     mem:hasDate "2026-09-19"^^xsd:date ;
     mem:hasTopic mem:Topic_社交 ;
-    mem:supports mem:Memory_m34aec8e0,
-        mem:Memory_m76dba697,
-        mem:Memory_mef1c848f .
+    mem:supports mem:Memory_m0d56f655,
+        mem:Memory_m58eb708c,
+        mem:Memory_mdc393383 .
 
 mem:Conclusion_s课程 a mem:Conclusion ;
     mem:detail "课程主题演变：04-02 数据结构课程项目定了选题A：校园导航；05-06 课程项目进展慢，考虑要不要换题；05-12 课程项目正式改选选题B：课程表助手。近期：期末周结束，课程表助手项目提交，拿了个不错的分数"@zh ;
     mem:hasDate "2026-10-07"^^xsd:date ;
     mem:hasTopic mem:Topic_课程 ;
-    mem:supports mem:Memory_m0eeea635,
-        mem:Memory_m0f50cf35,
-        mem:Memory_m3b2a1cce,
-        mem:Memory_mae7f9cc9 .
+    mem:supports mem:Memory_m1b216fe1,
+        mem:Memory_m3087582a,
+        mem:Memory_m4439b536,
+        mem:Memory_mad7a4c50 .
 
 mem:Conclusion_s运动 a mem:Conclusion ;
     mem:detail "长期反复出现：运动相关的记录有 22 条（周三羽毛球，打完吃了顿好的；周三羽毛球，最近状态不错）"@zh ;
     mem:hasDate "2026-10-14"^^xsd:date ;
     mem:hasTopic mem:Topic_运动 ;
-    mem:supports mem:Memory_m00c14ad1,
-        mem:Memory_m05f675de,
-        mem:Memory_m1985c09a,
-        mem:Memory_m1f880a0e,
-        mem:Memory_m3a8db735,
-        mem:Memory_m40acdd50,
-        mem:Memory_m489e1623,
-        mem:Memory_m4af6db2a,
-        mem:Memory_m516d3809,
-        mem:Memory_m5ef91668,
-        mem:Memory_m63fc7454,
-        mem:Memory_m84af6800,
-        mem:Memory_m8a896528,
-        mem:Memory_ma82c7e45,
-        mem:Memory_mb4eb2513,
-        mem:Memory_mb8fbef12,
-        mem:Memory_mcc46ab4c,
-        mem:Memory_mdbb997e0,
-        mem:Memory_mde06d49a,
-        mem:Memory_me5cdd1fa,
-        mem:Memory_me77aadde,
-        mem:Memory_mf4ecd0d3 .
+    mem:supports mem:Memory_m10df9697,
+        mem:Memory_m15279f21,
+        mem:Memory_m16aae34d,
+        mem:Memory_m34d55597,
+        mem:Memory_m3fa2aac3,
+        mem:Memory_m482c66e2,
+        mem:Memory_m4d232d49,
+        mem:Memory_m585bc375,
+        mem:Memory_m5c046f74,
+        mem:Memory_m5e724ccd,
+        mem:Memory_m6d2c21b8,
+        mem:Memory_m70a38a3a,
+        mem:Memory_m8164712f,
+        mem:Memory_m925f6ce2,
+        mem:Memory_m94a13024,
+        mem:Memory_mb33c5d94,
+        mem:Memory_mb56455a4,
+        mem:Memory_mb9807d97,
+        mem:Memory_mc0a2d97e,
+        mem:Memory_mc6389619,
+        mem:Memory_mda5b9b6e,
+        mem:Memory_mfb5b78b3 .
 
 mem:Conclusion_s阅读 a mem:Conclusion ;
     mem:detail "长期反复出现：阅读相关的记录有 7 条（实习间隙刷完两本小说；中午习惯在图书馆眯一会儿）"@zh ;
     mem:hasDate "2026-09-16"^^xsd:date ;
     mem:hasTopic mem:Topic_阅读 ;
-    mem:supports mem:Memory_m35820878,
-        mem:Memory_m3bdae3bd,
-        mem:Memory_m4bfe7041,
-        mem:Memory_m5b95dbd5,
-        mem:Memory_m66104bfb,
-        mem:Memory_mdee07714,
-        mem:Memory_me09c2082 .
+    mem:supports mem:Memory_m6ddfe691,
+        mem:Memory_m99d0f9bc,
+        mem:Memory_ma7d52ae9,
+        mem:Memory_mafa29f19,
+        mem:Memory_mb6ba6a5b,
+        mem:Memory_mc07a75e5,
+        mem:Memory_me4ff52f3 .
 
 mem:Conclusion_s饮食 a mem:Conclusion ;
     mem:detail "饮食主题演变：04-22 咖啡喝完了，决定换成手冲，买了滤杯和磨豆机。近期：深烘豆子试了试，还是浅烘合口味"@zh ;
     mem:hasDate "2026-10-12"^^xsd:date ;
     mem:hasTopic mem:Topic_饮食 ;
-    mem:supports mem:Memory_m1706f1f7,
-        mem:Memory_m1f3bd036,
-        mem:Memory_m2133364b,
-        mem:Memory_m21e1b655,
-        mem:Memory_m2a508b8c,
-        mem:Memory_m3391ecbc,
-        mem:Memory_m3aa49718,
-        mem:Memory_m43a913f8,
-        mem:Memory_m7504f9ad,
-        mem:Memory_m868f2e6a,
-        mem:Memory_m8e671bd9,
-        mem:Memory_m9ad38711,
-        mem:Memory_m9de54b1e,
-        mem:Memory_mba197458,
-        mem:Memory_mcaea942e,
-        mem:Memory_mdd7757f9,
-        mem:Memory_mf6d37f68,
-        mem:Memory_mfcc2661b .
+    mem:supports mem:Memory_m07406d71,
+        mem:Memory_m09ba895a,
+        mem:Memory_m0b822763,
+        mem:Memory_m21f5185f,
+        mem:Memory_m23e4447a,
+        mem:Memory_m43a16ab0,
+        mem:Memory_m56083c57,
+        mem:Memory_m5cd86c5a,
+        mem:Memory_m707ddc53,
+        mem:Memory_m8d7f025d,
+        mem:Memory_m90c569e8,
+        mem:Memory_m9b7f4fad,
+        mem:Memory_mabb8e715,
+        mem:Memory_mb857e0a9,
+        mem:Memory_mbbdc3f50,
+        mem:Memory_mdb2cfcf3,
+        mem:Memory_me61cc8e2,
+        mem:Memory_mf7425d83 .
 
-mem:Conflict_c0d5c094e1a0a160a a mem:Conflict ;
-    mem:conflictText "(2026-03-05) 今天下决心开始跑步计划，每周三次，先从三公里起步 被 (2026-05-20) 健身卡到期，跑步计划正式放弃，先摆烂一段时间 取代"@zh .
-
-mem:Conflict_c1a0a160ae652974e a mem:Conflict ;
-    mem:conflictText "(2026-05-20) 健身卡到期，跑步计划正式放弃，先摆烂一段时间 被 (2026-09-01) 重新开始跑步计划，这次目标五公里 取代"@zh .
-
-mem:Conflict_c2fd9db9f3b2a1cce a mem:Conflict ;
-    mem:conflictText "(2026-04-02) 数据结构课程项目定了选题A：校园导航 被 (2026-05-12) 课程项目正式改选选题B：课程表助手 取代"@zh .
-
-mem:Conflict_c2fd9db9f7ebd394a a mem:Conflict ;
-    mem:conflictText "(2026-04-02) 数据结构课程项目定了选题A：校园导航 被 (2026-05-06) 课程项目进展慢，考虑要不要换题 取代"@zh .
-
-mem:Conflict_c74c7b01a34aec8e0 a mem:Conflict ;
-    mem:conflictText "(2026-06-03) 和室友的大扫除约定改成本月我来做，他太忙 被 (2026-09-05) 和室友约定改成轮流大扫除，一人一周 取代"@zh .
-
-mem:Conflict_c768264dc34aec8e0 a mem:Conflict ;
-    mem:conflictText "(2026-03-10) 和室友约定，每周末一起大扫除 被 (2026-09-05) 和室友约定改成轮流大扫除，一人一周 取代"@zh .
-
-mem:Conflict_c768264dc74c7b01a a mem:Conflict ;
-    mem:conflictText "(2026-03-10) 和室友约定，每周末一起大扫除 被 (2026-06-03) 和室友的大扫除约定改成本月我来做，他太忙 取代"@zh .
-
-mem:Conflict_c7ebd394a3b2a1cce a mem:Conflict ;
+mem:Conflict_c3244eb434439b536 a mem:Conflict ;
     mem:conflictText "(2026-05-06) 课程项目进展慢，考虑要不要换题 被 (2026-05-12) 课程项目正式改选选题B：课程表助手 取代"@zh .
 
-mem:Memory_m0ecbc055 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eaffebfca ;
+mem:Conflict_c5b4cdf40b2a238a7 a mem:Conflict ;
+    mem:conflictText "(2026-05-20) 健身卡到期，跑步计划正式放弃，先摆烂一段时间 被 (2026-09-01) 重新开始跑步计划，这次目标五公里 取代"@zh .
+
+mem:Conflict_c9e7f5dda5b4cdf40 a mem:Conflict ;
+    mem:conflictText "(2026-03-05) 今天下决心开始跑步计划，每周三次，先从三公里起步 被 (2026-05-20) 健身卡到期，跑步计划正式放弃，先摆烂一段时间 取代"@zh .
+
+mem:Conflict_c9f8e96c13244eb43 a mem:Conflict ;
+    mem:conflictText "(2026-04-02) 数据结构课程项目定了选题A：校园导航 被 (2026-05-06) 课程项目进展慢，考虑要不要换题 取代"@zh .
+
+mem:Conflict_c9f8e96c14439b536 a mem:Conflict ;
+    mem:conflictText "(2026-04-02) 数据结构课程项目定了选题A：校园导航 被 (2026-05-12) 课程项目正式改选选题B：课程表助手 取代"@zh .
+
+mem:Conflict_ca184ba460d56f655 a mem:Conflict ;
+    mem:conflictText "(2026-03-10) 和室友约定，每周末一起大扫除 被 (2026-09-05) 和室友约定改成轮流大扫除，一人一周 取代"@zh .
+
+mem:Conflict_ca184ba46cbabc540 a mem:Conflict ;
+    mem:conflictText "(2026-03-10) 和室友约定，每周末一起大扫除 被 (2026-06-03) 和室友的大扫除约定改成本月我来做，他太忙 取代"@zh .
+
+mem:Conflict_ccbabc5400d56f655 a mem:Conflict ;
+    mem:conflictText "(2026-06-03) 和室友的大扫除约定改成本月我来做，他太忙 被 (2026-09-05) 和室友约定改成轮流大扫除，一人一周 取代"@zh .
+
+mem:Memory_m46ab5db7 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e06a7ee8e ;
     mem:detail "五一去周边古镇逛了一天"@zh ;
     mem:hasAction mem:Action_记录 ;
     mem:hasDate "2026-05-01"^^xsd:date ;
@@ -222,1080 +222,308 @@ mem:supports a owl:ObjectProperty ;
 mem:Action_放弃 a mem:Action ;
     rdfs:label "放弃" .
 
-mem:Entry_e00d4dd3f a mem:Entry ;
-    mem:hasDate "2026-04-24"^^xsd:date .
-
-mem:Entry_e025bb35e a mem:Entry ;
-    mem:hasDate "2026-09-16"^^xsd:date .
-
-mem:Entry_e07c56577 a mem:Entry ;
-    mem:hasDate "2026-09-23"^^xsd:date .
-
-mem:Entry_e0a6128cb a mem:Entry ;
-    mem:hasDate "2026-03-30"^^xsd:date .
-
-mem:Entry_e0d6b942a a mem:Entry ;
-    mem:hasDate "2026-03-31"^^xsd:date .
-
-mem:Entry_e0e20a557 a mem:Entry ;
-    mem:hasDate "2026-06-03"^^xsd:date .
-
-mem:Entry_e0e937bbb a mem:Entry ;
-    mem:hasDate "2026-05-19"^^xsd:date .
-
-mem:Entry_e13fc7eb9 a mem:Entry ;
-    mem:hasDate "2026-06-24"^^xsd:date .
-
-mem:Entry_e1da7c58b a mem:Entry ;
-    mem:hasDate "2026-04-10"^^xsd:date .
-
-mem:Entry_e2296ac7f a mem:Entry ;
-    mem:hasDate "2026-07-27"^^xsd:date .
-
-mem:Entry_e25cd7d43 a mem:Entry ;
-    mem:hasDate "2026-10-11"^^xsd:date .
-
-mem:Entry_e2a8d4a1c a mem:Entry ;
-    mem:hasDate "2026-06-06"^^xsd:date .
-
-mem:Entry_e31a17b6c a mem:Entry ;
-    mem:hasDate "2026-10-07"^^xsd:date .
-
-mem:Entry_e31bf2ab2 a mem:Entry ;
+mem:Entry_e02241685 a mem:Entry ;
     mem:hasDate "2026-04-27"^^xsd:date .
 
-mem:Entry_e341c846a a mem:Entry ;
-    mem:hasDate "2026-09-29"^^xsd:date .
-
-mem:Entry_e34298cce a mem:Entry ;
-    mem:hasDate "2026-04-20"^^xsd:date .
-
-mem:Entry_e37c28ab5 a mem:Entry ;
-    mem:hasDate "2026-04-13"^^xsd:date .
-
-mem:Entry_e3cd7dbdf a mem:Entry ;
-    mem:hasDate "2026-05-20"^^xsd:date .
-
-mem:Entry_e41cf15fb a mem:Entry ;
-    mem:hasDate "2026-03-26"^^xsd:date .
-
-mem:Entry_e472ae9b2 a mem:Entry ;
-    mem:hasDate "2026-03-05"^^xsd:date .
-
-mem:Entry_e474acd31 a mem:Entry ;
-    mem:hasDate "2026-08-01"^^xsd:date .
-
-mem:Entry_e4885deee a mem:Entry ;
-    mem:hasDate "2026-04-16"^^xsd:date .
-
-mem:Entry_e48d5ef3b a mem:Entry ;
-    mem:hasDate "2026-08-14"^^xsd:date .
-
-mem:Entry_e49b4f2a3 a mem:Entry ;
-    mem:hasDate "2026-08-25"^^xsd:date .
-
-mem:Entry_e4d896b28 a mem:Entry ;
-    mem:hasDate "2026-03-25"^^xsd:date .
-
-mem:Entry_e4e5592de a mem:Entry ;
-    mem:hasDate "2026-03-12"^^xsd:date .
-
-mem:Entry_e4e85251a a mem:Entry ;
-    mem:hasDate "2026-06-29"^^xsd:date .
-
-mem:Entry_e5039171d a mem:Entry ;
-    mem:hasDate "2026-04-21"^^xsd:date .
-
-mem:Entry_e5067009c a mem:Entry ;
-    mem:hasDate "2026-08-12"^^xsd:date .
-
-mem:Entry_e52b9dcef a mem:Entry ;
-    mem:hasDate "2026-10-09"^^xsd:date .
-
-mem:Entry_e584ecd51 a mem:Entry ;
-    mem:hasDate "2026-06-10"^^xsd:date .
-
-mem:Entry_e5927de6a a mem:Entry ;
-    mem:hasDate "2026-09-27"^^xsd:date .
-
-mem:Entry_e5dcc9922 a mem:Entry ;
-    mem:hasDate "2026-05-14"^^xsd:date .
-
-mem:Entry_e61b18093 a mem:Entry ;
-    mem:hasDate "2026-09-11"^^xsd:date .
-
-mem:Entry_e6286062c a mem:Entry ;
-    mem:hasDate "2026-06-15"^^xsd:date .
-
-mem:Entry_e654ff747 a mem:Entry ;
-    mem:hasDate "2026-10-14"^^xsd:date .
-
-mem:Entry_e6564a5bf a mem:Entry ;
-    mem:hasDate "2026-04-22"^^xsd:date .
-
-mem:Entry_e6bf42645 a mem:Entry ;
-    mem:hasDate "2026-08-08"^^xsd:date .
-
-mem:Entry_e6d6959b7 a mem:Entry ;
-    mem:hasDate "2026-06-02"^^xsd:date .
-
-mem:Entry_e6e5de9f8 a mem:Entry ;
-    mem:hasDate "2026-07-31"^^xsd:date .
-
-mem:Entry_e70fd54bb a mem:Entry ;
-    mem:hasDate "2026-04-19"^^xsd:date .
-
-mem:Entry_e7239b954 a mem:Entry ;
-    mem:hasDate "2026-05-06"^^xsd:date .
-
-mem:Entry_e7437206a a mem:Entry ;
+mem:Entry_e048e38d1 a mem:Entry ;
     mem:hasDate "2026-09-10"^^xsd:date .
 
-mem:Entry_e74927413 a mem:Entry ;
-    mem:hasDate "2026-07-22"^^xsd:date .
-
-mem:Entry_e761c3f40 a mem:Entry ;
-    mem:hasDate "2026-06-16"^^xsd:date .
-
-mem:Entry_e7643cdf1 a mem:Entry ;
-    mem:hasDate "2026-10-08"^^xsd:date .
-
-mem:Entry_e78b7287e a mem:Entry ;
-    mem:hasDate "2026-09-05"^^xsd:date .
-
-mem:Entry_e7adfd193 a mem:Entry ;
-    mem:hasDate "2026-10-04"^^xsd:date .
-
-mem:Entry_e7d385bae a mem:Entry ;
-    mem:hasDate "2026-04-02"^^xsd:date .
-
-mem:Entry_e80d9c324 a mem:Entry ;
-    mem:hasDate "2026-09-02"^^xsd:date .
-
-mem:Entry_e8213f651 a mem:Entry ;
-    mem:hasDate "2026-08-29"^^xsd:date .
-
-mem:Entry_e866e6ac8 a mem:Entry ;
-    mem:hasDate "2026-03-19"^^xsd:date .
-
-mem:Entry_e883e5b06 a mem:Entry ;
-    mem:hasDate "2026-03-21"^^xsd:date .
-
-mem:Entry_e97aa0fa6 a mem:Entry ;
-    mem:hasDate "2026-05-10"^^xsd:date .
-
-mem:Entry_e9dffa4ee a mem:Entry ;
-    mem:hasDate "2026-10-12"^^xsd:date .
-
-mem:Entry_e9f46f141 a mem:Entry ;
-    mem:hasDate "2026-04-09"^^xsd:date .
-
-mem:Entry_e9fdc92c6 a mem:Entry ;
-    mem:hasDate "2026-06-09"^^xsd:date .
-
-mem:Entry_ea1c7444c a mem:Entry ;
-    mem:hasDate "2026-05-12"^^xsd:date .
-
-mem:Entry_ea1e8dad1 a mem:Entry ;
-    mem:hasDate "2026-06-05"^^xsd:date .
-
-mem:Entry_ea31a1baf a mem:Entry ;
-    mem:hasDate "2026-08-21"^^xsd:date .
-
-mem:Entry_ea4612f94 a mem:Entry ;
-    mem:hasDate "2026-06-13"^^xsd:date .
-
-mem:Entry_ea5abdbbd a mem:Entry ;
-    mem:hasDate "2026-09-28"^^xsd:date .
-
-mem:Entry_eaa1824ed a mem:Entry ;
-    mem:hasDate "2026-10-02"^^xsd:date .
-
-mem:Entry_eac36c5a6 a mem:Entry ;
-    mem:hasDate "2026-06-25"^^xsd:date .
-
-mem:Entry_eaf659c54 a mem:Entry ;
-    mem:hasDate "2026-04-08"^^xsd:date .
-
-mem:Entry_eafcb3feb a mem:Entry ;
-    mem:hasDate "2026-07-13"^^xsd:date .
-
-mem:Entry_eaffebfca a mem:Entry ;
+mem:Entry_e06a7ee8e a mem:Entry ;
     mem:hasDate "2026-05-01"^^xsd:date .
 
-mem:Entry_eb45ba95c a mem:Entry ;
-    mem:hasDate "2026-03-10"^^xsd:date .
+mem:Entry_e06e619af a mem:Entry ;
+    mem:hasDate "2026-06-03"^^xsd:date .
 
-mem:Entry_eb4d76808 a mem:Entry ;
-    mem:hasDate "2026-05-08"^^xsd:date .
+mem:Entry_e0d297aa1 a mem:Entry ;
+    mem:hasDate "2026-08-14"^^xsd:date .
 
-mem:Entry_eb810f8a8 a mem:Entry ;
-    mem:hasDate "2026-09-19"^^xsd:date .
+mem:Entry_e0d912f5f a mem:Entry ;
+    mem:hasDate "2026-10-08"^^xsd:date .
 
-mem:Entry_eba98b37b a mem:Entry ;
-    mem:hasDate "2026-09-07"^^xsd:date .
+mem:Entry_e1236ba56 a mem:Entry ;
+    mem:hasDate "2026-07-31"^^xsd:date .
 
-mem:Entry_ebc007aaf a mem:Entry ;
-    mem:hasDate "2026-08-20"^^xsd:date .
-
-mem:Entry_ebc0df5f2 a mem:Entry ;
+mem:Entry_e131f9b0c a mem:Entry ;
     mem:hasDate "2026-05-25"^^xsd:date .
 
-mem:Entry_ebfe8f963 a mem:Entry ;
-    mem:hasDate "2026-07-18"^^xsd:date .
+mem:Entry_e15cfe01c a mem:Entry ;
+    mem:hasDate "2026-10-04"^^xsd:date .
 
-mem:Entry_ec30b7c1f a mem:Entry ;
-    mem:hasDate "2026-08-05"^^xsd:date .
+mem:Entry_e1768bc9f a mem:Entry ;
+    mem:hasDate "2026-06-02"^^xsd:date .
 
-mem:Entry_ec39c54c8 a mem:Entry ;
-    mem:hasDate "2026-06-17"^^xsd:date .
+mem:Entry_e19b186a8 a mem:Entry ;
+    mem:hasDate "2026-04-08"^^xsd:date .
 
-mem:Entry_ec4ea4e3b a mem:Entry ;
-    mem:hasDate "2026-03-15"^^xsd:date .
+mem:Entry_e19f00c17 a mem:Entry ;
+    mem:hasDate "2026-09-29"^^xsd:date .
 
-mem:Entry_ec8aa4d1a a mem:Entry ;
-    mem:hasDate "2026-03-11"^^xsd:date .
-
-mem:Entry_ed25448e9 a mem:Entry ;
-    mem:hasDate "2026-07-04"^^xsd:date .
-
-mem:Entry_ed258140d a mem:Entry ;
-    mem:hasDate "2026-09-01"^^xsd:date .
-
-mem:Entry_ed43f102d a mem:Entry ;
-    mem:hasDate "2026-05-15"^^xsd:date .
-
-mem:Entry_ed8fe0a49 a mem:Entry ;
-    mem:hasDate "2026-09-24"^^xsd:date .
-
-mem:Entry_edc98ea0b a mem:Entry ;
-    mem:hasDate "2026-07-23"^^xsd:date .
-
-mem:Entry_edf24cff4 a mem:Entry ;
-    mem:hasDate "2026-07-02"^^xsd:date .
-
-mem:Entry_edffe5663 a mem:Entry ;
-    mem:hasDate "2026-10-10"^^xsd:date .
-
-mem:Entry_ee0113da8 a mem:Entry ;
-    mem:hasDate "2026-03-08"^^xsd:date .
-
-mem:Entry_ee2f49ca4 a mem:Entry ;
-    mem:hasDate "2026-09-17"^^xsd:date .
-
-mem:Entry_ee3ad18d4 a mem:Entry ;
-    mem:hasDate "2026-07-15"^^xsd:date .
-
-mem:Entry_ee453d1bf a mem:Entry ;
-    mem:hasDate "2026-07-08"^^xsd:date .
-
-mem:Entry_ee66b8246 a mem:Entry ;
-    mem:hasDate "2026-06-19"^^xsd:date .
-
-mem:Entry_ee9346723 a mem:Entry ;
-    mem:hasDate "2026-07-09"^^xsd:date .
-
-mem:Entry_eea782960 a mem:Entry ;
-    mem:hasDate "2026-04-03"^^xsd:date .
-
-mem:Entry_eebe8cb0d a mem:Entry ;
+mem:Entry_e1dea1e6f a mem:Entry ;
     mem:hasDate "2026-03-06"^^xsd:date .
 
-mem:Entry_eecc13046 a mem:Entry ;
-    mem:hasDate "2026-05-28"^^xsd:date .
+mem:Entry_e253de5f8 a mem:Entry ;
+    mem:hasDate "2026-06-17"^^xsd:date .
 
-mem:Entry_eee439ae6 a mem:Entry ;
-    mem:hasDate "2026-08-04"^^xsd:date .
+mem:Entry_e31489d6e a mem:Entry ;
+    mem:hasDate "2026-06-15"^^xsd:date .
 
-mem:Entry_ef4c8287c a mem:Entry ;
-    mem:hasDate "2026-03-14"^^xsd:date .
+mem:Entry_e31b3978e a mem:Entry ;
+    mem:hasDate "2026-04-10"^^xsd:date .
 
-mem:Entry_efae89847 a mem:Entry ;
+mem:Entry_e33aeb007 a mem:Entry ;
+    mem:hasDate "2026-05-15"^^xsd:date .
+
+mem:Entry_e33cfbf87 a mem:Entry ;
+    mem:hasDate "2026-09-01"^^xsd:date .
+
+mem:Entry_e33ee2109 a mem:Entry ;
+    mem:hasDate "2026-04-20"^^xsd:date .
+
+mem:Entry_e376a5664 a mem:Entry ;
+    mem:hasDate "2026-07-23"^^xsd:date .
+
+mem:Entry_e377bf87e a mem:Entry ;
+    mem:hasDate "2026-06-06"^^xsd:date .
+
+mem:Entry_e39aa2eac a mem:Entry ;
+    mem:hasDate "2026-07-08"^^xsd:date .
+
+mem:Entry_e3b2a9b32 a mem:Entry ;
+    mem:hasDate "2026-04-02"^^xsd:date .
+
+mem:Entry_e3bf2d29d a mem:Entry ;
+    mem:hasDate "2026-08-25"^^xsd:date .
+
+mem:Entry_e3d7d8482 a mem:Entry ;
+    mem:hasDate "2026-03-15"^^xsd:date .
+
+mem:Entry_e3fbb1e0d a mem:Entry ;
+    mem:hasDate "2026-09-17"^^xsd:date .
+
+mem:Entry_e42a43896 a mem:Entry ;
+    mem:hasDate "2026-06-05"^^xsd:date .
+
+mem:Entry_e441a7426 a mem:Entry ;
+    mem:hasDate "2026-07-13"^^xsd:date .
+
+mem:Entry_e442a3b35 a mem:Entry ;
+    mem:hasDate "2026-06-19"^^xsd:date .
+
+mem:Entry_e46ff1913 a mem:Entry ;
+    mem:hasDate "2026-03-26"^^xsd:date .
+
+mem:Entry_e48db81b3 a mem:Entry ;
+    mem:hasDate "2026-06-09"^^xsd:date .
+
+mem:Entry_e533f68cd a mem:Entry ;
+    mem:hasDate "2026-03-05"^^xsd:date .
+
+mem:Entry_e53a37641 a mem:Entry ;
+    mem:hasDate "2026-07-04"^^xsd:date .
+
+mem:Entry_e54dbe60e a mem:Entry ;
     mem:hasDate "2026-04-07"^^xsd:date .
 
-mem:Entry_efb3defb5 a mem:Entry ;
-    mem:hasDate "2026-08-17"^^xsd:date .
+mem:Entry_e5513ef53 a mem:Entry ;
+    mem:hasDate "2026-08-12"^^xsd:date .
 
-mem:Entry_efbed3b8c a mem:Entry ;
-    mem:hasDate "2026-03-18"^^xsd:date .
+mem:Entry_e5539e9e3 a mem:Entry ;
+    mem:hasDate "2026-06-10"^^xsd:date .
 
-mem:Entry_eff48eb70 a mem:Entry ;
+mem:Entry_e578441bf a mem:Entry ;
+    mem:hasDate "2026-06-29"^^xsd:date .
+
+mem:Entry_e5cb4f727 a mem:Entry ;
+    mem:hasDate "2026-07-22"^^xsd:date .
+
+mem:Entry_e5cf65e26 a mem:Entry ;
+    mem:hasDate "2026-04-22"^^xsd:date .
+
+mem:Entry_e61fc9ad4 a mem:Entry ;
+    mem:hasDate "2026-04-03"^^xsd:date .
+
+mem:Entry_e643ebc64 a mem:Entry ;
+    mem:hasDate "2026-08-20"^^xsd:date .
+
+mem:Entry_e65b34d0e a mem:Entry ;
+    mem:hasDate "2026-03-31"^^xsd:date .
+
+mem:Entry_e67afaf6f a mem:Entry ;
+    mem:hasDate "2026-06-13"^^xsd:date .
+
+mem:Entry_e691a0b28 a mem:Entry ;
+    mem:hasDate "2026-04-24"^^xsd:date .
+
+mem:Entry_e6cc94b8f a mem:Entry ;
+    mem:hasDate "2026-08-04"^^xsd:date .
+
+mem:Entry_e6d4f2505 a mem:Entry ;
+    mem:hasDate "2026-06-25"^^xsd:date .
+
+mem:Entry_e6e39b84c a mem:Entry ;
+    mem:hasDate "2026-04-09"^^xsd:date .
+
+mem:Entry_e6e536623 a mem:Entry ;
+    mem:hasDate "2026-09-28"^^xsd:date .
+
+mem:Entry_e72f6692f a mem:Entry ;
+    mem:hasDate "2026-10-14"^^xsd:date .
+
+mem:Entry_e753ddfac a mem:Entry ;
+    mem:hasDate "2026-09-19"^^xsd:date .
+
+mem:Entry_e7cf6f4de a mem:Entry ;
+    mem:hasDate "2026-10-12"^^xsd:date .
+
+mem:Entry_e7d0be630 a mem:Entry ;
+    mem:hasDate "2026-03-21"^^xsd:date .
+
+mem:Entry_e7f07b2e7 a mem:Entry ;
+    mem:hasDate "2026-08-01"^^xsd:date .
+
+mem:Entry_e80f19412 a mem:Entry ;
+    mem:hasDate "2026-09-23"^^xsd:date .
+
+mem:Entry_e81d3b975 a mem:Entry ;
+    mem:hasDate "2026-10-10"^^xsd:date .
+
+mem:Entry_e854f0a90 a mem:Entry ;
+    mem:hasDate "2026-03-19"^^xsd:date .
+
+mem:Entry_e86b35d55 a mem:Entry ;
+    mem:hasDate "2026-10-09"^^xsd:date .
+
+mem:Entry_e8790f73a a mem:Entry ;
+    mem:hasDate "2026-07-15"^^xsd:date .
+
+mem:Entry_e89bcb2aa a mem:Entry ;
     mem:hasDate "2026-05-29"^^xsd:date .
 
-mem:Memory_m00c14ad1 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ee2f49ca4 ;
-    mem:detail "周三羽毛球，新学期第一次"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-17"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m05f675de a mem:Memory ;
-    mem:derivedFrom mem:Entry_ea31a1baf ;
-    mem:detail "周三羽毛球，跟高中生打了对抗"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-21"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m09f4ef85 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e13fc7eb9 ;
-    mem:detail "又熬夜了，作息没救"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-24"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m0bc793a4 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e2296ac7f ;
-    mem:detail "通勤路上听播客，打发时间"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-27"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m0d5c094e a mem:Memory ;
-    mem:derivedFrom mem:Entry_e472ae9b2 ;
-    mem:detail "今天下决心开始跑步计划，每周三次，先从三公里起步"@zh ;
-    mem:hasAction mem:Action_开始 ;
-    mem:hasDate "2026-03-05"^^xsd:date ;
-    mem:hasStatus "superseded" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 7e-01 .
-
-mem:Memory_m0eeea635 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e31a17b6c ;
-    mem:detail "返程高铁上补实验报告"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-07"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_课程 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m0f50cf35 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e584ecd51 ;
-    mem:detail "课程项目B做完第一版demo"@zh ;
-    mem:hasAction mem:Action_完成 ;
-    mem:hasDate "2026-06-10"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_课程 ;
-    mem:importance 8e-01 .
-
-mem:Memory_m1706f1f7 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e866e6ac8 ;
-    mem:detail "食堂新窗口的麻辣香锅不错"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-19"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m1985c09a a mem:Memory ;
-    mem:derivedFrom mem:Entry_ec39c54c8 ;
-    mem:detail "周三羽毛球，认识了个研究生球友"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-17"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m1a0a160a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e3cd7dbdf ;
-    mem:detail "健身卡到期，跑步计划正式放弃，先摆烂一段时间"@zh ;
-    mem:hasAction mem:Action_放弃 ;
-    mem:hasDate "2026-05-20"^^xsd:date ;
-    mem:hasStatus "superseded" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 9e-01 ;
-    mem:supersedes mem:Memory_m0d5c094e .
-
-mem:Memory_m1f3bd036 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eea782960 ;
-    mem:detail "清明回家，吃了顿妈妈做的菜"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-03"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m1f880a0e a mem:Memory ;
-    mem:derivedFrom mem:Entry_eff48eb70 ;
-    mem:detail "周三羽毛球"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-29"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m2133364b a mem:Memory ;
-    mem:derivedFrom mem:Entry_e97aa0fa6 ;
-    mem:detail "手冲上手了，比速溶好喝太多"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-10"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m21e1b655 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eafcb3feb ;
-    mem:detail "在家帮爸妈做饭，被夸了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-13"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m225571ea a mem:Memory ;
-    mem:derivedFrom mem:Entry_e0d6b942a ;
-    mem:detail "春天了，操场花开得不错"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-31"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m28f749d4 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e883e5b06 ;
-    mem:detail "看完一部纪录片，挺震撼"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-21"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m2a508b8c a mem:Memory ;
-    mem:derivedFrom mem:Entry_ee453d1bf ;
-    mem:detail "暑假在家，手冲器具也寄回来了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-08"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m31b5ede2 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e74927413 ;
-    mem:detail "熬夜看球，值了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-22"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m3391ecbc a mem:Memory ;
-    mem:derivedFrom mem:Entry_e2a8d4a1c ;
-    mem:detail "和朋友聚餐吃了火锅"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-06"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m34aec8e0 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e78b7287e ;
-    mem:detail "和室友约定改成轮流大扫除，一人一周"@zh ;
-    mem:hasAction mem:Action_更改 ;
-    mem:hasDate "2026-09-05"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_社交 ;
-    mem:importance 8e-01 ;
-    mem:supersedes mem:Memory_m74c7b01a,
-        mem:Memory_m768264dc .
-
-mem:Memory_m35820878 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e025bb35e ;
-    mem:detail "中午习惯在图书馆眯一会儿"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-16"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m3a8db735 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ebc007aaf ;
-    mem:detail "周三羽毛球"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-20"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m3aa49718 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e41cf15fb ;
-    mem:detail "咖啡喝得有点频繁，注意适量"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-26"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m3b2a1cce a mem:Memory ;
-    mem:derivedFrom mem:Entry_ea1c7444c ;
-    mem:detail "课程项目正式改选选题B：课程表助手"@zh ;
-    mem:hasAction mem:Action_更改 ;
-    mem:hasDate "2026-05-12"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_课程 ;
-    mem:importance 8e-01 ;
-    mem:supersedes mem:Memory_m2fd9db9f,
-        mem:Memory_m7ebd394a .
-
-mem:Memory_m3bdae3bd a mem:Memory ;
-    mem:derivedFrom mem:Entry_e6e5de9f8 ;
-    mem:detail "实习间隙刷完两本小说"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-31"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m3f83bc71 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e48d5ef3b ;
-    mem:detail "实习中期汇报通过了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-14"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m40acdd50 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ef4c8287c ;
-    mem:detail "周三羽毛球照旧，出了不少汗"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-14"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m421bcc3c a mem:Memory ;
-    mem:derivedFrom mem:Entry_efbed3b8c ;
-    mem:detail "跑步第三周，配速进步了半分钟"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-18"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m43a913f8 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e37c28ab5 ;
-    mem:detail "咖啡豆快喝完了，先囤两包"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-13"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m489e1623 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ebfe8f963 ;
-    mem:detail "周三羽毛球，家里球馆空调足"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-18"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m4af6db2a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e80d9c324 ;
-    mem:detail "买了支新羽毛球拍"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-02"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m4bfe7041 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ec8aa4d1a ;
-    mem:detail "把书桌收拾了一遍，效率高了点"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-11"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m516d3809 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ee3ad18d4 ;
-    mem:detail "周三羽毛球，家里这边的球馆人少"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-15"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m5274ac2a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e8213f651 ;
-    mem:detail "实习收尾，写了阶段总结"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-29"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m59e77135 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ebc0df5f2 ;
-    mem:detail "追的剧完结了，结局一般"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-25"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m5b95dbd5 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e31bf2ab2 ;
-    mem:detail "网购的书到了，睡前翻了几页"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-27"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m5df49737 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e34298cce ;
-    mem:detail "跑步有点腻了，改成隔天跑"@zh ;
-    mem:hasAction mem:Action_更改 ;
-    mem:hasDate "2026-04-20"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 8e-01 .
-
-mem:Memory_m5ef91668 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e761c3f40 ;
-    mem:detail "周三羽毛球，球友教了握拍姿势"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-16"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m62206477 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e474acd31 ;
-    mem:detail "实习的第二周，工作量上来了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-01"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m63fc7454 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e61b18093 ;
-    mem:detail "周三羽毛球，新拍子首秀"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-11"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m652f3599 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e5039171d ;
-    mem:detail "充电宝坏了，重新买了一个"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-21"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m66104bfb a mem:Memory ;
-    mem:derivedFrom mem:Entry_e0a6128cb ;
-    mem:detail "图书馆新开了自习区，很安静"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-30"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m73a44355 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ea5abdbbd ;
-    mem:detail "学校银杏黄了一半"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-28"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m74c7b01a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e0e20a557 ;
-    mem:detail "和室友的大扫除约定改成本月我来做，他太忙"@zh ;
-    mem:hasAction mem:Action_更改 ;
-    mem:hasDate "2026-06-03"^^xsd:date ;
-    mem:hasStatus "superseded" ;
-    mem:hasTopic mem:Topic_社交 ;
-    mem:importance 8e-01 ;
-    mem:supersedes mem:Memory_m768264dc .
-
-mem:Memory_m7504f9ad a mem:Memory ;
-    mem:derivedFrom mem:Entry_e9dffa4ee ;
-    mem:detail "咖啡存货见底，下单新豆子"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-12"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m76dba697 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e4d896b28 ;
-    mem:detail "周末和室友一起大扫除，厨房终于能看了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-25"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_社交 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m7b241a9b a mem:Memory ;
-    mem:derivedFrom mem:Entry_eee439ae6 ;
-    mem:detail "天台看了场露天电影"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-04"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m7ebd394a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e7239b954 ;
-    mem:detail "课程项目进展慢，考虑要不要换题"@zh ;
-    mem:hasAction mem:Action_更改 ;
-    mem:hasDate "2026-05-06"^^xsd:date ;
-    mem:hasStatus "superseded" ;
-    mem:hasTopic mem:Topic_课程 ;
-    mem:importance 8e-01 ;
-    mem:supersedes mem:Memory_m2fd9db9f .
-
-mem:Memory_m848bf6b2 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ed25448e9 ;
-    mem:detail "放假回家，路上看了部电影"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-04"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m84af6800 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e654ff747 ;
-    mem:detail "周三羽毛球，最近状态不错"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-14"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m868f2e6a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e0e937bbb ;
-    mem:detail "奶茶喝多了，有点罪恶"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-19"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m880165b9 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eba98b37b ;
-    mem:detail "开学第一周，课表有点满"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-07"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m886aeb80 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e341c846a ;
-    mem:detail "刷手机到一点，第二天后悔"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-29"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m8a896528 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e1da7c58b ;
-    mem:detail "周三羽毛球，打了两小时，很爽"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-10"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m8e671bd9 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e70fd54bb ;
-    mem:detail "手冲的水温摸索出了门道"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-19"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m8fe78f06 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e7adfd193 ;
-    mem:detail "假期追完一部剧，评分不高"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-04"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m93d98012 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e4885deee ;
-    mem:detail "期中考了两门，感觉还行"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-16"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m96cea39c a mem:Memory ;
-    mem:derivedFrom mem:Entry_e5dcc9922 ;
-    mem:detail "这周试着早睡，效果还行"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-14"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_m9ad38711 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e6564a5bf ;
-    mem:detail "咖啡喝完了，决定换成手冲，买了滤杯和磨豆机"@zh ;
-    mem:hasAction mem:Action_更改 ;
-    mem:hasDate "2026-04-22"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 8e-01 .
-
-mem:Memory_m9de54b1e a mem:Memory ;
-    mem:derivedFrom mem:Entry_e49b4f2a3 ;
-    mem:detail "家里的咖啡机试了试，不错"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-25"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_ma0394fe0 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ee66b8246 ;
-    mem:detail "四六级出分，过了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-19"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_ma82c7e45 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e52b9dcef ;
-    mem:detail "周三羽毛球，打完吃了顿好的"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-09"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_ma980083a a mem:Memory ;
-    mem:derivedFrom mem:Entry_ec4ea4e3b ;
-    mem:detail "又熬夜了，刷手机到两点，明天肯定起不来"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-15"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mac18c4d5 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e4e85251a ;
-    mem:detail "梅雨天湿漉漉，注意防潮"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-29"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mae7f9cc9 a mem:Memory ;
-    mem:derivedFrom mem:Entry_edf24cff4 ;
-    mem:detail "期末周结束，课程表助手项目提交，拿了个不错的分数"@zh ;
-    mem:hasAction mem:Action_完成 ;
-    mem:hasDate "2026-07-02"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_课程 ;
-    mem:importance 8e-01 .
-
-mem:Memory_mb0d52f45 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e25cd7d43 ;
-    mem:detail "又熬夜了，赶课程作业"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-11"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mb4eb2513 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eb4d76808 ;
-    mem:detail "周三羽毛球，赢了两局"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-08"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mb79187b6 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e6286062c ;
-    mem:detail "买了把新伞，梅雨天真多"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-15"^^xsd:date ;
-    mem:hasStatus "discarded" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mb8570caf a mem:Memory ;
-    mem:derivedFrom mem:Entry_e07c56577 ;
-    mem:detail "跑步配速又快了十秒"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-23"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mb8fbef12 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ed43f102d ;
-    mem:detail "又熬夜了，周三羽毛球都差点迟到"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-15"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mba197458 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e7643cdf1 ;
-    mem:detail "深烘豆子试了试，还是浅烘合口味"@zh ;
-    mem:hasAction mem:Action_偏好 ;
-    mem:hasDate "2026-10-08"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 6e-01 .
-
-mem:Memory_mbb284e1e a mem:Memory ;
-    mem:derivedFrom mem:Entry_e7437206a ;
-    mem:detail "又熬夜了，选课系统卡到十二点"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-10"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mc698828f a mem:Memory ;
-    mem:derivedFrom mem:Entry_efb3defb5 ;
-    mem:detail "实习周末休整，逛了老街"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-17"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mca54fe2b a mem:Memory ;
-    mem:derivedFrom mem:Entry_eebe8cb0d ;
-    mem:detail "买了双新跑鞋，给跑步做准备"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-06"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mcaea942e a mem:Memory ;
-    mem:derivedFrom mem:Entry_ee9346723 ;
-    mem:detail "手冲器具打包寄回家"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-07-09"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mcc46ab4c a mem:Memory ;
-    mem:derivedFrom mem:Entry_e00d4dd3f ;
-    mem:detail "周三羽毛球照旧"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-24"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_md4a59676 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eaa1824ed ;
-    mem:detail "国庆回家待了几天"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-02"^^xsd:date ;
-    mem:hasStatus "active" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_md7c2d36b a mem:Memory ;
-    mem:derivedFrom mem:Entry_eaf659c54 ;
-    mem:detail "又熬夜了，赶实验报告"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-08"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mdab8be23 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e6d6959b7 ;
-    mem:detail "周末补觉，作息总算规律了点"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-02"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_作息 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mdbb997e0 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e5927de6a ;
-    mem:detail "周三羽毛球，场地涨价了"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-27"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mdd7757f9 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e4e5592de ;
-    mem:detail "买了罐速溶咖啡，先凑合喝"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-12"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mde06d49a a mem:Memory ;
-    mem:derivedFrom mem:Entry_e9f46f141 ;
-    mem:detail "周三羽毛球，状态一般"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-09"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mdee07714 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ee0113da8 ;
-    mem:detail "图书馆新到了一批科幻小说，借了一本"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-03-08"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_me09c2082 a mem:Memory ;
-    mem:derivedFrom mem:Entry_efae89847 ;
-    mem:detail "图书馆自习，复习数据结构"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-04-07"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_阅读 ;
-    mem:importance 4e-01 .
-
-mem:Memory_me0fb1014 a mem:Memory ;
-    mem:derivedFrom mem:Entry_e5067009c ;
-    mem:detail "晚上跟着视频健身半小时"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-12"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_健身 ;
-    mem:importance 4e-01 .
-
-mem:Memory_me2bcb195 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ed8fe0a49 ;
+mem:Entry_e8e6cbbc7 a mem:Entry ;
+    mem:hasDate "2026-07-27"^^xsd:date .
+
+mem:Entry_e8fb185e0 a mem:Entry ;
+    mem:hasDate "2026-09-27"^^xsd:date .
+
+mem:Entry_e91031099 a mem:Entry ;
+    mem:hasDate "2026-04-19"^^xsd:date .
+
+mem:Entry_e96e1cf41 a mem:Entry ;
+    mem:hasDate "2026-08-29"^^xsd:date .
+
+mem:Entry_e9be302c9 a mem:Entry ;
+    mem:hasDate "2026-03-12"^^xsd:date .
+
+mem:Entry_e9c027d8b a mem:Entry ;
+    mem:hasDate "2026-05-20"^^xsd:date .
+
+mem:Entry_e9d213d29 a mem:Entry ;
+    mem:hasDate "2026-04-16"^^xsd:date .
+
+mem:Entry_ea20eef2a a mem:Entry ;
+    mem:hasDate "2026-09-07"^^xsd:date .
+
+mem:Entry_ea3758aba a mem:Entry ;
+    mem:hasDate "2026-03-10"^^xsd:date .
+
+mem:Entry_ea4eff737 a mem:Entry ;
+    mem:hasDate "2026-08-08"^^xsd:date .
+
+mem:Entry_eaa17e094 a mem:Entry ;
+    mem:hasDate "2026-03-11"^^xsd:date .
+
+mem:Entry_eaa29f477 a mem:Entry ;
+    mem:hasDate "2026-06-16"^^xsd:date .
+
+mem:Entry_eab6c064f a mem:Entry ;
+    mem:hasDate "2026-05-19"^^xsd:date .
+
+mem:Entry_eaf31c658 a mem:Entry ;
+    mem:hasDate "2026-09-24"^^xsd:date .
+
+mem:Entry_eafd9b6d2 a mem:Entry ;
+    mem:hasDate "2026-03-18"^^xsd:date .
+
+mem:Entry_eb0051345 a mem:Entry ;
+    mem:hasDate "2026-04-21"^^xsd:date .
+
+mem:Entry_eb32e4aeb a mem:Entry ;
+    mem:hasDate "2026-05-06"^^xsd:date .
+
+mem:Entry_eb5ad02c8 a mem:Entry ;
+    mem:hasDate "2026-07-02"^^xsd:date .
+
+mem:Entry_eb68ed775 a mem:Entry ;
+    mem:hasDate "2026-05-08"^^xsd:date .
+
+mem:Entry_eb8226ea6 a mem:Entry ;
+    mem:hasDate "2026-09-02"^^xsd:date .
+
+mem:Entry_ebce3c01e a mem:Entry ;
+    mem:hasDate "2026-09-05"^^xsd:date .
+
+mem:Entry_ebe1b3654 a mem:Entry ;
+    mem:hasDate "2026-05-12"^^xsd:date .
+
+mem:Entry_ebe374e76 a mem:Entry ;
+    mem:hasDate "2026-09-11"^^xsd:date .
+
+mem:Entry_ec24a5a67 a mem:Entry ;
+    mem:hasDate "2026-05-28"^^xsd:date .
+
+mem:Entry_ec5d29f6c a mem:Entry ;
+    mem:hasDate "2026-06-24"^^xsd:date .
+
+mem:Entry_ec7541e9d a mem:Entry ;
+    mem:hasDate "2026-09-16"^^xsd:date .
+
+mem:Entry_ec977aff1 a mem:Entry ;
+    mem:hasDate "2026-05-10"^^xsd:date .
+
+mem:Entry_eca9e2b3b a mem:Entry ;
+    mem:hasDate "2026-07-18"^^xsd:date .
+
+mem:Entry_ecb5b84d5 a mem:Entry ;
+    mem:hasDate "2026-04-13"^^xsd:date .
+
+mem:Entry_ecd2cb7cc a mem:Entry ;
+    mem:hasDate "2026-10-02"^^xsd:date .
+
+mem:Entry_ed2ff6e4b a mem:Entry ;
+    mem:hasDate "2026-05-14"^^xsd:date .
+
+mem:Entry_ed892aa5b a mem:Entry ;
+    mem:hasDate "2026-03-25"^^xsd:date .
+
+mem:Entry_ed927a5b4 a mem:Entry ;
+    mem:hasDate "2026-10-11"^^xsd:date .
+
+mem:Entry_edcb20076 a mem:Entry ;
+    mem:hasDate "2026-03-14"^^xsd:date .
+
+mem:Entry_ee0b277e5 a mem:Entry ;
+    mem:hasDate "2026-03-08"^^xsd:date .
+
+mem:Entry_ee15404e9 a mem:Entry ;
+    mem:hasDate "2026-08-17"^^xsd:date .
+
+mem:Entry_eee77c647 a mem:Entry ;
+    mem:hasDate "2026-07-09"^^xsd:date .
+
+mem:Entry_ef3c94e47 a mem:Entry ;
+    mem:hasDate "2026-08-21"^^xsd:date .
+
+mem:Entry_ef6491416 a mem:Entry ;
+    mem:hasDate "2026-10-07"^^xsd:date .
+
+mem:Entry_ef79315aa a mem:Entry ;
+    mem:hasDate "2026-08-05"^^xsd:date .
+
+mem:Entry_efaae2f7a a mem:Entry ;
+    mem:hasDate "2026-03-30"^^xsd:date .
+
+mem:Memory_m01296e97 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eaf31c658 ;
     mem:detail "跑步第二周，五公里能跑下来了"@zh ;
     mem:hasAction mem:Action_记录 ;
     mem:hasDate "2026-09-24"^^xsd:date ;
@@ -1303,63 +531,283 @@ mem:Memory_me2bcb195 a mem:Memory ;
     mem:hasTopic mem:Topic_健身 ;
     mem:importance 4e-01 .
 
-mem:Memory_me5cdd1fa a mem:Memory ;
-    mem:derivedFrom mem:Entry_e9fdc92c6 ;
-    mem:detail "周三羽毛球，借球友的拍子试了试"@zh ;
+mem:Memory_m036b7163 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e80f19412 ;
+    mem:detail "跑步配速又快了十秒"@zh ;
     mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-09"^^xsd:date ;
+    mem:hasDate "2026-09-23"^^xsd:date ;
     mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
-    mem:importance 4e-01 .
-
-mem:Memory_me652974e a mem:Memory ;
-    mem:derivedFrom mem:Entry_ed258140d ;
-    mem:detail "重新开始跑步计划，这次目标五公里"@zh ;
-    mem:hasAction mem:Action_开始 ;
-    mem:hasDate "2026-09-01"^^xsd:date ;
-    mem:hasStatus "active" ;
     mem:hasTopic mem:Topic_健身 ;
-    mem:importance 7e-01 ;
-    mem:supersedes mem:Memory_m1a0a160a .
-
-mem:Memory_me77aadde a mem:Memory ;
-    mem:derivedFrom mem:Entry_eecc13046 ;
-    mem:detail "周三羽毛球，天热出汗多"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-05-28"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_运动 ;
     mem:importance 4e-01 .
 
-mem:Memory_meaad00b5 a mem:Memory ;
-    mem:derivedFrom mem:Entry_edffe5663 ;
-    mem:detail "降温了，翻出秋裤"@zh ;
+mem:Memory_m0531bca0 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ea20eef2a ;
+    mem:detail "开学第一周，课表有点满"@zh ;
     mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-10-10"^^xsd:date ;
+    mem:hasDate "2026-09-07"^^xsd:date ;
     mem:hasStatus "active" ;
     mem:hasTopic mem:Topic_生活 ;
     mem:importance 4e-01 .
 
-mem:Memory_mef1c848f a mem:Memory ;
-    mem:derivedFrom mem:Entry_eb810f8a8 ;
-    mem:detail "周末和室友点外卖边吃边聊"@zh ;
+mem:Memory_m07406d71 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e441a7426 ;
+    mem:detail "在家帮爸妈做饭，被夸了"@zh ;
     mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-09-19"^^xsd:date ;
+    mem:hasDate "2026-07-13"^^xsd:date ;
     mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_社交 ;
+    mem:hasTopic mem:Topic_饮食 ;
     mem:importance 4e-01 .
 
-mem:Memory_mf4ecd0d3 a mem:Memory ;
-    mem:derivedFrom mem:Entry_eac36c5a6 ;
-    mem:detail "周三羽毛球照常"@zh ;
+mem:Memory_m0861b289 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e5cb4f727 ;
+    mem:detail "熬夜看球，值了"@zh ;
     mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-25"^^xsd:date ;
+    mem:hasDate "2026-07-22"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m092f5bbd a mem:Memory ;
+    mem:derivedFrom mem:Entry_e96e1cf41 ;
+    mem:detail "实习收尾，写了阶段总结"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-29"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m09ba895a a mem:Memory ;
+    mem:derivedFrom mem:Entry_eee77c647 ;
+    mem:detail "手冲器具打包寄回家"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-09"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m0b822763 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e9be302c9 ;
+    mem:detail "买了罐速溶咖啡，先凑合喝"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-12"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m0bb74b93 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e578441bf ;
+    mem:detail "梅雨天湿漉漉，注意防潮"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-29"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m0d56f655 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ebce3c01e ;
+    mem:detail "和室友约定改成轮流大扫除，一人一周"@zh ;
+    mem:hasAction mem:Action_更改 ;
+    mem:hasDate "2026-09-05"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_社交 ;
+    mem:importance 8e-01 ;
+    mem:supersedes mem:Memory_ma184ba46,
+        mem:Memory_mcbabc540 .
+
+mem:Memory_m10df9697 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eca9e2b3b ;
+    mem:detail "周三羽毛球，家里球馆空调足"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-18"^^xsd:date ;
     mem:hasStatus "compressed" ;
     mem:hasTopic mem:Topic_运动 ;
     mem:importance 4e-01 .
 
-mem:Memory_mf5074f19 a mem:Memory ;
-    mem:derivedFrom mem:Entry_edc98ea0b ;
+mem:Memory_m15279f21 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eaa29f477 ;
+    mem:detail "周三羽毛球，球友教了握拍姿势"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-16"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m16aae34d a mem:Memory ;
+    mem:derivedFrom mem:Entry_e691a0b28 ;
+    mem:detail "周三羽毛球照旧"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-24"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m1b216fe1 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eb5ad02c8 ;
+    mem:detail "期末周结束，课程表助手项目提交，拿了个不错的分数"@zh ;
+    mem:hasAction mem:Action_完成 ;
+    mem:hasDate "2026-07-02"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_课程 ;
+    mem:importance 8e-01 .
+
+mem:Memory_m1c1f7d9d a mem:Memory ;
+    mem:derivedFrom mem:Entry_e048e38d1 ;
+    mem:detail "又熬夜了，选课系统卡到十二点"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-10"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m1d4c5204 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e1dea1e6f ;
+    mem:detail "买了双新跑鞋，给跑步做准备"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-06"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m21f5185f a mem:Memory ;
+    mem:derivedFrom mem:Entry_ec977aff1 ;
+    mem:detail "手冲上手了，比速溶好喝太多"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-10"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m23e4447a a mem:Memory ;
+    mem:derivedFrom mem:Entry_e91031099 ;
+    mem:detail "手冲的水温摸索出了门道"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-19"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m257be8f5 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ecd2cb7cc ;
+    mem:detail "国庆回家待了几天"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-02"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m25b6caa8 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e7d0be630 ;
+    mem:detail "看完一部纪录片，挺震撼"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-21"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m2bc433b7 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e1768bc9f ;
+    mem:detail "周末补觉，作息总算规律了点"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-02"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m3087582a a mem:Memory ;
+    mem:derivedFrom mem:Entry_e5539e9e3 ;
+    mem:detail "课程项目B做完第一版demo"@zh ;
+    mem:hasAction mem:Action_完成 ;
+    mem:hasDate "2026-06-10"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_课程 ;
+    mem:importance 8e-01 .
+
+mem:Memory_m3244eb43 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eb32e4aeb ;
+    mem:detail "课程项目进展慢，考虑要不要换题"@zh ;
+    mem:hasAction mem:Action_更改 ;
+    mem:hasDate "2026-05-06"^^xsd:date ;
+    mem:hasStatus "superseded" ;
+    mem:hasTopic mem:Topic_课程 ;
+    mem:importance 8e-01 ;
+    mem:supersedes mem:Memory_m9f8e96c1 .
+
+mem:Memory_m347b5ac9 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e8e6cbbc7 ;
+    mem:detail "通勤路上听播客，打发时间"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-27"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m34d55597 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e643ebc64 ;
+    mem:detail "周三羽毛球"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-20"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m3fa2aac3 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e3fbb1e0d ;
+    mem:detail "周三羽毛球，新学期第一次"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-17"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m417311a1 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ee15404e9 ;
+    mem:detail "实习周末休整，逛了老街"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-17"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m43a16ab0 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e854f0a90 ;
+    mem:detail "食堂新窗口的麻辣香锅不错"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-19"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m4439b536 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ebe1b3654 ;
+    mem:detail "课程项目正式改选选题B：课程表助手"@zh ;
+    mem:hasAction mem:Action_更改 ;
+    mem:hasDate "2026-05-12"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_课程 ;
+    mem:importance 8e-01 ;
+    mem:supersedes mem:Memory_m3244eb43,
+        mem:Memory_m9f8e96c1 .
+
+mem:Memory_m482c66e2 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eb68ed775 ;
+    mem:detail "周三羽毛球，赢了两局"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-08"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m4d232d49 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ebe374e76 ;
+    mem:detail "周三羽毛球，新拍子首秀"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-11"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m5385638c a mem:Memory ;
+    mem:derivedFrom mem:Entry_e376a5664 ;
     mem:detail "实习第一周，熟悉团队流程"@zh ;
     mem:hasAction mem:Action_记录 ;
     mem:hasDate "2026-07-23"^^xsd:date ;
@@ -1367,26 +815,8 @@ mem:Memory_mf5074f19 a mem:Memory ;
     mem:hasTopic mem:Topic_生活 ;
     mem:importance 4e-01 .
 
-mem:Memory_mf6d37f68 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ea4612f94 ;
-    mem:detail "浅烘和深烘的区别查了查，长知识"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-06-13"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_饮食 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mf8b9bcce a mem:Memory ;
-    mem:derivedFrom mem:Entry_e6bf42645 ;
-    mem:detail "实习做的第一个模块上线"@zh ;
-    mem:hasAction mem:Action_记录 ;
-    mem:hasDate "2026-08-08"^^xsd:date ;
-    mem:hasStatus "compressed" ;
-    mem:hasTopic mem:Topic_生活 ;
-    mem:importance 4e-01 .
-
-mem:Memory_mfcc2661b a mem:Memory ;
-    mem:derivedFrom mem:Entry_ea1e8dad1 ;
+mem:Memory_m56083c57 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e42a43896 ;
     mem:detail "浅烘的豆子到了，发现更喜欢浅烘的风味"@zh ;
     mem:hasAction mem:Action_偏好 ;
     mem:hasDate "2026-06-05"^^xsd:date ;
@@ -1394,14 +824,584 @@ mem:Memory_mfcc2661b a mem:Memory ;
     mem:hasTopic mem:Topic_饮食 ;
     mem:importance 6e-01 .
 
-mem:Memory_mfdb0ac23 a mem:Memory ;
-    mem:derivedFrom mem:Entry_ec30b7c1f ;
+mem:Memory_m567ce20b a mem:Memory ;
+    mem:derivedFrom mem:Entry_e53a37641 ;
+    mem:detail "放假回家，路上看了部电影"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-04"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m56a7ee82 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e3d7d8482 ;
+    mem:detail "又熬夜了，刷手机到两点，明天肯定起不来"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-15"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m585bc375 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e86b35d55 ;
+    mem:detail "周三羽毛球，打完吃了顿好的"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-09"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m58eb708c a mem:Memory ;
+    mem:derivedFrom mem:Entry_ed892aa5b ;
+    mem:detail "周末和室友一起大扫除，厨房终于能看了"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-25"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_社交 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m5a9b422e a mem:Memory ;
+    mem:derivedFrom mem:Entry_e131f9b0c ;
+    mem:detail "追的剧完结了，结局一般"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-25"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m5b4cdf40 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e9c027d8b ;
+    mem:detail "健身卡到期，跑步计划正式放弃，先摆烂一段时间"@zh ;
+    mem:hasAction mem:Action_放弃 ;
+    mem:hasDate "2026-05-20"^^xsd:date ;
+    mem:hasStatus "superseded" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 9e-01 ;
+    mem:supersedes mem:Memory_m9e7f5dda .
+
+mem:Memory_m5c046f74 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e89bcb2aa ;
+    mem:detail "周三羽毛球"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-29"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m5cd86c5a a mem:Memory ;
+    mem:derivedFrom mem:Entry_e61fc9ad4 ;
+    mem:detail "清明回家，吃了顿妈妈做的菜"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-03"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m5e128bdc a mem:Memory ;
+    mem:derivedFrom mem:Entry_e7f07b2e7 ;
+    mem:detail "实习的第二周，工作量上来了"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-01"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m5e724ccd a mem:Memory ;
+    mem:derivedFrom mem:Entry_edcb20076 ;
+    mem:detail "周三羽毛球照旧，出了不少汗"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-14"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m6a577161 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ef79315aa ;
     mem:detail "开始实习，每天通勤两小时"@zh ;
     mem:hasAction mem:Action_开始 ;
     mem:hasDate "2026-08-05"^^xsd:date ;
     mem:hasStatus "active" ;
     mem:hasTopic mem:Topic_生活 ;
     mem:importance 7e-01 .
+
+mem:Memory_m6d2c21b8 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e8fb185e0 ;
+    mem:detail "周三羽毛球，场地涨价了"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-27"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m6ddfe691 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ee0b277e5 ;
+    mem:detail "图书馆新到了一批科幻小说，借了一本"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-08"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m707ddc53 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eab6c064f ;
+    mem:detail "奶茶喝多了，有点罪恶"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-19"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m70a38a3a a mem:Memory ;
+    mem:derivedFrom mem:Entry_ef3c94e47 ;
+    mem:detail "周三羽毛球，跟高中生打了对抗"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-21"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m73c77cbf a mem:Memory ;
+    mem:derivedFrom mem:Entry_e33ee2109 ;
+    mem:detail "跑步有点腻了，改成隔天跑"@zh ;
+    mem:hasAction mem:Action_更改 ;
+    mem:hasDate "2026-04-20"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 8e-01 .
+
+mem:Memory_m813b20f7 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eafd9b6d2 ;
+    mem:detail "跑步第三周，配速进步了半分钟"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-18"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m8164712f a mem:Memory ;
+    mem:derivedFrom mem:Entry_ec24a5a67 ;
+    mem:detail "周三羽毛球，天热出汗多"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-28"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m843de686 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e5513ef53 ;
+    mem:detail "晚上跟着视频健身半小时"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-12"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m851d8467 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ec5d29f6c ;
+    mem:detail "又熬夜了，作息没救"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-24"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m8d47f380 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e9d213d29 ;
+    mem:detail "期中考了两门，感觉还行"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-16"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m8d7f025d a mem:Memory ;
+    mem:derivedFrom mem:Entry_e377bf87e ;
+    mem:detail "和朋友聚餐吃了火锅"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-06"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m90c569e8 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e67afaf6f ;
+    mem:detail "浅烘和深烘的区别查了查，长知识"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-13"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m925f6ce2 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eb8226ea6 ;
+    mem:detail "买了支新羽毛球拍"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-02"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m94a13024 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e33aeb007 ;
+    mem:detail "又熬夜了，周三羽毛球都差点迟到"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-15"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m99d0f9bc a mem:Memory ;
+    mem:derivedFrom mem:Entry_e02241685 ;
+    mem:detail "网购的书到了，睡前翻了几页"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-27"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m9b7f4fad a mem:Memory ;
+    mem:derivedFrom mem:Entry_e39aa2eac ;
+    mem:detail "暑假在家，手冲器具也寄回来了"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-08"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_m9e7f5dda a mem:Memory ;
+    mem:derivedFrom mem:Entry_e533f68cd ;
+    mem:detail "今天下决心开始跑步计划，每周三次，先从三公里起步"@zh ;
+    mem:hasAction mem:Action_开始 ;
+    mem:hasDate "2026-03-05"^^xsd:date ;
+    mem:hasStatus "superseded" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 7e-01 .
+
+mem:Memory_ma240f164 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e19f00c17 ;
+    mem:detail "刷手机到一点，第二天后悔"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-29"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_ma7d52ae9 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eaa17e094 ;
+    mem:detail "把书桌收拾了一遍，效率高了点"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-11"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mabb8e715 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e7cf6f4de ;
+    mem:detail "咖啡存货见底，下单新豆子"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-12"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mad7a4c50 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ef6491416 ;
+    mem:detail "返程高铁上补实验报告"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-07"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_课程 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mafa29f19 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ec7541e9d ;
+    mem:detail "中午习惯在图书馆眯一会儿"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-16"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb008b25e a mem:Memory ;
+    mem:derivedFrom mem:Entry_ed2ff6e4b ;
+    mem:detail "这周试着早睡，效果还行"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-05-14"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb1e21c18 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e19b186a8 ;
+    mem:detail "又熬夜了，赶实验报告"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-08"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb2a238a7 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e33cfbf87 ;
+    mem:detail "重新开始跑步计划，这次目标五公里"@zh ;
+    mem:hasAction mem:Action_开始 ;
+    mem:hasDate "2026-09-01"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_健身 ;
+    mem:importance 7e-01 ;
+    mem:supersedes mem:Memory_m5b4cdf40 .
+
+mem:Memory_mb33c5d94 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e72f6692f ;
+    mem:detail "周三羽毛球，最近状态不错"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-14"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb4d2a65a a mem:Memory ;
+    mem:derivedFrom mem:Entry_e6cc94b8f ;
+    mem:detail "天台看了场露天电影"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-04"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb56455a4 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e8790f73a ;
+    mem:detail "周三羽毛球，家里这边的球馆人少"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-15"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb5900aa4 a mem:Memory ;
+    mem:derivedFrom mem:Entry_eb0051345 ;
+    mem:detail "充电宝坏了，重新买了一个"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-21"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb6ba6a5b a mem:Memory ;
+    mem:derivedFrom mem:Entry_e54dbe60e ;
+    mem:detail "图书馆自习，复习数据结构"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-07"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mb857e0a9 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e0d912f5f ;
+    mem:detail "深烘豆子试了试，还是浅烘合口味"@zh ;
+    mem:hasAction mem:Action_偏好 ;
+    mem:hasDate "2026-10-08"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 6e-01 .
+
+mem:Memory_mb9807d97 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e6d4f2505 ;
+    mem:detail "周三羽毛球照常"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-25"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mbb78f212 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e15cfe01c ;
+    mem:detail "假期追完一部剧，评分不高"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-04"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mbbdc3f50 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e3bf2d29d ;
+    mem:detail "家里的咖啡机试了试，不错"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-25"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mc07a75e5 a mem:Memory ;
+    mem:derivedFrom mem:Entry_efaae2f7a ;
+    mem:detail "图书馆新开了自习区，很安静"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-30"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mc0a2d97e a mem:Memory ;
+    mem:derivedFrom mem:Entry_e48db81b3 ;
+    mem:detail "周三羽毛球，借球友的拍子试了试"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-09"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mc31d5949 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e81d3b975 ;
+    mem:detail "降温了，翻出秋裤"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-10"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mc59becbe a mem:Memory ;
+    mem:derivedFrom mem:Entry_e0d297aa1 ;
+    mem:detail "实习中期汇报通过了"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-14"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mc6389619 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e31b3978e ;
+    mem:detail "周三羽毛球，打了两小时，很爽"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-10"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mcbabc540 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e06e619af ;
+    mem:detail "和室友的大扫除约定改成本月我来做，他太忙"@zh ;
+    mem:hasAction mem:Action_更改 ;
+    mem:hasDate "2026-06-03"^^xsd:date ;
+    mem:hasStatus "superseded" ;
+    mem:hasTopic mem:Topic_社交 ;
+    mem:importance 8e-01 ;
+    mem:supersedes mem:Memory_ma184ba46 .
+
+mem:Memory_mcbd514c0 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e65b34d0e ;
+    mem:detail "春天了，操场花开得不错"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-31"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_md6163dcb a mem:Memory ;
+    mem:derivedFrom mem:Entry_e442a3b35 ;
+    mem:detail "四六级出分，过了"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-19"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mda5b9b6e a mem:Memory ;
+    mem:derivedFrom mem:Entry_e253de5f8 ;
+    mem:detail "周三羽毛球，认识了个研究生球友"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-17"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mdb2cfcf3 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e5cf65e26 ;
+    mem:detail "咖啡喝完了，决定换成手冲，买了滤杯和磨豆机"@zh ;
+    mem:hasAction mem:Action_更改 ;
+    mem:hasDate "2026-04-22"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 8e-01 .
+
+mem:Memory_mdc393383 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e753ddfac ;
+    mem:detail "周末和室友点外卖边吃边聊"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-19"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_社交 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mdee4411c a mem:Memory ;
+    mem:derivedFrom mem:Entry_ea4eff737 ;
+    mem:detail "实习做的第一个模块上线"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-08-08"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_me36825c7 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ed927a5b4 ;
+    mem:detail "又熬夜了，赶课程作业"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-10-11"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_作息 ;
+    mem:importance 4e-01 .
+
+mem:Memory_me4ff52f3 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e1236ba56 ;
+    mem:detail "实习间隙刷完两本小说"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-07-31"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_阅读 ;
+    mem:importance 4e-01 .
+
+mem:Memory_me61cc8e2 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e46ff1913 ;
+    mem:detail "咖啡喝得有点频繁，注意适量"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-03-26"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mee84499a a mem:Memory ;
+    mem:derivedFrom mem:Entry_e6e536623 ;
+    mem:detail "学校银杏黄了一半"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-09-28"^^xsd:date ;
+    mem:hasStatus "active" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mf2767bfb a mem:Memory ;
+    mem:derivedFrom mem:Entry_e31489d6e ;
+    mem:detail "买了把新伞，梅雨天真多"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-06-15"^^xsd:date ;
+    mem:hasStatus "discarded" ;
+    mem:hasTopic mem:Topic_生活 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mf7425d83 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ecb5b84d5 ;
+    mem:detail "咖啡豆快喝完了，先囤两包"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-13"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_饮食 ;
+    mem:importance 4e-01 .
+
+mem:Memory_mfb5b78b3 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e6e39b84c ;
+    mem:detail "周三羽毛球，状态一般"@zh ;
+    mem:hasAction mem:Action_记录 ;
+    mem:hasDate "2026-04-09"^^xsd:date ;
+    mem:hasStatus "compressed" ;
+    mem:hasTopic mem:Topic_运动 ;
+    mem:importance 4e-01 .
 
 mem:Topic_旅行 a mem:Topic ;
     rdfs:label "旅行" .
@@ -1415,8 +1415,8 @@ mem:Action_完成 a mem:Action ;
 mem:Action_约定 a mem:Action ;
     rdfs:label "约定" .
 
-mem:Memory_m2fd9db9f a mem:Memory ;
-    mem:derivedFrom mem:Entry_e7d385bae ;
+mem:Memory_m9f8e96c1 a mem:Memory ;
+    mem:derivedFrom mem:Entry_e3b2a9b32 ;
     mem:detail "数据结构课程项目定了选题A：校园导航"@zh ;
     mem:hasAction mem:Action_约定 ;
     mem:hasDate "2026-04-02"^^xsd:date ;
@@ -1424,8 +1424,8 @@ mem:Memory_m2fd9db9f a mem:Memory ;
     mem:hasTopic mem:Topic_课程 ;
     mem:importance 8e-01 .
 
-mem:Memory_m768264dc a mem:Memory ;
-    mem:derivedFrom mem:Entry_eb45ba95c ;
+mem:Memory_ma184ba46 a mem:Memory ;
+    mem:derivedFrom mem:Entry_ea3758aba ;
     mem:detail "和室友约定，每周末一起大扫除"@zh ;
     mem:hasAction mem:Action_约定 ;
     mem:hasDate "2026-03-10"^^xsd:date ;

@@ -4,6 +4,7 @@ import re
 from datetime import date as _date
 
 from . import config, llm
+from .semantics import analyze_semantics, entity_overlap_count
 from .store import MemoryStore, MemoryItem, Conflict, Conclusion
 
 # 主题词表：命中即归类（本地规则路径的“语义理解”下位替代）
@@ -39,9 +40,14 @@ ACTION_RULES = [
     (("喜欢", "更爱", "合口味", "偏好"), "偏好"),
 ]
 
-# 判定为一对矛盾的动作组合（同主题、不同时间出现即记为冲突）
-OPPOSITE = {("放弃", "开始"), ("开始", "放弃"), ("更改", "更改"),
-            ("约定", "更改"), ("约定", "放弃")}
+# 基础状态更新关系沿用实验定义；“生活”是兜底主题，必须额外校验对象。
+OPPOSITE = {
+    ("放弃", "开始"),
+    ("开始", "放弃"),
+    ("更改", "更改"),
+    ("约定", "更改"),
+    ("约定", "放弃"),
+}
 
 IMPORTANCE = {"放弃": 0.9, "更改": 0.8, "完成": 0.8, "约定": 0.8, "开始": 0.7,
               "选择": 0.7, "偏好": 0.6, "记录": 0.4}
@@ -121,6 +127,45 @@ def _days_between(d1: str, d2: str) -> float:
     return abs((b - a).days)
 
 
+def _same_memory_subject(older: MemoryItem, newer: MemoryItem) -> bool:
+    """Require object-level overlap before treating two state records as versions."""
+    older_frame = analyze_semantics(older.detail, topic_hint=older.topic)
+    newer_frame = analyze_semantics(newer.detail, topic_hint=newer.topic)
+    older_entities = tuple(older.entities) or older_frame.entities
+    newer_entities = tuple(newer.entities) or newer_frame.entities
+    if older_entities and newer_entities:
+        return bool(entity_overlap_count(older_entities, newer_entities))
+
+    # Generic “生活” records without a recoverable object must never supersede
+    # one another merely because they share the fallback topic.
+    if older.topic == "生活" or newer.topic == "生活":
+        return False
+
+    older_tokens = set(re.findall(r"[\u4e00-\u9fff]{2,}|[A-Za-z0-9]+", older.detail))
+    newer_tokens = set(re.findall(r"[\u4e00-\u9fff]{2,}|[A-Za-z0-9]+", newer.detail))
+    generic = {
+        "开始", "重新开始", "放弃", "停止", "更改", "改成", "改为", "换成",
+        "约定", "计划", "目前", "现在", "今天", "后来", "最终",
+    }
+    return bool((older_tokens - generic) & (newer_tokens - generic))
+
+
+def is_state_update(older: MemoryItem, newer: MemoryItem) -> bool:
+    """Return whether the newer record replaces the older state of one object."""
+    if older.id == newer.id or older.topic != newer.topic:
+        return False
+    pair = (older.action, newer.action)
+    if pair in OPPOSITE:
+        return older.topic != "生活" or _same_memory_subject(older, newer)
+    # Fallback-topic objects such as a pottery class have no dedicated topic,
+    # but an explicit “started -> changed” schedule still forms one version chain.
+    return (
+        older.topic == "生活"
+        and pair == ("开始", "更改")
+        and _same_memory_subject(older, newer)
+    )
+
+
 # ---------- 1. 抽取并标注 ----------
 def extract(store: MemoryStore, entry_text: str, entry_date: str, entry_id: str) -> list[MemoryItem]:
     """把一段原始记录抽成结构化记忆。配置了 LLM 时走 LLM，否则走规则。"""
@@ -160,7 +205,7 @@ def extract(store: MemoryStore, entry_text: str, entry_date: str, entry_id: str)
 
 # ---------- 2. 检测冲突 ----------
 def detect_conflicts(store: MemoryStore, new_items: list[MemoryItem]) -> list[Conflict]:
-    """同一主题上先后矛盾（如"放弃跑步" vs "重新开始跑步"）-> 记冲突，最新为准。"""
+    """同一对象的状态发生更新 -> 保留取代链，当前状态以最新记录为准。"""
     found = []
     order = {m.id: i for i, m in enumerate(store.memories)}   # 写入顺序（同日改口以此判定先后）
     for ni in new_items:
@@ -171,9 +216,9 @@ def detect_conflicts(store: MemoryStore, new_items: list[MemoryItem]) -> list[Co
             if m.topic == ni.topic and m.action in ("开始", "放弃", "更改", "约定")
         ]
         for old in candidates:
-            if old.id == ni.id or old.topic != ni.topic:
+            if old.id == ni.id:
                 continue
-            if (old.action, ni.action) in OPPOSITE and order.get(old.id, 0) < order.get(ni.id, 0) \
+            if is_state_update(old, ni) and order.get(old.id, 0) < order.get(ni.id, 0) \
                     and old.date <= ni.date:
                 c = Conflict(id="c" + old.id[1:] + ni.id[1:], topic=ni.topic, action=ni.action,
                              older_id=old.id, newer_id=ni.id)

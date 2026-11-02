@@ -273,9 +273,9 @@
       "reason": "询问项目最初选题，需引用被取代事实，避免与后来方向混淆。",
       "category": "日常直接与自然改写",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f08"
       ],
@@ -707,9 +707,9 @@
       "reason": "直接询问牙医预约时间，避免与过敏或组会时间混淆。",
       "category": "日常直接与自然改写",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f25"
       ],
@@ -891,9 +891,9 @@
       "reason": "询问组会当前时间，需用已更新事实而非原来的周三。",
       "category": "日常直接与自然改写",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f34",
         "f33"
@@ -1163,9 +1163,9 @@
       "reason": "否定问句需区分最初与最终，最终是长期记忆智能体。",
       "category": "口语省略、否定、反问和容易误分流的边界问题",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f08",
         "f09"
@@ -1194,9 +1194,9 @@
       "reason": "反问带错误预设，最初是校园导航而非长期记忆智能体。",
       "category": "口语省略、否定、反问和容易误分流的边界问题",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f08"
       ],
@@ -1347,9 +1347,9 @@
       "reason": "否定式确认现状，已换成静音红轴；青轴是旧状态。",
       "category": "口语省略、否定、反问和容易误分流的边界问题",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f17",
         "f16"
@@ -1378,9 +1378,9 @@
       "reason": "否定反问询问历史状态，原来是青轴；静音红轴是现状。",
       "category": "口语省略、否定、反问和容易误分流的边界问题",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f16"
       ],
@@ -1742,14 +1742,12 @@
       "online_intent": "memory",
       "online_method": "offline_fallback",
       "hit_fact_ids": [
-        "f01",
         "f29"
       ],
       "answer_fact_ids": [
-        "f01",
         "f29"
       ],
-      "answer": "根据你的记录：\n- （2026-10-24）平时通勤我骑自行车，下雨时改坐地铁。\n- （2026-10-01）我不能吃太辣，最多接受微辣。",
+      "answer": "根据你的记录：\n- （2026-10-24）平时通勤我骑自行车，下雨时改坐地铁。",
       "offline_route_ok": true,
       "online_route_ok": true,
       "target_hit": true,
@@ -1800,9 +1798,9 @@
       "reason": "否定反问确认现状，已改到周四晚上八点；周三为旧安排。",
       "category": "口语省略、否定、反问和容易误分流的边界问题",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f33",
         "f34"
@@ -2228,9 +2226,9 @@
       "reason": "询问牙医复诊时间，需引用个人事实；易与药物过敏混淆。",
       "category": "冷门器材、养护、手作与小众兴趣",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f25"
       ],

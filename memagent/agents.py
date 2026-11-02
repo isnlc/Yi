@@ -4,7 +4,14 @@ import os
 from datetime import date as _date
 
 from . import config, llm
-from .memory import IMPORTANCE, extract, detect_conflicts, consolidate, apply_retention
+from .memory import (
+    IMPORTANCE,
+    apply_retention,
+    consolidate,
+    detect_conflicts,
+    extract,
+    is_state_update,
+)
 from .retrieve import Retriever
 from .answer import compose, _evidence_lines
 from .semantics import analyze_semantics, frame_for_memory, semantic_match_score
@@ -117,7 +124,7 @@ class MemoryAgent:
         conflicts = detect_conflicts(self.store, items) if self.with_reconciler else []
         for c in conflicts:
             self._log("reconciler_decision", pair=f"{c.older_id}|{c.newer_id}",
-                      conflict=True, reason="规则判定的矛盾动作对", method="rule_ingest")
+                      conflict=True, reason="同一对象的状态更新", method="rule_ingest")
         return entry, items, conflicts
 
     # ---------- 冲突治理 ----------
@@ -132,17 +139,18 @@ class MemoryAgent:
             have = {(c.older_id, c.newer_id) for c in self.store.conflicts}
             for i, a in enumerate(acts):
                 for b in acts[i + 1:]:
-                    if a.topic == b.topic and b.date >= a.date:
-                        pair = {(a.action, b.action)}
-                        if pair & {("放弃", "开始"), ("开始", "放弃"), ("更改", "更改"), ("约定", "更改")} \
-                                and (a.id, b.id) not in have:
-                            a.status = "superseded"
-                            c = Conflict(id="c" + a.id[1:] + b.id[1:], topic=b.topic, action=b.action,
-                                         older_id=a.id, newer_id=b.id, resolved=True, winner_id=b.id)
-                            self.store.conflicts.append(c)
-                            have.add((a.id, b.id))
-                            self._log("reconciler_decision", pair=f"{a.id}|{b.id}",
-                                      conflict=True, reason="规则判定的矛盾动作对", method="rule_sweep")
+                    if (
+                        b.date >= a.date
+                        and is_state_update(a, b)
+                        and (a.id, b.id) not in have
+                    ):
+                        a.status = "superseded"
+                        c = Conflict(id="c" + a.id[1:] + b.id[1:], topic=b.topic, action=b.action,
+                                     older_id=a.id, newer_id=b.id, resolved=True, winner_id=b.id)
+                        self.store.conflicts.append(c)
+                        have.add((a.id, b.id))
+                        self._log("reconciler_decision", pair=f"{a.id}|{b.id}",
+                                  conflict=True, reason="同一对象的状态更新", method="rule_sweep")
 
             # LLM 语义判冲突：规则词表覆盖不到的改口（如"约定->约定"换了内容、表述换了说法）
             if llm.is_enabled():

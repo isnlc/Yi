@@ -152,6 +152,34 @@ class TestCrossDomainRetrieval(SharedSemanticTestCase):
         self.assertEqual(frame.topic, "旅行")
         self.assertNotIn("变化", frame.entities)
 
+    def test_broad_personalized_advice_does_not_treat_modifiers_as_entities(self):
+        frame = analyze_semantics(
+            "按我的实际情况，推荐一种适合的运动安排",
+            is_query=True,
+        )
+
+        self.assertEqual(frame.topic, "运动")
+        self.assertEqual(frame.scope, "advice")
+        self.assertTrue(frame.personal)
+        self.assertEqual(frame.entities, ())
+
+    def test_commute_transport_aliases_share_one_memory_object(self):
+        store = self.make_store()
+        commute = store.add_memory(
+            date="2026-10-24",
+            topic="生活",
+            action="习惯",
+            detail="平时通勤我骑自行车，下雨时改坐地铁。",
+        )
+
+        hits = MemoryAgent(store).retriever.search(
+            "下雨天我总不能还骑车吧？",
+            topk=3,
+            use_llm=False,
+        )
+
+        self.assertEqual(hits[0][0].id, commute.id)
+
     def test_current_plan_uses_latest_state_change_not_latest_completion(self):
         store = self.make_store()
         agent = MemoryAgent(store)

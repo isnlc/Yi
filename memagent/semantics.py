@@ -67,7 +67,7 @@ ENTITY_ALIASES = {
     "组会": ("组会",),
     "音乐": ("音乐", "听歌", "巴赫", "变奏曲"),
     "日语单词": ("日语单词", "日语", "Anki", "单词"),
-    "通勤": ("通勤", "自行车", "地铁"),
+    "通勤": ("通勤", "自行车", "骑自行车", "骑车", "单车", "地铁", "公交"),
     "猫咪": ("猫咪", "猫", "豆包", "喂猫"),
     "空调": ("空调", "睡眠模式"),
     "大扫除": ("大扫除", "打扫卫生", "清洁"),
@@ -136,7 +136,7 @@ _GENERIC_ENTITY_WORDS = {
     "周几", "晚上", "上午", "座位", "原来", "后来", "最初", "最终", "最后",
     "总结", "归纳", "概括", "回顾", "复盘", "关系", "原因", "城市", "地点",
     "数量", "结果", "情况", "进展", "目标", "本数", "变化", "演变", "历程",
-    "过程", "历史", "前后", "轨迹",
+    "过程", "历史", "前后", "轨迹", "实际", "个人", "整体", "综合",
 }
 _BROAD_MARKERS = ("总结", "整体", "所有", "全部", "有哪些偏好", "有什么习惯")
 _CURRENT_MARKERS = (
@@ -170,6 +170,7 @@ _FACET_COMPATIBILITY_GROUPS = (
 _LLM_GENERIC_ENTITIES = {
     "安排", "习惯", "偏好", "配置", "设置", "状态", "时间", "频率", "方式",
     "类型", "程度", "选择", "建议", "运动", "饮食", "生活", "项目",
+    "实际", "个人", "整体", "综合",
 }
 
 
@@ -296,7 +297,9 @@ def infer_scope(text: str) -> str:
         r"经历(?:了|过)?.{0,10}(?:变化|演变)|"
         r"(?:怎么|如何|怎样)(?:变化|演变)|"
         r"(?:变化|演变)(?:过程|历程)|"
-        r"前后(?:变化|调整)|时间线",
+        r"前后.{0,6}(?:变化|调整)|"
+        r"(?:安排|计划|状态|配置|金额|频率|时间).{0,6}(?:怎么|如何|怎样)(?:变化|调整)|"
+        r"时间线",
         text,
     ))
     if (
@@ -318,6 +321,15 @@ def _locally_personal(text: str, frame: SemanticFrame) -> bool | None:
     has_personal_subject = bool(re.search(r"我|我的|本人", text))
     if not has_personal_subject and any(marker in text for marker in _GENERAL_MARKERS):
         return False
+    if (
+        not has_personal_subject
+        and frame.scope == "evolution"
+        and frame.entities
+        and not re.search(r"市场|行业|全国|全球|社会|历史上|一般|通常", text)
+    ):
+        # “陶艺课的安排怎么变化”既可能指个人记录，也可能是一般讨论。
+        # 保留为歧义，让查询路由结合实际记忆证据决定，而不是直接判成通用知识。
+        return None
     if not has_personal_subject and _GENERAL_KNOWLEDGE_RE.search(text):
         return False
     if re.search(r"(我|我的).{0,8}(一般|通常)", text):

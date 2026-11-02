@@ -124,9 +124,9 @@
       "category": "日常直接询问与自然改写",
       "audit_reason": "询问当前键盘轴体，需 active 的 f17；f16 青轴已 superseded，不应进入答案。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f17",
         "f16"
@@ -257,9 +257,9 @@
       "category": "日常直接询问与自然改写",
       "audit_reason": "以旧时间提问，答案需当前 f34 周四；f33 周三已 superseded，不应进入答案。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f33",
         "f34"
@@ -358,9 +358,9 @@
       "category": "日常直接询问与自然改写",
       "audit_reason": "通用写作请求，无需个人记忆即可完成。",
       "offline_intent": "general",
-      "offline_method": "rule_fast",
+      "offline_method": "conversation",
       "online_intent": "general",
-      "online_method": "rule_fast",
+      "online_method": "conversation",
       "hit_fact_ids": [],
       "answer_fact_ids": [],
       "answer": "",
@@ -648,9 +648,9 @@
       "category": "省略主语但询问个人既定习惯或配置",
       "audit_reason": "询问当前键盘轴体类型，需现行事实f17；已废弃的青轴事实f16为易混干扰。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f17",
         "f16"
@@ -1037,9 +1037,9 @@
       "category": "否定、反问、错误预设与纠正",
       "audit_reason": "错误预设项目未更换，需同时引用最初f08与后来f09；f10论文方向易混。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f08"
       ],
@@ -1104,9 +1104,9 @@
       "category": "否定、反问、错误预设与纠正",
       "audit_reason": "组会时间由周三改周四，需两条事实；f32大扫除易混。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f33",
         "f34"
@@ -1784,9 +1784,9 @@
       "category": "旧状态、当前状态与前后变化",
       "audit_reason": "询问当前组会时间，必须依赖 f34；f33 是已被取代的旧时间，不应进入答案。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f34",
         "f33"
@@ -1851,9 +1851,9 @@
       "category": "旧状态、当前状态与前后变化",
       "audit_reason": "询问课程项目方向变化，需引用 f08 与 f09；f10 是论文方向，不应混入。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f09",
         "f08"
@@ -2082,9 +2082,9 @@
       "category": "旧状态、当前状态与前后变化",
       "audit_reason": "需同时回忆被取代的旧项目方向f08与当前方向f09；论文方向f10是易混入的干扰事实。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f09",
         "f08"
@@ -2149,9 +2149,9 @@
       "category": "旧状态、当前状态与前后变化",
       "audit_reason": "只问调整后的当前组会时间，目标为f34；旧时间周三f33不应进入答案。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f34",
         "f33"
@@ -2760,9 +2760,9 @@
       "category": "综合盲测补足",
       "audit_reason": "问牙医复诊时间，f25为十一月十八日下午三点；f26每月十五号定投为日期干扰。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f25"
       ],
@@ -2948,9 +2948,9 @@
       "category": "综合盲测补足",
       "audit_reason": "写作任务，不依赖个人事实，保持 general。",
       "offline_intent": "general",
-      "offline_method": "rule_fast",
+      "offline_method": "conversation",
       "online_intent": "general",
-      "online_method": "rule_fast",
+      "online_method": "conversation",
       "hit_fact_ids": [],
       "answer_fact_ids": [],
       "answer": "",
@@ -3137,9 +3137,9 @@
       "category": "综合盲测补足",
       "audit_reason": "询问组会当前时间，需 f34；f33 为已失效旧时间，不应进入答案。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f34",
         "f33"
@@ -3260,9 +3260,9 @@
       "category": "综合盲测补足",
       "audit_reason": "询问论文方向，需 f10；f09 为课程项目方向，不应混入。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f10"
       ],
@@ -3356,9 +3356,9 @@
       "category": "综合盲测补足",
       "audit_reason": "询问牙医复诊时间，需 f25；f24 为青霉素过敏，不应混入。",
       "offline_intent": "memory",
-      "offline_method": "offline_fallback",
+      "offline_method": "rule_fast",
       "online_intent": "memory",
-      "online_method": "offline_fallback",
+      "online_method": "rule_fast",
       "hit_fact_ids": [
         "f25"
       ],

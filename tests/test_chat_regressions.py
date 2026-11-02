@@ -164,6 +164,33 @@ class TestUnifiedQueryRouter(unittest.TestCase):
         self.assertEqual(preference["answer_mode"], "retrieval_only")
         self.assertFalse(preference["requires_llm"])
 
+    def test_broad_personalized_advice_retrieves_same_topic_memories(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        store = MemoryStore(str(Path(temporary.name) / "store.json"))
+        running = store.add_memory(
+            date="2026-09-01",
+            topic="健身",
+            action="开始",
+            detail="重新开始跑步计划，目标五公里。",
+        )
+        store.add_memory(
+            date="2026-10-01",
+            topic="饮食",
+            action="偏好",
+            detail="最近更喜欢浅烘咖啡。",
+        )
+
+        with patch("memagent.llm.is_enabled", return_value=False):
+            result = query_memory(
+                MemoryAgent(store),
+                "按我的实际情况，推荐一种适合的运动安排",
+                answer_mode="retrieval_llm",
+            )
+
+        self.assertTrue(any(running.detail in line for line in result["evidence"]))
+        self.assertFalse(any("咖啡" in line for line in result["evidence"]))
+
     def test_memory_answer_mode_separates_lookup_from_reasoning(self):
         lookup_questions = [
             "我现在喝什么咖啡？",
@@ -199,6 +226,22 @@ class TestUnifiedQueryRouter(unittest.TestCase):
         self.assertEqual(result["intent"], "memory")
         self.assertEqual(result["method"], "rule_fast")
         self.assertEqual(result["answer_mode"], "retrieval_only")
+
+    def test_omitted_possessive_evolution_uses_matching_memory_evidence(self):
+        with patch("memagent.llm.is_enabled", return_value=False):
+            result = classify_query(
+                "陶艺课的安排是怎么变化的？",
+                memory_probe=lambda: True,
+            )
+            general = classify_query(
+                "汽车市场价格是怎么变化的？",
+                memory_probe=lambda: False,
+            )
+
+        self.assertEqual(result["intent"], "memory")
+        self.assertEqual(result["semantic_scope"], "evolution")
+        self.assertEqual(result["answer_mode"], "retrieval_only")
+        self.assertEqual(general["intent"], "general")
 
 class TestWebIntentRouting(unittest.TestCase):
     def setUp(self):

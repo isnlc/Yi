@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
+from zipfile import ZIP_DEFLATED, ZipFile
 
 from pptx import Presentation
 from pptx.enum.shapes import MSO_SHAPE_TYPE
@@ -16,6 +17,12 @@ PPT = (
     / "3240102321_成可心_大作业汇报"
     / "3240102321_成可心_期末大作业汇报_9页最终版.pptx"
 )
+DOCX = (
+    ROOT
+    / "01_汇报"
+    / "3240102321_成可心_大作业汇报"
+    / "3240102321_成可心_项目说明.docx"
+)
 ARCH = (
     ROOT
     / "02_项目代码与文档"
@@ -29,7 +36,7 @@ ARCHITECTURE_NOTES = (
     "编排器识别任务类型，执行记忆准入，并在仅检索、检索后推理和通用问答之间选择处理方式。"
     "规则和结构化状态始终负责正式写入、版本关系和证据范围。\n"
     "需要写入时，Recorder 把准入结果抽取为主题、对象、属性、取值、时间和来源；"
-    "Reconciler 再根据事实日期和全局写入顺序处理冲突，保留旧版本和取代关系。"
+    "Reconciler 再根据对象一致性、事实日期和全局写入顺序处理冲突，保留旧版本和取代关系。"
     "治理结果进入分层记忆与资料状态，包括当前、归档、淡化、长期结论、附件资料、取代链和来源证据。\n"
     "需要查询时，Retriever 从共享状态中读取受版本约束的证据，组合 BM25、时间窗和主题图，"
     "通过 RRF 融合后按当前、历史、演变或画像裁决范围。Auditor 最后检查证据充分性、"
@@ -59,6 +66,24 @@ def set_notes(slide, value: str) -> None:
     frame.paragraphs[0].text = value
 
 
+def replace_report_architecture() -> None:
+    if not DOCX.exists():
+        raise FileNotFoundError(f"未找到项目说明文档：{DOCX}")
+    media_name = "word/media/image2.png"
+    temporary = DOCX.with_name(f"{DOCX.stem}.architecture.tmp.docx")
+    with ZipFile(DOCX, "r") as source, ZipFile(
+        temporary,
+        "w",
+        compression=ZIP_DEFLATED,
+    ) as target:
+        if media_name not in source.namelist():
+            raise RuntimeError("项目说明文档中未找到架构图媒体。")
+        for item in source.infolist():
+            payload = ARCH.read_bytes() if item.filename == media_name else source.read(item.filename)
+            target.writestr(item, payload)
+    os.replace(temporary, DOCX)
+
+
 def update_final_deck() -> None:
     if not PPT.exists():
         raise FileNotFoundError(f"未找到最终版 PPT：{PPT}")
@@ -73,6 +98,7 @@ def update_final_deck() -> None:
     architecture_slide = presentation.slides[2]
     replace_architecture_picture(architecture_slide)
     set_notes(architecture_slide, ARCHITECTURE_NOTES)
+    replace_report_architecture()
 
     temporary = PPT.with_name(f"{PPT.stem}.tmp.pptx")
     presentation.save(temporary)

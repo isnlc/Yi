@@ -16,7 +16,7 @@
    "timeline": 0.667,
    "trap": 1.0
   },
-  "memory_size": 48
+  "memory_size": 49
  },
  {
   "key": "lex_time",
@@ -35,7 +35,7 @@
    "timeline": 1.0,
    "trap": 1.0
   },
-  "memory_size": 48
+  "memory_size": 49
  },
  {
   "key": "lex_graph",
@@ -54,7 +54,7 @@
    "timeline": 0.667,
    "trap": 1.0
   },
-  "memory_size": 48
+  "memory_size": 49
  },
  {
   "key": "full_rrf",
@@ -73,6 +73,6 @@
    "timeline": 1.0,
    "trap": 1.0
   },
-  "memory_size": 48
+  "memory_size": 49
  }
 ]

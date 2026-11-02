@@ -249,6 +249,14 @@ def _has_probe_evidence(memory_probe) -> bool:
 
 def _memory_answer_mode(question: str, semantic_scope: str = "") -> str:
     """Facts are rendered deterministically; synthesis/advice uses retrieved evidence plus LLM."""
+    if (
+        semantic_scope in ("current", "history", "evolution")
+        and not re.search(
+            r"分析|评估|建议|推荐|是否合理|是否合适|该不该|怎么办|原因|风险",
+            question,
+        )
+    ):
+        return "retrieval_only"
     if semantic_scope == "advice" or _MEMORY_REASONING_RE.search(question):
         return "retrieval_llm"
     return "retrieval_only"

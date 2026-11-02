@@ -87,6 +87,33 @@ class TestMemoryLayer(unittest.TestCase):
         self.assertEqual(conflicts[0].winner_id, new.id)
         self.assertEqual(old.status, "superseded")   # 旧的被取代，进档案层
 
+    def test_unrelated_life_records_do_not_conflict(self):
+        store = _tmp_store()
+        old = extract(store, "停止整理纸质账单。", "2026-10-01", "e1")[0]
+        new = extract(store, "开始每周二晚上上陶艺课。", "2026-11-03", "e2")[0]
+
+        conflicts = detect_conflicts(store, [new])
+
+        self.assertEqual(conflicts, [])
+        self.assertEqual(old.status, "active")
+
+    def test_same_object_schedule_change_builds_version_chain(self):
+        store = _tmp_store()
+        agent = MemoryAgent(store)
+        _entry, first, _ = agent.ingest(
+            "2026-11-03",
+            "我从今天开始每周二晚上上陶艺课。",
+        )
+        _entry, second, conflicts = agent.ingest(
+            "2026-11-03",
+            "陶艺课改成每周四晚上。",
+        )
+
+        self.assertEqual(len(conflicts), 1)
+        self.assertEqual(conflicts[0].older_id, first[0].id)
+        self.assertEqual(conflicts[0].newer_id, second[0].id)
+        self.assertEqual(first[0].status, "superseded")
+
     def test_consolidation_folds_records(self):
         store = _tmp_store()
         for i, d in enumerate(["2026-04-10", "2026-04-24", "2026-05-18"]):
