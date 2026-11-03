@@ -123,7 +123,7 @@ python -m unittest discover -s tests -v
 
 ## 提交材料
 
-`submission/` 包含最新版项目说明 DOCX/PDF、9 页汇报 PPT、现场展示方案和固定演示附件。PPT 的演讲者备注已写入文件，材料中的架构、功能、实验口径和测试结果与当前代码一致。
+`submission/` 包含项目说明 DOCX/PDF、项目汇报 PPT 和演示测试附件。
 
 ## 配置说明
 
