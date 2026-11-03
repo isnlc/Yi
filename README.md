@@ -54,17 +54,20 @@
 
 ## 快速运行
 
-```powershell
-pip install -r requirements.txt
+下载或克隆代码后，进入包含 `requirements.txt` 和 `.env.example` 的仓库根目录，执行以下命令：
 
-# 复制配置文件，并在 .env 中填写接口地址、密钥和模型名称
+```powershell
 Copy-Item .env.example .env
+
+# 在 .env 中填写文字模型接口地址、密钥和模型名称
+# 并保持 MEMAGENT_LLM=1
+pip install -r requirements.txt
 python web/app.py --port 8765
 ```
 
 打开 `http://127.0.0.1:8765`。
 
-系统会自动读取项目目录下的 `.env`。模型接口暂时不可用时，系统使用本地降级路径，保留记忆治理、确定性事实检索、文档解析和 Windows OCR；完整交互与正式展示应启用文字模型接口。图片中的物体、场景和图文关系分析需要另行配置视觉模型接口。
+系统会自动读取仓库根目录下的 `.env`。文字模型接口用于语义分类、通用问答、个性化建议、开放式总结和附件内容综合。接口暂时不可用时，系统仍保留记忆治理、确定性事实检索、文档解析和 Windows OCR；图片中的物体、场景和图文关系分析需要单独配置视觉模型接口。
 
 ## 最新实验
 
